@@ -1,0 +1,48 @@
+name: Publicar Instagram, Facebook e YouTube
+
+on:
+  schedule:
+    # Todos os dias às 08:00 de Brasília (11:00 UTC).
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: publicacao-diaria
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+      - name: Publicar conteúdo do dia
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_BUSINESS_ID: ${{ secrets.IG_BUSINESS_ID }}
+          FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python publicar.py
+      - name: Salvar resultado e remover mídias concluídas
+        if: always()
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add fila/fila.json
+          git add -u videos/
+          git diff --staged --quiet || git commit -m "chore: atualizar publicação $(date +%F)"
+          git push
+
