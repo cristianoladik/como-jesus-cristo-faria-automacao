@@ -8,7 +8,7 @@ Arquitetura inspirada no publicador `pzoadriana/ig-agendamento-github`.
 2. Os vídeos aprovados ficam em `Como Jesus Cristo Faria/03 - Finalizados`.
 3. `preparar_fila.py` cria a fila diária, usando o nome do vídeo como título do YouTube.
 4. Os vídeos são copiados temporariamente para o repositório público.
-5. Às 08:00 BRT, o GitHub Actions publica no Instagram, Facebook e YouTube.
+5. Às 09:00 BRT, o GitHub Actions publica no Instagram, Facebook e YouTube.
 6. Quando as três plataformas confirmam, o vídeo é removido do repositório.
 
 ## Textos padrão

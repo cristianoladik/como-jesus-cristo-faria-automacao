@@ -2,8 +2,8 @@ name: Publicar Instagram, Facebook e YouTube
 
 on:
   schedule:
-    # Todos os dias às 08:00 de Brasília (11:00 UTC).
-    - cron: "0 11 * * *"
+    # Todos os dias às 09:00 de Brasília (12:00 UTC).
+    - cron: "0 12 * * *"
   workflow_dispatch:
 
 concurrency:
