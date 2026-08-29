@@ -15,9 +15,19 @@ from pathlib import Path
 from urllib.parse import quote
 
 import requests
-from google.oauth2.credentials import Credentials
-from googleapiclient.discovery import build
-from googleapiclient.http import MediaFileUpload
+
+try:
+    # As dependências do YouTube são opcionais enquanto a publicação nele
+    # está desativada (ver ATIVAR_YOUTUBE). Isso garante que a ausência do
+    # pacote, ou dos segredos do Google, nunca derrube a publicação no
+    # Instagram.
+    from google.oauth2.credentials import Credentials
+    from googleapiclient.discovery import build
+    from googleapiclient.http import MediaFileUpload
+except ImportError:
+    Credentials = None
+    build = None
+    MediaFileUpload = None
 
 
 ROOT = Path(__file__).resolve().parent
@@ -26,6 +36,18 @@ VIDEO_DIR = ROOT / "videos"
 BRT = timezone(timedelta(hours=-3))
 GRAPH_VERSION = os.getenv("META_GRAPH_VERSION", "v23.0")
 GRAPH_BASE = f"https://graph.facebook.com/{GRAPH_VERSION}"
+
+# YouTube fica temporariamente desativado nesta etapa: a automação do
+# Instagram (e do Facebook, já em produção) não deve depender dos
+# segredos do Google/YouTube. O código de publicação foi preservado
+# abaixo. Para reativar no futuro: mude para True e configure
+# YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET e YOUTUBE_REFRESH_TOKEN nos
+# GitHub Secrets.
+ATIVAR_YOUTUBE = os.getenv("ATIVAR_YOUTUBE", "false").strip().lower() in {
+    "1",
+    "true",
+    "sim",
+}
 
 
 def obrigatoria(nome: str) -> str:
@@ -145,7 +167,11 @@ def publicar_facebook(item: dict, caminho_video: Path) -> str:
     return str(video_id)
 
 
-def credenciais_youtube() -> Credentials:
+def credenciais_youtube() -> "Credentials":
+    if Credentials is None:
+        raise RuntimeError(
+            "Dependências do YouTube (google-api-python-client) não instaladas."
+        )
     return Credentials(
         token=None,
         refresh_token=obrigatoria("YOUTUBE_REFRESH_TOKEN"),
@@ -216,6 +242,19 @@ def main() -> None:
     if not itens:
         print(f"Nenhum conteúdo previsto para {hoje}.")
         return
+    if len(itens) > 1:
+        # Trava de segurança: nunca publicar mais de um vídeo por dia.
+        nomes = ", ".join(item["video_file"] for item in itens)
+        raise RuntimeError(
+            f"Mais de um vídeo agendado para {hoje} ({nomes}); "
+            "corrija fila/fila.json antes de publicar."
+        )
+
+    plataformas_obrigatorias = ["instagram", "facebook"]
+    if ATIVAR_YOUTUBE:
+        plataformas_obrigatorias.append("youtube")
+    else:
+        print("YouTube desativado nesta etapa (ATIVAR_YOUTUBE=false) — publicando somente Instagram/Facebook.")
 
     repo = obrigatoria("GITHUB_REPOSITORY")
     for item in itens:
@@ -228,12 +267,15 @@ def main() -> None:
         )
         executar_plataforma(item, "instagram", publicar_instagram, video_url)
         executar_plataforma(item, "facebook", publicar_facebook, caminho)
-        executar_plataforma(item, "youtube", publicar_youtube, caminho)
+        if ATIVAR_YOUTUBE:
+            executar_plataforma(item, "youtube", publicar_youtube, caminho)
+        elif item["youtube"].get("status") not in {"publicado", "desativado"}:
+            item["youtube"]["status"] = "desativado"
+            item["youtube"].pop("erro", None)
         salvar_fila(fila)
 
         concluiu = all(
-            item[p].get("status") == "publicado"
-            for p in ("instagram", "facebook", "youtube")
+            item[p].get("status") == "publicado" for p in plataformas_obrigatorias
         )
         if concluiu:
             caminho.unlink(missing_ok=True)
@@ -243,7 +285,7 @@ def main() -> None:
     if any(
         item[p].get("status") == "erro"
         for item in itens
-        for p in ("instagram", "facebook", "youtube")
+        for p in plataformas_obrigatorias
     ):
         raise SystemExit(1)
 
