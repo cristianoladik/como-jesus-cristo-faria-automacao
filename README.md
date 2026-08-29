@@ -16,11 +16,12 @@ Arquitetura inspirada no publicador `pzoadriana/ig-agendamento-github`.
 - Instagram e Facebook: `Siga @como_jesuscristo_faria.`
 - YouTube: título sem a numeração inicial do arquivo e descrição convidando a seguir o canal.
 
-## YouTube temporariamente desativado
+## Publicação no YouTube
 
-A publicação no YouTube está desativada nesta etapa através da flag
-`ATIVAR_YOUTUBE` (env var lida em `publicar.py`, padrão `false`). Enquanto
-estiver desativada:
+A publicação no YouTube está ativa através da flag `ATIVAR_YOUTUBE=true` no
+workflow. As credenciais OAuth ficam exclusivamente nos GitHub Secrets.
+
+Se o YouTube for temporariamente desativado com `ATIVAR_YOUTUBE=false`:
 
 - o script nunca lê nem exige `YOUTUBE_CLIENT_ID`, `YOUTUBE_CLIENT_SECRET`
   ou `YOUTUBE_REFRESH_TOKEN`, e nem precisa que `google-api-python-client`
@@ -32,9 +33,8 @@ estiver desativada:
 - todo o código de publicação no YouTube foi preservado em `publicar.py`
   (`publicar_youtube`, `credenciais_youtube`).
 
-Para reativar no futuro: configure os três segredos do Google/YouTube nos
-GitHub Secrets e mude `ATIVAR_YOUTUBE` para `"true"` no `env:` do workflow
-(`.github/workflows/publicar.yml`).
+Para reativar, confirme os três segredos do Google/YouTube e use
+`ATIVAR_YOUTUBE: "true"` no workflow (`.github/workflows/publicar.yml`).
 
 ## Segredos do GitHub
 
@@ -45,7 +45,7 @@ Em uso nesta etapa (Instagram + Facebook):
 - `FB_PAGE_ACCESS_TOKEN`
 - `FB_PAGE_ID`
 
-Reservados para quando o YouTube for reativado (ver seção acima):
+Em uso pelo YouTube:
 
 - `YOUTUBE_CLIENT_ID`
 - `YOUTUBE_CLIENT_SECRET`

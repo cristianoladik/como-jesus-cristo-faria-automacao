@@ -1,4 +1,4 @@
-name: Publicar Instagram, Facebook e YouTube (YouTube temporariamente desativado)
+name: Publicar Instagram, Facebook e YouTube
 
 on:
   schedule:
@@ -31,11 +31,8 @@ jobs:
           IG_BUSINESS_ID: ${{ secrets.IG_BUSINESS_ID }}
           FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
-          # YouTube está desativado nesta etapa (ver ATIVAR_YOUTUBE em publicar.py).
-          # Os segredos abaixo são opcionais e só passam a ser necessários
-          # quando o YouTube for reativado no futuro; a ausência deles não
-          # afeta a publicação no Instagram/Facebook.
-          ATIVAR_YOUTUBE: "false"
+          # YouTube ativo; as três credenciais OAuth estão nos GitHub Secrets.
+          ATIVAR_YOUTUBE: "true"
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
