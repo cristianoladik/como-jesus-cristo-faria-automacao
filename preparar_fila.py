@@ -10,6 +10,7 @@ from pathlib import Path
 
 
 LEGENDA_IG = "Siga @como_jesuscristo_faria."
+LEGENDA_TIKTOK = "Siga @como_jesuscristo_faria."
 DESCRICAO_YT = (
     "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova "
     "reflexão todos os dias."
@@ -41,6 +42,11 @@ def main() -> None:
                 "status": "pendente",
                 "instagram": {"legenda": LEGENDA_IG, "status": "pendente"},
                 "facebook": {"legenda": LEGENDA_IG, "status": "pendente"},
+                "tiktok": {
+                    "legenda": LEGENDA_TIKTOK,
+                    "privacidade": "PUBLIC_TO_EVERYONE",
+                    "status": "pendente",
+                },
                 "youtube": {
                     "titulo": titulo,
                     "descricao": DESCRICAO_YT,

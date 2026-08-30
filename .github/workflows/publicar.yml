@@ -1,4 +1,4 @@
-name: Publicar Instagram e Facebook
+name: Publicar Instagram, Facebook e TikTok
 
 on:
   schedule:
@@ -11,9 +11,9 @@ on:
         required: false
         type: string
       plataformas:
-        description: "Plataformas desta execução: instagram,facebook"
+        description: "Plataformas desta execução: instagram,facebook,tiktok"
         required: false
-        default: "instagram,facebook"
+        default: "instagram,facebook,tiktok"
         type: string
 
 concurrency:
@@ -41,6 +41,10 @@ jobs:
           IG_BUSINESS_ID: ${{ secrets.IG_BUSINESS_ID }}
           FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+          TIKTOK_REFRESH_TOKEN_FILE: ${{ runner.temp }}/tiktok_refresh_token
           # O YouTube é programado diretamente no YouTube Studio pelo navegador.
           # Manter false evita publicação duplicada pelo robô.
           ATIVAR_YOUTUBE: "false"
@@ -49,8 +53,16 @@ jobs:
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           DATA_PUBLICACAO: ${{ inputs.data_publicacao }}
-          PLATAFORMAS: ${{ inputs.plataformas || 'instagram,facebook' }}
+          PLATAFORMAS: ${{ inputs.plataformas || 'instagram,facebook,tiktok' }}
         run: python publicar.py
+      - name: Guardar refresh token renovado do TikTok
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.TIKTOK_SECRETS_PAT }}
+        run: |
+          if [ -s "$RUNNER_TEMP/tiktok_refresh_token" ] && [ -n "$GH_TOKEN" ]; then
+            gh secret set TIKTOK_REFRESH_TOKEN < "$RUNNER_TEMP/tiktok_refresh_token"
+          fi
       - name: Salvar resultado e remover mídias concluídas
         if: always()
         run: |

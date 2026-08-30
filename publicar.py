@@ -36,6 +36,7 @@ VIDEO_DIR = ROOT / "videos"
 BRT = timezone(timedelta(hours=-3))
 GRAPH_VERSION = os.getenv("META_GRAPH_VERSION", "v23.0")
 GRAPH_BASE = f"https://graph.facebook.com/{GRAPH_VERSION}"
+TIKTOK_API_BASE = "https://open.tiktokapis.com"
 
 # YouTube fica temporariamente desativado nesta etapa: a automação do
 # Instagram (e do Facebook, já em produção) não deve depender dos
@@ -53,7 +54,7 @@ PLATAFORMAS = {
     for nome in os.getenv("PLATAFORMAS", "instagram,facebook").split(",")
     if nome.strip()
 }
-PLATAFORMAS_PERMITIDAS = {"instagram", "facebook", "youtube"}
+PLATAFORMAS_PERMITIDAS = {"instagram", "facebook", "tiktok", "youtube"}
 if not PLATAFORMAS or not PLATAFORMAS <= PLATAFORMAS_PERMITIDAS:
     raise RuntimeError(f"PLATAFORMAS inválidas: {sorted(PLATAFORMAS)}")
 
@@ -175,6 +176,118 @@ def publicar_facebook(item: dict, caminho_video: Path) -> str:
     return str(video_id)
 
 
+def renovar_token_tiktok() -> str:
+    resposta = requests.post(
+        "https://open.tiktokapis.com/v2/oauth/token/",
+        headers={"Content-Type": "application/x-www-form-urlencoded"},
+        data={
+            "client_key": obrigatoria("TIKTOK_CLIENT_KEY"),
+            "client_secret": obrigatoria("TIKTOK_CLIENT_SECRET"),
+            "grant_type": "refresh_token",
+            "refresh_token": obrigatoria("TIKTOK_REFRESH_TOKEN"),
+        },
+        timeout=30,
+    )
+    if not resposta.ok:
+        raise RuntimeError(f"TikTok OAuth HTTP {resposta.status_code}: {resposta.text}")
+    dados = resposta.json()
+    token = dados.get("access_token")
+    if not token:
+        raise RuntimeError(f"TikTok não retornou access token: {dados}")
+    novo_refresh = dados.get("refresh_token")
+    arquivo_refresh = os.getenv("TIKTOK_REFRESH_TOKEN_FILE", "").strip()
+    if novo_refresh and arquivo_refresh:
+        Path(arquivo_refresh).write_text(novo_refresh, encoding="utf-8")
+    return token
+
+
+def tiktok_post(caminho: str, token: str, corpo: dict) -> dict:
+    resposta = requests.post(
+        f"{TIKTOK_API_BASE}{caminho}",
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json; charset=UTF-8",
+        },
+        json=corpo,
+        timeout=60,
+    )
+    dados = resposta.json()
+    erro = dados.get("error", {})
+    if not resposta.ok or erro.get("code") not in {None, "ok"}:
+        raise RuntimeError(f"TikTok HTTP {resposta.status_code}: {dados}")
+    return dados.get("data", {})
+
+
+def aguardar_tiktok(publish_id: str, token: str) -> None:
+    for tentativa in range(60):
+        dados = tiktok_post(
+            "/v2/post/publish/status/fetch/", token, {"publish_id": publish_id}
+        )
+        status = dados.get("status", "")
+        print(f"TikTok [{tentativa + 1}/60]: {status}")
+        if status == "PUBLISH_COMPLETE":
+            return
+        if status in {"FAILED", "PUBLISH_FAILED"}:
+            raise RuntimeError(f"TikTok não publicou o vídeo: {dados}")
+        time.sleep(10)
+    raise TimeoutError("TikTok demorou mais de dez minutos para publicar.")
+
+
+def publicar_tiktok(item: dict, caminho_video: Path) -> str:
+    token = renovar_token_tiktok()
+    criador = tiktok_post("/v2/post/publish/creator_info/query/", token, {})
+    privacidades = criador.get("privacy_level_options", [])
+    privacidade = item["tiktok"].get("privacidade", "PUBLIC_TO_EVERYONE")
+    if privacidade not in privacidades:
+        raise RuntimeError(
+            f"Privacidade {privacidade} indisponível para esta conta: {privacidades}"
+        )
+
+    tamanho = caminho_video.stat().st_size
+    inicio = tiktok_post(
+        "/v2/post/publish/video/init/",
+        token,
+        {
+            "post_info": {
+                "title": item["tiktok"]["legenda"],
+                "privacy_level": privacidade,
+                "disable_duet": False,
+                "disable_comment": False,
+                "disable_stitch": False,
+                "video_cover_timestamp_ms": 1000,
+            },
+            "source_info": {
+                "source": "FILE_UPLOAD",
+                "video_size": tamanho,
+                "chunk_size": tamanho,
+                "total_chunk_count": 1,
+            },
+        },
+    )
+    publish_id = inicio.get("publish_id")
+    upload_url = inicio.get("upload_url")
+    if not publish_id or not upload_url:
+        raise RuntimeError(f"TikTok não iniciou o upload: {inicio}")
+
+    with caminho_video.open("rb") as arquivo:
+        resposta = requests.put(
+            upload_url,
+            headers={
+                "Content-Type": "video/mp4",
+                "Content-Length": str(tamanho),
+                "Content-Range": f"bytes 0-{tamanho - 1}/{tamanho}",
+            },
+            data=arquivo,
+            timeout=900,
+        )
+    if not resposta.ok:
+        raise RuntimeError(
+            f"TikTok falhou no upload ({resposta.status_code}): {resposta.text}"
+        )
+    aguardar_tiktok(publish_id, token)
+    return publish_id
+
+
 def credenciais_youtube() -> "Credentials":
     if Credentials is None:
         raise RuntimeError(
@@ -277,11 +390,13 @@ def main() -> None:
             executar_plataforma(item, "instagram", publicar_instagram, video_url)
         if "facebook" in plataformas_execucao:
             executar_plataforma(item, "facebook", publicar_facebook, caminho)
+        if "tiktok" in plataformas_execucao:
+            executar_plataforma(item, "tiktok", publicar_tiktok, caminho)
         if "youtube" in plataformas_execucao:
             executar_plataforma(item, "youtube", publicar_youtube, caminho)
         salvar_fila(fila)
 
-        plataformas_conclusao = ["instagram", "facebook"]
+        plataformas_conclusao = ["instagram", "facebook", "tiktok"]
         if ATIVAR_YOUTUBE:
             plataformas_conclusao.append("youtube")
         concluiu = all(item[p].get("status") == "publicado" for p in plataformas_conclusao)

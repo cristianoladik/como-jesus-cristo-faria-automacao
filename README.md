@@ -8,12 +8,13 @@ Arquitetura inspirada no publicador `pzoadriana/ig-agendamento-github`.
 2. Os vídeos aprovados ficam em `Como Jesus Cristo Faria/03 - Finalizados`.
 3. `preparar_fila.py` cria a fila diária, usando o nome do vídeo como título do YouTube.
 4. Os vídeos são copiados temporariamente para o repositório público.
-5. Às 09:00 BRT, o GitHub Actions publica no Instagram, Facebook e YouTube.
+5. Às 09:00 BRT, o GitHub Actions publica no Instagram, Facebook e TikTok.
 6. Quando as três plataformas confirmam, o vídeo é removido do repositório.
 
 ## Textos padrão
 
 - Instagram e Facebook: `Siga @como_jesuscristo_faria.`
+- TikTok: `Siga @como_jesuscristo_faria.`
 - YouTube: título sem a numeração inicial do arquivo e descrição convidando a seguir o canal.
 
 ## Publicação no YouTube pelo navegador
@@ -56,6 +57,17 @@ Em uso nesta etapa (Instagram + Facebook):
 - `IG_BUSINESS_ID`
 - `FB_PAGE_ACCESS_TOKEN`
 - `FB_PAGE_ID`
+
+Para a publicação oficial no TikTok:
+
+- `TIKTOK_CLIENT_KEY`
+- `TIKTOK_CLIENT_SECRET`
+- `TIKTOK_REFRESH_TOKEN`
+- `TIKTOK_SECRETS_PAT` (token restrito ao repositório para salvar a rotação do refresh token)
+
+O aplicativo TikTok precisa ter Login Kit, Content Posting API e o escopo
+`video.publish` aprovado. A conta autoriza o aplicativo uma única vez; depois o
+workflow renova o token automaticamente e envia um vídeo por dia às 09:00.
 
 Reservados para uma possível automação futura do YouTube:
 
