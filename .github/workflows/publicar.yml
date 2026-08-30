@@ -5,6 +5,16 @@ on:
     # Todos os dias às 09:00 de Brasília (12:00 UTC).
     - cron: "0 12 * * *"
   workflow_dispatch:
+    inputs:
+      data_publicacao:
+        description: "Data do item da fila (AAAA-MM-DD); vazio usa hoje"
+        required: false
+        type: string
+      plataformas:
+        description: "Plataformas desta execução: instagram,facebook"
+        required: false
+        default: "instagram,facebook"
+        type: string
 
 concurrency:
   group: publicacao-diaria
@@ -38,6 +48,8 @@ jobs:
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          DATA_PUBLICACAO: ${{ inputs.data_publicacao }}
+          PLATAFORMAS: ${{ inputs.plataformas || 'instagram,facebook' }}
         run: python publicar.py
       - name: Salvar resultado e remover mídias concluídas
         if: always()

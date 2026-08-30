@@ -48,6 +48,14 @@ ATIVAR_YOUTUBE = os.getenv("ATIVAR_YOUTUBE", "false").strip().lower() in {
     "true",
     "sim",
 }
+PLATAFORMAS = {
+    nome.strip().lower()
+    for nome in os.getenv("PLATAFORMAS", "instagram,facebook").split(",")
+    if nome.strip()
+}
+PLATAFORMAS_PERMITIDAS = {"instagram", "facebook", "youtube"}
+if not PLATAFORMAS or not PLATAFORMAS <= PLATAFORMAS_PERMITIDAS:
+    raise RuntimeError(f"PLATAFORMAS inválidas: {sorted(PLATAFORMAS)}")
 
 
 def obrigatoria(nome: str) -> str:
@@ -236,7 +244,7 @@ def executar_plataforma(item: dict, plataforma: str, funcao, *args) -> None:
 
 
 def main() -> None:
-    hoje = date.today().isoformat()
+    hoje = os.getenv("DATA_PUBLICACAO", "").strip() or date.today().isoformat()
     fila = json.loads(FILA_FILE.read_text(encoding="utf-8"))
     itens = [item for item in fila["conteudos"] if item["data"] == hoje]
     if not itens:
@@ -250,10 +258,10 @@ def main() -> None:
             "corrija fila/fila.json antes de publicar."
         )
 
-    plataformas_obrigatorias = ["instagram", "facebook"]
-    if ATIVAR_YOUTUBE:
-        plataformas_obrigatorias.append("youtube")
-    else:
+    plataformas_execucao = set(PLATAFORMAS)
+    if "youtube" in plataformas_execucao and not ATIVAR_YOUTUBE:
+        raise RuntimeError("YouTube foi solicitado, mas ATIVAR_YOUTUBE=false.")
+    if not ATIVAR_YOUTUBE:
         print("YouTube desativado nesta etapa (ATIVAR_YOUTUBE=false) — publicando somente Instagram/Facebook.")
 
     repo = obrigatoria("GITHUB_REPOSITORY")
@@ -265,18 +273,18 @@ def main() -> None:
             f"https://raw.githubusercontent.com/{repo}/main/videos/"
             f"{quote(item['video_file'])}"
         )
-        executar_plataforma(item, "instagram", publicar_instagram, video_url)
-        executar_plataforma(item, "facebook", publicar_facebook, caminho)
-        if ATIVAR_YOUTUBE:
+        if "instagram" in plataformas_execucao:
+            executar_plataforma(item, "instagram", publicar_instagram, video_url)
+        if "facebook" in plataformas_execucao:
+            executar_plataforma(item, "facebook", publicar_facebook, caminho)
+        if "youtube" in plataformas_execucao:
             executar_plataforma(item, "youtube", publicar_youtube, caminho)
-        elif item["youtube"].get("status") not in {"publicado", "desativado"}:
-            item["youtube"]["status"] = "desativado"
-            item["youtube"].pop("erro", None)
         salvar_fila(fila)
 
-        concluiu = all(
-            item[p].get("status") == "publicado" for p in plataformas_obrigatorias
-        )
+        plataformas_conclusao = ["instagram", "facebook"]
+        if ATIVAR_YOUTUBE:
+            plataformas_conclusao.append("youtube")
+        concluiu = all(item[p].get("status") == "publicado" for p in plataformas_conclusao)
         if concluiu:
             caminho.unlink(missing_ok=True)
             item["status"] = "concluido"
@@ -285,7 +293,7 @@ def main() -> None:
     if any(
         item[p].get("status") == "erro"
         for item in itens
-        for p in plataformas_obrigatorias
+        for p in plataformas_execucao
     ):
         raise SystemExit(1)
 
