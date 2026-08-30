@@ -27,7 +27,8 @@
       "tiktok": {
         "legenda": "Siga @como_jesuscristo_faria.",
         "privacidade": "SELF_ONLY",
-        "status": "pendente"
+        "status": "erro",
+        "erro": "TikTok HTTP 403: {'error': {'code': 'unaudited_client_can_only_post_to_private_accounts', 'message': 'Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/', 'log_id': '20260830201021D724B8DB3DCBE7F3A5EB'}}"
       }
     },
     {
