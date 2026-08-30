@@ -94,6 +94,7 @@ def diagnosticar_facebook() -> None:
     token = obrigatoria("FB_PAGE_ACCESS_TOKEN")
     pagina_configurada = obrigatoria("FB_PAGE_ID")
     titular = graph_get("me", {"fields": "id,name", "access_token": token})
+    permissoes = graph_get("me/permissions", {"access_token": token})
     pagina = graph_get(
         pagina_configurada,
         {"fields": "id,name", "access_token": token},
@@ -104,6 +105,7 @@ def diagnosticar_facebook() -> None:
             {
                 "pagina_configurada": pagina_configurada,
                 "titular_do_token": titular,
+                "permissoes_do_token": permissoes,
                 "pagina_acessada": pagina,
             },
             ensure_ascii=False,
