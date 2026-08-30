@@ -157,8 +157,15 @@ def publicar_instagram(item: dict, video_url: str) -> str:
 
 def publicar_facebook(item: dict, caminho_video: Path) -> str:
     """Publica um Reel na Página usando o protocolo de upload da Meta."""
-    token = obrigatoria("FB_PAGE_ACCESS_TOKEN")
+    token_sistema = obrigatoria("FB_PAGE_ACCESS_TOKEN")
     page_id = obrigatoria("FB_PAGE_ID")
+    dados_pagina = graph_get(
+        page_id,
+        {"fields": "access_token", "access_token": token_sistema},
+    )
+    token = dados_pagina.get("access_token")
+    if not token:
+        raise RuntimeError("A Meta não retornou o token de acesso da Página.")
     inicio = graph_post(
         f"{page_id}/video_reels",
         {"upload_phase": "start", "access_token": token},
