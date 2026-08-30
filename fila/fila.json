@@ -42,11 +42,14 @@
       "status": "pendente",
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "17946055896274731",
+        "publicado_em": "2026-08-30T10:55:33.987408-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "erro",
+        "erro": "Meta HTTP 403: {\"error\":{\"message\":\"(#200) Subject does not have permission to post videos on this target\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"ALeCYJ6KlFa56-ViaOgix6k\"}}"
       },
       "youtube": {
         "titulo": "Busque primeiro o Reino de Deus",
