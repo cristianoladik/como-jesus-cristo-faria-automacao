@@ -89,6 +89,28 @@ def graph_get(caminho: str, parametros: dict, timeout: int = 30) -> dict:
     return resposta.json()
 
 
+def diagnosticar_facebook() -> None:
+    """Mostra a Página efetivamente associada ao token, sem publicar nada."""
+    token = obrigatoria("FB_PAGE_ACCESS_TOKEN")
+    pagina_configurada = obrigatoria("FB_PAGE_ID")
+    titular = graph_get("me", {"fields": "id,name", "access_token": token})
+    pagina = graph_get(
+        pagina_configurada,
+        {"fields": "id,name", "access_token": token},
+    )
+    print(
+        "Diagnóstico Facebook: "
+        + json.dumps(
+            {
+                "pagina_configurada": pagina_configurada,
+                "titular_do_token": titular,
+                "pagina_acessada": pagina,
+            },
+            ensure_ascii=False,
+        )
+    )
+
+
 def aguardar_instagram(container_id: str, token: str) -> None:
     for tentativa in range(36):
         status = graph_get(
@@ -357,6 +379,10 @@ def executar_plataforma(item: dict, plataforma: str, funcao, *args) -> None:
 
 
 def main() -> None:
+    if os.getenv("DIAGNOSTICO_FACEBOOK", "").strip().lower() in {"1", "true", "sim"}:
+        diagnosticar_facebook()
+        return
+
     hoje = os.getenv("DATA_PUBLICACAO", "").strip() or date.today().isoformat()
     horario = os.getenv("HORARIO_PUBLICACAO", "").strip() or datetime.now(BRT).strftime("%H:%M")
     fila = json.loads(FILA_FILE.read_text(encoding="utf-8"))

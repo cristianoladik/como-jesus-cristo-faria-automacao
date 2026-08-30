@@ -20,6 +20,11 @@ on:
         required: false
         default: "youtube"
         type: string
+      diagnostico_facebook:
+        description: "Apenas verifica o vínculo do token do Facebook; não publica"
+        required: false
+        default: false
+        type: boolean
 
 concurrency:
   group: publicacao-diaria
@@ -58,6 +63,7 @@ jobs:
           DATA_PUBLICACAO: ${{ inputs.data_publicacao }}
           HORARIO_PUBLICACAO: ${{ inputs.horario_publicacao }}
           PLATAFORMAS: ${{ inputs.plataformas || 'youtube' }}
+          DIAGNOSTICO_FACEBOOK: ${{ inputs.diagnostico_facebook }}
         run: python publicar.py
       - name: Guardar refresh token renovado do TikTok
         if: always()
