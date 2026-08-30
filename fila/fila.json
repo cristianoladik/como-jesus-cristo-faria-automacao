@@ -1,284 +1,285 @@
 {
-    "conteudos":  [
-                      {
-                          "data":  "2026-08-30",
-                          "horario":  "09:00",
-                          "video_file":  "01 - As coisas vão mudar.mp4",
-                          "titulo":  "As coisas vão mudar",
-                          "status":  "pendente",
-                          "instagram":  {
-                                            "legenda":  "Siga @como_jesuscristo_faria.",
-                                            "status":  "publicado",
-                                            "id":  "18127827343840677",
-                                            "publicado_em":  "2026-08-29T21:12:45.322962-03:00"
-                                        },
-                          "facebook":  {
-                                           "legenda":  "Siga @como_jesuscristo_faria.",
-                                           "status":  "pendente"
-                                       },
-                          "youtube":  {
-                                          "titulo":  "As coisas vão mudar",
-                                          "descricao":  "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
-                                          "status":  "publicado",
-                                          "id":  "sN2N7Xcwv68",
-                                          "url":  "https://youtube.com/shorts/sN2N7Xcwv68",
-                                          "publicado_em":  "2026-08-29T21:18:00-03:00"
-                                      },
-                          "tiktok":  {
-                                         "legenda":  "Siga @como_jesuscristo_faria.",
-                                         "privacidade":  "PUBLIC_TO_EVERYONE",
-                                         "status":  "pendente"
-                                     }
-                      },
-                      {
-                          "data":  "2026-08-30",
-                          "horario":  "17:00",
-                          "video_file":  "02 - Busque primeiro o Reino de Deus.mp4",
-                          "titulo":  "Busque primeiro o Reino de Deus",
-                          "status":  "pendente",
-                          "instagram":  {
-                                            "legenda":  "Siga @como_jesuscristo_faria.",
-                                            "status":  "pendente"
-                                        },
-                          "facebook":  {
-                                           "legenda":  "Siga @como_jesuscristo_faria.",
-                                           "status":  "pendente"
-                                       },
-                          "youtube":  {
-                                          "titulo":  "Busque primeiro o Reino de Deus",
-                                          "descricao":  "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
-                                          "status":  "pendente"
-                                      },
-                          "tiktok":  {
-                                         "legenda":  "Siga @como_jesuscristo_faria.",
-                                         "privacidade":  "PUBLIC_TO_EVERYONE",
-                                         "status":  "pendente"
-                                     }
-                      },
-                      {
-                          "data":  "2026-08-31",
-                          "horario":  "09:00",
-                          "video_file":  "03 - Jesus quer o seu coração.mp4",
-                          "titulo":  "Jesus quer o seu coração",
-                          "status":  "pendente",
-                          "instagram":  {
-                                            "legenda":  "Siga @como_jesuscristo_faria.",
-                                            "status":  "pendente"
-                                        },
-                          "facebook":  {
-                                           "legenda":  "Siga @como_jesuscristo_faria.",
-                                           "status":  "pendente"
-                                       },
-                          "youtube":  {
-                                          "titulo":  "Jesus quer o seu coração",
-                                          "descricao":  "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
-                                          "status":  "pendente"
-                                      },
-                          "tiktok":  {
-                                         "legenda":  "Siga @como_jesuscristo_faria.",
-                                         "privacidade":  "PUBLIC_TO_EVERYONE",
-                                         "status":  "pendente"
-                                     }
-                      },
-                      {
-                          "data":  "2026-08-31",
-                          "horario":  "17:00",
-                          "video_file":  "04 - Jesus continua amando você.mp4",
-                          "titulo":  "Jesus continua amando você",
-                          "status":  "pendente",
-                          "instagram":  {
-                                            "legenda":  "Siga @como_jesuscristo_faria.",
-                                            "status":  "pendente"
-                                        },
-                          "facebook":  {
-                                           "legenda":  "Siga @como_jesuscristo_faria.",
-                                           "status":  "pendente"
-                                       },
-                          "youtube":  {
-                                          "titulo":  "Jesus continua amando você",
-                                          "descricao":  "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
-                                          "status":  "pendente"
-                                      },
-                          "tiktok":  {
-                                         "legenda":  "Siga @como_jesuscristo_faria.",
-                                         "privacidade":  "PUBLIC_TO_EVERYONE",
-                                         "status":  "pendente"
-                                     }
-                      },
-                      {
-                          "data":  "2026-09-01",
-                          "horario":  "09:00",
-                          "video_file":  "05 - Jesus viu você embaixo da figueira.mp4",
-                          "titulo":  "Jesus viu você embaixo da figueira",
-                          "status":  "pendente",
-                          "instagram":  {
-                                            "legenda":  "Siga @como_jesuscristo_faria.",
-                                            "status":  "pendente"
-                                        },
-                          "facebook":  {
-                                           "legenda":  "Siga @como_jesuscristo_faria.",
-                                           "status":  "pendente"
-                                       },
-                          "youtube":  {
-                                          "titulo":  "Jesus viu você embaixo da figueira",
-                                          "descricao":  "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
-                                          "status":  "pendente"
-                                      },
-                          "tiktok":  {
-                                         "legenda":  "Siga @como_jesuscristo_faria.",
-                                         "privacidade":  "PUBLIC_TO_EVERYONE",
-                                         "status":  "pendente"
-                                     }
-                      },
-                      {
-                          "data":  "2026-09-01",
-                          "horario":  "17:00",
-                          "video_file":  "06 - Pare e ouça as palavras de Jesus.mp4",
-                          "titulo":  "Pare e ouça as palavras de Jesus",
-                          "status":  "pendente",
-                          "instagram":  {
-                                            "legenda":  "Siga @como_jesuscristo_faria.",
-                                            "status":  "pendente"
-                                        },
-                          "facebook":  {
-                                           "legenda":  "Siga @como_jesuscristo_faria.",
-                                           "status":  "pendente"
-                                       },
-                          "youtube":  {
-                                          "titulo":  "Pare e ouça as palavras de Jesus",
-                                          "descricao":  "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
-                                          "status":  "pendente"
-                                      },
-                          "tiktok":  {
-                                         "legenda":  "Siga @como_jesuscristo_faria.",
-                                         "privacidade":  "PUBLIC_TO_EVERYONE",
-                                         "status":  "pendente"
-                                     }
-                      },
-                      {
-                          "data":  "2026-09-02",
-                          "horario":  "09:00",
-                          "video_file":  "07 - Jesus vê você.mp4",
-                          "titulo":  "Jesus vê você",
-                          "status":  "pendente",
-                          "instagram":  {
-                                            "legenda":  "Siga @como_jesuscristo_faria.",
-                                            "status":  "pendente"
-                                        },
-                          "facebook":  {
-                                           "legenda":  "Siga @como_jesuscristo_faria.",
-                                           "status":  "pendente"
-                                       },
-                          "youtube":  {
-                                          "titulo":  "Jesus vê você",
-                                          "descricao":  "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
-                                          "status":  "pendente"
-                                      },
-                          "tiktok":  {
-                                         "legenda":  "Siga @como_jesuscristo_faria.",
-                                         "privacidade":  "PUBLIC_TO_EVERYONE",
-                                         "status":  "pendente"
-                                     }
-                      },
-                      {
-                          "data":  "2026-09-02",
-                          "horario":  "17:00",
-                          "video_file":  "08 - Jesus conhece toda a sua história.mp4",
-                          "titulo":  "Jesus conhece toda a sua história",
-                          "status":  "pendente",
-                          "instagram":  {
-                                            "legenda":  "Siga @como_jesuscristo_faria.",
-                                            "status":  "pendente"
-                                        },
-                          "facebook":  {
-                                           "legenda":  "Siga @como_jesuscristo_faria.",
-                                           "status":  "pendente"
-                                       },
-                          "youtube":  {
-                                          "titulo":  "Jesus conhece toda a sua história",
-                                          "descricao":  "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
-                                          "status":  "pendente"
-                                      },
-                          "tiktok":  {
-                                         "legenda":  "Siga @como_jesuscristo_faria.",
-                                         "privacidade":  "PUBLIC_TO_EVERYONE",
-                                         "status":  "pendente"
-                                     }
-                      },
-                      {
-                          "data":  "2026-09-03",
-                          "horario":  "09:00",
-                          "video_file":  "09 - Foi a sua fé.mp4",
-                          "titulo":  "Foi a sua fé",
-                          "status":  "pendente",
-                          "instagram":  {
-                                            "legenda":  "Siga @como_jesuscristo_faria.",
-                                            "status":  "pendente"
-                                        },
-                          "facebook":  {
-                                           "legenda":  "Siga @como_jesuscristo_faria.",
-                                           "status":  "pendente"
-                                       },
-                          "youtube":  {
-                                          "titulo":  "Foi a sua fé",
-                                          "descricao":  "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
-                                          "status":  "pendente"
-                                      },
-                          "tiktok":  {
-                                         "legenda":  "Siga @como_jesuscristo_faria.",
-                                         "privacidade":  "PUBLIC_TO_EVERYONE",
-                                         "status":  "pendente"
-                                     }
-                      },
-                      {
-                          "data":  "2026-09-03",
-                          "horario":  "17:00",
-                          "video_file":  "10 - Em quem está a sua fé.mp4",
-                          "titulo":  "Em quem está a sua fé",
-                          "status":  "pendente",
-                          "instagram":  {
-                                            "legenda":  "Siga @como_jesuscristo_faria.",
-                                            "status":  "pendente"
-                                        },
-                          "facebook":  {
-                                           "legenda":  "Siga @como_jesuscristo_faria.",
-                                           "status":  "pendente"
-                                       },
-                          "youtube":  {
-                                          "titulo":  "Em quem está a sua fé",
-                                          "descricao":  "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
-                                          "status":  "pendente"
-                                      },
-                          "tiktok":  {
-                                         "legenda":  "Siga @como_jesuscristo_faria.",
-                                         "privacidade":  "PUBLIC_TO_EVERYONE",
-                                         "status":  "pendente"
-                                     }
-                      },
-                      {
-                          "data":  "2026-09-04",
-                          "horario":  "09:00",
-                          "video_file":  "11 - Entregue a Jesus com amor.mp4",
-                          "titulo":  "Entregue a Jesus com amor",
-                          "status":  "pendente",
-                          "instagram":  {
-                                            "legenda":  "Siga @como_jesuscristo_faria.",
-                                            "status":  "pendente"
-                                        },
-                          "facebook":  {
-                                           "legenda":  "Siga @como_jesuscristo_faria.",
-                                           "status":  "pendente"
-                                       },
-                          "youtube":  {
-                                          "titulo":  "Entregue a Jesus com amor",
-                                          "descricao":  "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
-                                          "status":  "pendente"
-                                      },
-                          "tiktok":  {
-                                         "legenda":  "Siga @como_jesuscristo_faria.",
-                                         "privacidade":  "PUBLIC_TO_EVERYONE",
-                                         "status":  "pendente"
-                                     }
-                      }
-                  ]
+  "conteudos": [
+    {
+      "data": "2026-08-30",
+      "horario": "09:00",
+      "video_file": "01 - As coisas vão mudar.mp4",
+      "titulo": "As coisas vão mudar",
+      "status": "pendente",
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "publicado",
+        "id": "18127827343840677",
+        "publicado_em": "2026-08-29T21:12:45.322962-03:00"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "youtube": {
+        "titulo": "As coisas vão mudar",
+        "descricao": "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
+        "status": "publicado",
+        "id": "sN2N7Xcwv68",
+        "url": "https://youtube.com/shorts/sN2N7Xcwv68",
+        "publicado_em": "2026-08-29T21:18:00-03:00"
+      },
+      "tiktok": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "privacidade": "PUBLIC_TO_EVERYONE",
+        "status": "erro",
+        "erro": "TikTok HTTP 403: {'error': {'code': 'unaudited_client_can_only_post_to_private_accounts', 'message': 'Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/', 'log_id': '202608302005418DF8FB59B6701EC5E8BF'}}"
+      }
+    },
+    {
+      "data": "2026-08-30",
+      "horario": "17:00",
+      "video_file": "02 - Busque primeiro o Reino de Deus.mp4",
+      "titulo": "Busque primeiro o Reino de Deus",
+      "status": "pendente",
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "youtube": {
+        "titulo": "Busque primeiro o Reino de Deus",
+        "descricao": "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
+        "status": "pendente"
+      },
+      "tiktok": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "privacidade": "PUBLIC_TO_EVERYONE",
+        "status": "pendente"
+      }
+    },
+    {
+      "data": "2026-08-31",
+      "horario": "09:00",
+      "video_file": "03 - Jesus quer o seu coração.mp4",
+      "titulo": "Jesus quer o seu coração",
+      "status": "pendente",
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "youtube": {
+        "titulo": "Jesus quer o seu coração",
+        "descricao": "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
+        "status": "pendente"
+      },
+      "tiktok": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "privacidade": "PUBLIC_TO_EVERYONE",
+        "status": "pendente"
+      }
+    },
+    {
+      "data": "2026-08-31",
+      "horario": "17:00",
+      "video_file": "04 - Jesus continua amando você.mp4",
+      "titulo": "Jesus continua amando você",
+      "status": "pendente",
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "youtube": {
+        "titulo": "Jesus continua amando você",
+        "descricao": "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
+        "status": "pendente"
+      },
+      "tiktok": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "privacidade": "PUBLIC_TO_EVERYONE",
+        "status": "pendente"
+      }
+    },
+    {
+      "data": "2026-09-01",
+      "horario": "09:00",
+      "video_file": "05 - Jesus viu você embaixo da figueira.mp4",
+      "titulo": "Jesus viu você embaixo da figueira",
+      "status": "pendente",
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "youtube": {
+        "titulo": "Jesus viu você embaixo da figueira",
+        "descricao": "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
+        "status": "pendente"
+      },
+      "tiktok": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "privacidade": "PUBLIC_TO_EVERYONE",
+        "status": "pendente"
+      }
+    },
+    {
+      "data": "2026-09-01",
+      "horario": "17:00",
+      "video_file": "06 - Pare e ouça as palavras de Jesus.mp4",
+      "titulo": "Pare e ouça as palavras de Jesus",
+      "status": "pendente",
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "youtube": {
+        "titulo": "Pare e ouça as palavras de Jesus",
+        "descricao": "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
+        "status": "pendente"
+      },
+      "tiktok": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "privacidade": "PUBLIC_TO_EVERYONE",
+        "status": "pendente"
+      }
+    },
+    {
+      "data": "2026-09-02",
+      "horario": "09:00",
+      "video_file": "07 - Jesus vê você.mp4",
+      "titulo": "Jesus vê você",
+      "status": "pendente",
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "youtube": {
+        "titulo": "Jesus vê você",
+        "descricao": "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
+        "status": "pendente"
+      },
+      "tiktok": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "privacidade": "PUBLIC_TO_EVERYONE",
+        "status": "pendente"
+      }
+    },
+    {
+      "data": "2026-09-02",
+      "horario": "17:00",
+      "video_file": "08 - Jesus conhece toda a sua história.mp4",
+      "titulo": "Jesus conhece toda a sua história",
+      "status": "pendente",
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "youtube": {
+        "titulo": "Jesus conhece toda a sua história",
+        "descricao": "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
+        "status": "pendente"
+      },
+      "tiktok": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "privacidade": "PUBLIC_TO_EVERYONE",
+        "status": "pendente"
+      }
+    },
+    {
+      "data": "2026-09-03",
+      "horario": "09:00",
+      "video_file": "09 - Foi a sua fé.mp4",
+      "titulo": "Foi a sua fé",
+      "status": "pendente",
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "youtube": {
+        "titulo": "Foi a sua fé",
+        "descricao": "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
+        "status": "pendente"
+      },
+      "tiktok": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "privacidade": "PUBLIC_TO_EVERYONE",
+        "status": "pendente"
+      }
+    },
+    {
+      "data": "2026-09-03",
+      "horario": "17:00",
+      "video_file": "10 - Em quem está a sua fé.mp4",
+      "titulo": "Em quem está a sua fé",
+      "status": "pendente",
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "youtube": {
+        "titulo": "Em quem está a sua fé",
+        "descricao": "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
+        "status": "pendente"
+      },
+      "tiktok": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "privacidade": "PUBLIC_TO_EVERYONE",
+        "status": "pendente"
+      }
+    },
+    {
+      "data": "2026-09-04",
+      "horario": "09:00",
+      "video_file": "11 - Entregue a Jesus com amor.mp4",
+      "titulo": "Entregue a Jesus com amor",
+      "status": "pendente",
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "youtube": {
+        "titulo": "Entregue a Jesus com amor",
+        "descricao": "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova reflexão todos os dias.",
+        "status": "pendente"
+      },
+      "tiktok": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "privacidade": "PUBLIC_TO_EVERYONE",
+        "status": "pendente"
+      }
+    }
+  ]
 }
