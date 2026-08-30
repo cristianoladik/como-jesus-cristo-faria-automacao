@@ -16,12 +16,23 @@ Arquitetura inspirada no publicador `pzoadriana/ig-agendamento-github`.
 - Instagram e Facebook: `Siga @como_jesuscristo_faria.`
 - YouTube: título sem a numeração inicial do arquivo e descrição convidando a seguir o canal.
 
-## Publicação no YouTube
+## Publicação no YouTube pelo navegador
 
-A publicação no YouTube está ativa através da flag `ATIVAR_YOUTUBE=true` no
-workflow. As credenciais OAuth ficam exclusivamente nos GitHub Secrets.
+O processo oficial do YouTube usa o recurso nativo do **YouTube Studio no
+navegador**, sem depender da API para programar os vídeos. O workflow mantém
+`ATIVAR_YOUTUBE=false` para impedir que o mesmo vídeo seja enviado duas vezes.
 
-Se o YouTube for temporariamente desativado com `ATIVAR_YOUTUBE=false`:
+Para cada vídeo:
+
+1. abrir o canal **Como Jesus Cristo faria?** no YouTube Studio;
+2. enviar o arquivo correspondente da pasta de finalizados;
+3. usar como título o nome do vídeo sem a numeração inicial;
+4. usar a descrição padrão convidando a pessoa a se inscrever no canal;
+5. marcar **Não é conteúdo para crianças**;
+6. programar um vídeo por dia, às **09:00 de Brasília**;
+7. confirmar na página de conteúdo do canal que data e horário estão corretos.
+
+Com o YouTube desativado no robô:
 
 - o script nunca lê nem exige `YOUTUBE_CLIENT_ID`, `YOUTUBE_CLIENT_SECRET`
   ou `YOUTUBE_REFRESH_TOKEN`, e nem precisa que `google-api-python-client`
@@ -33,8 +44,9 @@ Se o YouTube for temporariamente desativado com `ATIVAR_YOUTUBE=false`:
 - todo o código de publicação no YouTube foi preservado em `publicar.py`
   (`publicar_youtube`, `credenciais_youtube`).
 
-Para reativar, confirme os três segredos do Google/YouTube e use
-`ATIVAR_YOUTUBE: "true"` no workflow (`.github/workflows/publicar.yml`).
+O código da API permanece preservado apenas para uma possível retomada futura.
+Para reativá-lo, será necessário confirmar as credenciais e trocar
+`ATIVAR_YOUTUBE` para `"true"` no workflow.
 
 ## Segredos do GitHub
 
@@ -45,7 +57,7 @@ Em uso nesta etapa (Instagram + Facebook):
 - `FB_PAGE_ACCESS_TOKEN`
 - `FB_PAGE_ID`
 
-Em uso pelo YouTube:
+Reservados para uma possível automação futura do YouTube:
 
 - `YOUTUBE_CLIENT_ID`
 - `YOUTUBE_CLIENT_SECRET`

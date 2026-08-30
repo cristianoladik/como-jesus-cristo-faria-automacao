@@ -1,4 +1,4 @@
-name: Publicar Instagram, Facebook e YouTube
+name: Publicar Instagram e Facebook
 
 on:
   schedule:
@@ -31,8 +31,9 @@ jobs:
           IG_BUSINESS_ID: ${{ secrets.IG_BUSINESS_ID }}
           FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
-          # YouTube ativo; as três credenciais OAuth estão nos GitHub Secrets.
-          ATIVAR_YOUTUBE: "true"
+          # O YouTube é programado diretamente no YouTube Studio pelo navegador.
+          # Manter false evita publicação duplicada pelo robô.
+          ATIVAR_YOUTUBE: "false"
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
