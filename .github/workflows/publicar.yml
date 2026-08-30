@@ -16,9 +16,9 @@ on:
         required: false
         type: string
       plataformas:
-        description: "Plataformas desta execução: instagram,facebook,youtube,tiktok"
+        description: "Plataformas desta execução (automático: somente YouTube)"
         required: false
-        default: "instagram,facebook,youtube,tiktok"
+        default: "youtube"
         type: string
 
 concurrency:
@@ -57,7 +57,7 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
           DATA_PUBLICACAO: ${{ inputs.data_publicacao }}
           HORARIO_PUBLICACAO: ${{ inputs.horario_publicacao }}
-          PLATAFORMAS: ${{ inputs.plataformas || 'instagram,facebook,youtube,tiktok' }}
+          PLATAFORMAS: ${{ inputs.plataformas || 'youtube' }}
         run: python publicar.py
       - name: Guardar refresh token renovado do TikTok
         if: always()
