@@ -48,8 +48,9 @@
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "erro",
-        "erro": "Meta HTTP 403: {\"error\":{\"message\":\"(#200) Subject does not have permission to post videos on this target\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AqSElm503w5bUQzhAdwN3Wh\"}}"
+        "status": "publicado",
+        "id": "1002316636153106",
+        "publicado_em": "2026-08-30T12:46:30.413712-03:00"
       },
       "youtube": {
         "titulo": "Busque primeiro o Reino de Deus",
