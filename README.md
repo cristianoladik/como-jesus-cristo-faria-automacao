@@ -69,6 +69,14 @@ O aplicativo TikTok precisa ter Login Kit, Content Posting API e o escopo
 `video.publish` aprovado. A conta autoriza o aplicativo uma única vez; depois o
 workflow renova o token automaticamente e envia um vídeo por dia às 09:00.
 
+### Operação atual do TikTok
+
+Até a auditoria da API permitir publicação pública, a operação oficial usa o
+TikTok Studio no perfil do Chrome **SUPORTE MENTORIA**. As regras persistentes
+estão em `tiktok_browser.json` e o procedimento em
+`docs/TIKTOK-NAVEGADOR.md`. O executor agenda às **09:00 e 17:00 de Brasília**,
+consulta a fila antes do envio e não repete itens já programados ou publicados.
+
 Reservados para uma possível automação futura do YouTube:
 
 - `YOUTUBE_CLIENT_ID`

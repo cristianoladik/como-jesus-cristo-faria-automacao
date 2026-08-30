@@ -1,0 +1,17 @@
+{
+  "modo": "chrome_tiktok_studio",
+  "perfil_chrome": "SUPORTE MENTORIA",
+  "conta_tiktok": "@como_jesuscristo_faria",
+  "url_upload": "https://www.tiktok.com/tiktokstudio/upload?from=webapp",
+  "url_publicacoes": "https://www.tiktok.com/tiktokstudio/content",
+  "legenda": "Siga @como_jesuscristo_faria.",
+  "horarios_brasilia": ["09:00", "17:00"],
+  "privacidade": "Todos",
+  "nao_repetir": true,
+  "observacoes": [
+    "Usar a sessao ja autenticada do perfil SUPORTE MENTORIA.",
+    "Nao armazenar senha, cookie, ID temporario do navegador ou token neste arquivo.",
+    "Confirmar cada agendamento na pagina Publicacoes antes de marcar a fila.",
+    "Avisos de alcance reduzido devem ser registrados, mas nao contam como falha quando o TikTok aceita o agendamento."
+  ]
+}

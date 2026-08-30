@@ -56,7 +56,9 @@
       "tiktok": {
         "legenda": "Siga @como_jesuscristo_faria.",
         "privacidade": "PUBLIC_TO_EVERYONE",
-        "status": "pendente"
+        "status": "programado_navegador",
+        "programado_para": "2026-08-30T17:00:00-03:00",
+        "aviso": "TikTok indicou possível alcance reduzido; agendamento aceito."
       }
     },
     {
@@ -81,7 +83,9 @@
       "tiktok": {
         "legenda": "Siga @como_jesuscristo_faria.",
         "privacidade": "PUBLIC_TO_EVERYONE",
-        "status": "pendente"
+        "status": "programado_navegador",
+        "programado_para": "2026-08-31T09:00:00-03:00",
+        "aviso": "TikTok indicou possível alcance reduzido; agendamento aceito."
       }
     },
     {
