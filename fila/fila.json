@@ -49,7 +49,7 @@
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
         "status": "erro",
-        "erro": "Meta HTTP 403: {\"error\":{\"message\":\"(#200) Subject does not have permission to post videos on this target\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"ALeCYJ6KlFa56-ViaOgix6k\"}}"
+        "erro": "Meta HTTP 403: {\"error\":{\"message\":\"(#200) Subject does not have permission to post videos on this target\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AqSElm503w5bUQzhAdwN3Wh\"}}"
       },
       "youtube": {
         "titulo": "Busque primeiro o Reino de Deus",
