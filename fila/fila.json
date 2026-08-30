@@ -14,7 +14,8 @@
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "erro",
+        "erro": "Meta HTTP 403: {\"error\":{\"message\":\"(#200) Subject does not have permission to post videos on this target\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AzorQPlduyXj0_1G4UF10K_\"}}"
       },
       "youtube": {
         "titulo": "As coisas vão mudar",
