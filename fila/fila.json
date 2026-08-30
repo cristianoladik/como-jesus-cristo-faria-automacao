@@ -2,6 +2,7 @@
     "conteudos":  [
                       {
                           "data":  "2026-08-30",
+                          "horario":  "09:00",
                           "video_file":  "01 - As coisas vão mudar.mp4",
                           "titulo":  "As coisas vão mudar",
                           "status":  "pendente",
@@ -30,7 +31,8 @@
                                      }
                       },
                       {
-                          "data":  "2026-08-31",
+                          "data":  "2026-08-30",
+                          "horario":  "17:00",
                           "video_file":  "02 - Busque primeiro o Reino de Deus.mp4",
                           "titulo":  "Busque primeiro o Reino de Deus",
                           "status":  "pendente",
@@ -54,7 +56,8 @@
                                      }
                       },
                       {
-                          "data":  "2026-09-01",
+                          "data":  "2026-08-31",
+                          "horario":  "09:00",
                           "video_file":  "03 - Jesus quer o seu coração.mp4",
                           "titulo":  "Jesus quer o seu coração",
                           "status":  "pendente",
@@ -78,7 +81,8 @@
                                      }
                       },
                       {
-                          "data":  "2026-09-02",
+                          "data":  "2026-08-31",
+                          "horario":  "17:00",
                           "video_file":  "04 - Jesus continua amando você.mp4",
                           "titulo":  "Jesus continua amando você",
                           "status":  "pendente",
@@ -102,7 +106,8 @@
                                      }
                       },
                       {
-                          "data":  "2026-09-03",
+                          "data":  "2026-09-01",
+                          "horario":  "09:00",
                           "video_file":  "05 - Jesus viu você embaixo da figueira.mp4",
                           "titulo":  "Jesus viu você embaixo da figueira",
                           "status":  "pendente",
@@ -126,7 +131,8 @@
                                      }
                       },
                       {
-                          "data":  "2026-09-04",
+                          "data":  "2026-09-01",
+                          "horario":  "17:00",
                           "video_file":  "06 - Pare e ouça as palavras de Jesus.mp4",
                           "titulo":  "Pare e ouça as palavras de Jesus",
                           "status":  "pendente",
@@ -150,7 +156,8 @@
                                      }
                       },
                       {
-                          "data":  "2026-09-05",
+                          "data":  "2026-09-02",
+                          "horario":  "09:00",
                           "video_file":  "07 - Jesus vê você.mp4",
                           "titulo":  "Jesus vê você",
                           "status":  "pendente",
@@ -174,7 +181,8 @@
                                      }
                       },
                       {
-                          "data":  "2026-09-06",
+                          "data":  "2026-09-02",
+                          "horario":  "17:00",
                           "video_file":  "08 - Jesus conhece toda a sua história.mp4",
                           "titulo":  "Jesus conhece toda a sua história",
                           "status":  "pendente",
@@ -198,7 +206,8 @@
                                      }
                       },
                       {
-                          "data":  "2026-09-07",
+                          "data":  "2026-09-03",
+                          "horario":  "09:00",
                           "video_file":  "09 - Foi a sua fé.mp4",
                           "titulo":  "Foi a sua fé",
                           "status":  "pendente",
@@ -222,7 +231,8 @@
                                      }
                       },
                       {
-                          "data":  "2026-09-08",
+                          "data":  "2026-09-03",
+                          "horario":  "17:00",
                           "video_file":  "10 - Em quem está a sua fé.mp4",
                           "titulo":  "Em quem está a sua fé",
                           "status":  "pendente",
@@ -246,7 +256,8 @@
                                      }
                       },
                       {
-                          "data":  "2026-09-09",
+                          "data":  "2026-09-04",
+                          "horario":  "09:00",
                           "video_file":  "11 - Entregue a Jesus com amor.mp4",
                           "titulo":  "Entregue a Jesus com amor",
                           "status":  "pendente",

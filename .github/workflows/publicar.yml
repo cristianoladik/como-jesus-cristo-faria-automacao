@@ -1,19 +1,24 @@
-name: Publicar Instagram, Facebook e TikTok
+name: Publicar Instagram, Facebook, YouTube e TikTok
 
 on:
   schedule:
-    # Todos os dias às 09:00 de Brasília (12:00 UTC).
+    # Todos os dias às 09:00 e 17:00 de Brasília (12:00 e 20:00 UTC).
     - cron: "0 12 * * *"
+    - cron: "0 20 * * *"
   workflow_dispatch:
     inputs:
       data_publicacao:
         description: "Data do item da fila (AAAA-MM-DD); vazio usa hoje"
         required: false
         type: string
-      plataformas:
-        description: "Plataformas desta execução: instagram,facebook,tiktok"
+      horario_publicacao:
+        description: "Horário do item da fila (HH:MM); vazio usa o horário atual de Brasília"
         required: false
-        default: "instagram,facebook"
+        type: string
+      plataformas:
+        description: "Plataformas desta execução: instagram,facebook,youtube,tiktok"
+        required: false
+        default: "instagram,facebook,youtube,tiktok"
         type: string
 
 concurrency:
@@ -45,15 +50,14 @@ jobs:
           TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
           TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
           TIKTOK_REFRESH_TOKEN_FILE: ${{ runner.temp }}/tiktok_refresh_token
-          # O YouTube é programado diretamente no YouTube Studio pelo navegador.
-          # Manter false evita publicação duplicada pelo robô.
-          ATIVAR_YOUTUBE: "false"
+          ATIVAR_YOUTUBE: "true"
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           DATA_PUBLICACAO: ${{ inputs.data_publicacao }}
-          PLATAFORMAS: ${{ inputs.plataformas || 'instagram,facebook' }}
+          HORARIO_PUBLICACAO: ${{ inputs.horario_publicacao }}
+          PLATAFORMAS: ${{ inputs.plataformas || 'instagram,facebook,youtube,tiktok' }}
         run: python publicar.py
       - name: Guardar refresh token renovado do TikTok
         if: always()

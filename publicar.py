@@ -358,16 +358,21 @@ def executar_plataforma(item: dict, plataforma: str, funcao, *args) -> None:
 
 def main() -> None:
     hoje = os.getenv("DATA_PUBLICACAO", "").strip() or date.today().isoformat()
+    horario = os.getenv("HORARIO_PUBLICACAO", "").strip() or datetime.now(BRT).strftime("%H:%M")
     fila = json.loads(FILA_FILE.read_text(encoding="utf-8"))
-    itens = [item for item in fila["conteudos"] if item["data"] == hoje]
+    itens = [
+        item
+        for item in fila["conteudos"]
+        if item["data"] == hoje and item.get("horario", "09:00") == horario
+    ]
     if not itens:
-        print(f"Nenhum conteúdo previsto para {hoje}.")
+        print(f"Nenhum conteúdo previsto para {hoje} às {horario}.")
         return
     if len(itens) > 1:
-        # Trava de segurança: nunca publicar mais de um vídeo por dia.
+        # Trava de segurança: nunca publicar mais de um vídeo no mesmo horário.
         nomes = ", ".join(item["video_file"] for item in itens)
         raise RuntimeError(
-            f"Mais de um vídeo agendado para {hoje} ({nomes}); "
+            f"Mais de um vídeo agendado para {hoje} às {horario} ({nomes}); "
             "corrija fila/fila.json antes de publicar."
         )
 
