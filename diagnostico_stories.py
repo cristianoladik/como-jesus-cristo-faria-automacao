@@ -27,5 +27,8 @@ ig = consultar(os.environ["IG_BUSINESS_ID"], os.environ["IG_ACCESS_TOKEN"], "id,
 pagina = consultar(os.environ["FB_PAGE_ID"], os.environ["FB_PAGE_ACCESS_TOKEN"], "id,name")
 print(f"Instagram acessível: @{ig.get('username')} ({ig.get('id')})")
 print(f"Página Facebook acessível: {pagina.get('name')} ({pagina.get('id')})")
-sessao = iniciar_sessao_story_facebook(os.environ["FB_PAGE_ID"], os.environ["FB_PAGE_ACCESS_TOKEN"])
+token_pagina = consultar(os.environ["FB_PAGE_ID"], os.environ["FB_PAGE_ACCESS_TOKEN"], "access_token").get("access_token")
+if not token_pagina:
+    raise RuntimeError("A Meta não retornou o token final da Página para Stories.")
+sessao = iniciar_sessao_story_facebook(os.environ["FB_PAGE_ID"], token_pagina)
 print(f"Facebook Stories: sessão de upload autorizada ({sessao.get('video_id')}). Nenhuma mídia foi enviada.")
