@@ -10,7 +10,7 @@ def consultar(identificador, token, campos):
         raise RuntimeError(f"Meta HTTP {resposta.status_code}: {resposta.text}")
     return resposta.json()
 
-ig = consultar(os.environ["IG_BUSINESS_ID"], os.environ["IG_ACCESS_TOKEN"], "id,username,account_type")
+ig = consultar(os.environ["IG_BUSINESS_ID"], os.environ["IG_ACCESS_TOKEN"], "id,username")
 pagina = consultar(os.environ["FB_PAGE_ID"], os.environ["FB_PAGE_ACCESS_TOKEN"], "id,name")
 print(f"Instagram acessível: @{ig.get('username')} ({ig.get('id')})")
 print(f"Página Facebook acessível: {pagina.get('name')} ({pagina.get('id')})")
