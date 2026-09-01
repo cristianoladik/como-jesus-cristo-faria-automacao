@@ -1,25 +1,26 @@
-"""Publicador exclusivo de Reels para Instagram e Facebook.
+"""Publica a próxima peça pendente de Reels no Instagram e Facebook.
 
-Não contém integrações nem credenciais de TikTok ou YouTube.
+As mídias não entram no histórico Git. Cada item aponta para um asset temporário
+da release ``fila-instagram-facebook``; o runner o baixa somente para o upload
+resumível da Página do Facebook.
 """
 
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import time
-from datetime import date, datetime, timedelta, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import quote
 
 import requests
 
 ROOT = Path(__file__).resolve().parent
 FILA_FILE = ROOT / "fila" / "fila-reels.json"
-VIDEO_DIR = ROOT / "videos"
 BRT = timezone(timedelta(hours=-3))
 GRAPH_BASE = f"https://graph.facebook.com/{os.getenv('META_GRAPH_VERSION', 'v23.0')}"
-PLATAFORMAS = {"instagram", "facebook"}
+PLATAFORMAS = ("instagram", "facebook")
 
 
 def obrigatoria(nome: str) -> str:
@@ -60,10 +61,39 @@ def aguardar_instagram(container_id: str, token: str) -> None:
     raise TimeoutError("Instagram demorou mais de seis minutos para processar.")
 
 
-def publicar_instagram(item: dict, video_url: str) -> str:
+def baixar_midia(midia: dict) -> Path:
+    """Baixa e confere o asset transitório antes do upload ao Facebook."""
+    url = midia.get("url_publica", "")
+    nome = midia.get("asset", "")
+    if not url or not nome:
+        raise RuntimeError("A fila não tem URL pública e asset da mídia.")
+    destino = Path(os.getenv("MEDIA_CACHE_DIR", ROOT / ".cache")) / nome
+    destino.parent.mkdir(parents=True, exist_ok=True)
+    digest = hashlib.sha256()
+    tamanho = 0
+    with requests.get(url, stream=True, timeout=(30, 900)) as resposta:
+        if not resposta.ok:
+            raise RuntimeError(f"Não foi possível baixar {nome}: HTTP {resposta.status_code}")
+        with destino.open("wb") as arquivo:
+            for bloco in resposta.iter_content(chunk_size=1024 * 1024):
+                if bloco:
+                    arquivo.write(bloco)
+                    digest.update(bloco)
+                    tamanho += len(bloco)
+    if midia.get("sha256") and digest.hexdigest().lower() != midia["sha256"].lower():
+        destino.unlink(missing_ok=True)
+        raise RuntimeError(f"SHA-256 divergente para {nome}.")
+    if midia.get("tamanho_bytes") and tamanho != int(midia["tamanho_bytes"]):
+        destino.unlink(missing_ok=True)
+        raise RuntimeError(f"Tamanho divergente para {nome}.")
+    return destino
+
+
+def publicar_instagram(item: dict) -> str:
     token, ig_id = obrigatoria("IG_ACCESS_TOKEN"), obrigatoria("IG_BUSINESS_ID")
+    midia = item["midia"]
     container = graph_post(f"{ig_id}/media", {
-        "media_type": "REELS", "video_url": video_url,
+        "media_type": "REELS", "video_url": midia["url_publica"],
         "caption": item["instagram"]["legenda"], "share_to_feed": "true", "access_token": token,
     })
     container_id = container.get("id")
@@ -73,64 +103,80 @@ def publicar_instagram(item: dict, video_url: str) -> str:
     publicado = graph_post(f"{ig_id}/media_publish", {"creation_id": container_id, "access_token": token})
     if not publicado.get("id"):
         raise RuntimeError(f"Instagram não retornou o post: {publicado}")
-    return publicado["id"]
+    return str(publicado["id"])
 
 
-def publicar_facebook(item: dict, caminho_video: Path) -> str:
+def publicar_facebook(item: dict) -> str:
     token_sistema, page_id = obrigatoria("FB_PAGE_ACCESS_TOKEN"), obrigatoria("FB_PAGE_ID")
     token = graph_get(page_id, {"fields": "access_token", "access_token": token_sistema}).get("access_token")
     if not token:
         raise RuntimeError("A Meta não retornou o token de acesso da Página.")
-    inicio = graph_post(f"{page_id}/video_reels", {"upload_phase": "start", "access_token": token})
-    video_id, upload_url = inicio.get("video_id"), inicio.get("upload_url")
-    if not video_id or not upload_url:
-        raise RuntimeError(f"Facebook não iniciou o upload: {inicio}")
-    tamanho = caminho_video.stat().st_size
-    with caminho_video.open("rb") as arquivo:
-        resposta = requests.post(upload_url, headers={"Authorization": f"OAuth {token}", "offset": "0", "file_size": str(tamanho)}, data=arquivo, timeout=900)
-    if not resposta.ok:
-        raise RuntimeError(f"Facebook falhou no upload ({resposta.status_code}): {resposta.text}")
-    fim = graph_post(f"{page_id}/video_reels", {"upload_phase": "finish", "video_id": video_id, "video_state": "PUBLISHED", "description": item["facebook"]["legenda"], "access_token": token})
-    if not fim.get("success"):
-        raise RuntimeError(f"Facebook não confirmou a publicação: {fim}")
-    return str(video_id)
+    caminho_video = baixar_midia(item["midia"])
+    try:
+        inicio = graph_post(f"{page_id}/video_reels", {"upload_phase": "start", "access_token": token})
+        video_id, upload_url = inicio.get("video_id"), inicio.get("upload_url")
+        if not video_id or not upload_url:
+            raise RuntimeError(f"Facebook não iniciou o upload: {inicio}")
+        tamanho = caminho_video.stat().st_size
+        with caminho_video.open("rb") as arquivo:
+            resposta = requests.post(upload_url, headers={"Authorization": f"OAuth {token}", "offset": "0", "file_size": str(tamanho)}, data=arquivo, timeout=900)
+        if not resposta.ok:
+            raise RuntimeError(f"Facebook falhou no upload ({resposta.status_code}): {resposta.text}")
+        fim = graph_post(f"{page_id}/video_reels", {
+            "upload_phase": "finish", "video_id": video_id, "video_state": "PUBLISHED",
+            "description": item["facebook"]["legenda"], "access_token": token,
+        })
+        if not fim.get("success"):
+            raise RuntimeError(f"Facebook não confirmou a publicação: {fim}")
+        return str(video_id)
+    finally:
+        caminho_video.unlink(missing_ok=True)
 
 
-def executar(item: dict, plataforma: str, funcao, *args) -> None:
+def executar(item: dict, plataforma: str, funcao) -> None:
     dados = item[plataforma]
     if dados.get("status") == "publicado":
         return
     try:
-        dados.update({"status": "publicado", "id": funcao(item, *args), "publicado_em": datetime.now(BRT).isoformat()})
+        dados.update({"status": "publicado", "id": funcao(item), "publicado_em": datetime.now(BRT).isoformat()})
         dados.pop("erro", None)
     except Exception as erro:
-        dados.update({"status": "erro", "erro": str(erro)})
+        dados.update({"status": "erro", "erro": str(erro), "ultima_tentativa_em": datetime.now(BRT).isoformat()})
         print(f"ERRO {plataforma}: {erro}")
 
 
+def proximo_item(fila: dict) -> dict | None:
+    data_forcada = os.getenv("DATA_PUBLICACAO", "").strip()
+    horario_forcado = os.getenv("HORARIO_PUBLICACAO", "").strip()
+    if bool(data_forcada) != bool(horario_forcado):
+        raise RuntimeError("Informe data e horário juntos para executar manualmente.")
+    conteudos = fila.get("conteudos", [])
+    if data_forcada:
+        encontrados = [x for x in conteudos if x["data"] == data_forcada and x["horario"] == horario_forcado and x.get("status") != "concluido"]
+        if len(encontrados) > 1:
+            raise RuntimeError("A fila tem mais de um Reel para esta data e horário.")
+        return encontrados[0] if encontrados else None
+    agora = datetime.now(BRT)
+    devidos = []
+    for item in conteudos:
+        if item.get("status") == "concluido":
+            continue
+        agendado = datetime.fromisoformat(f"{item['data']}T{item['horario']}:00").replace(tzinfo=BRT)
+        if agendado <= agora:
+            devidos.append((agendado, item))
+    return min(devidos, key=lambda par: par[0])[1] if devidos else None
+
+
 def main() -> None:
-    # O runner do GitHub usa UTC. Em 21:00 BRT já é 00:00 UTC do dia seguinte,
-    # portanto a data padrão precisa ser calculada no fuso de Brasília.
-    hoje = os.getenv("DATA_PUBLICACAO", "").strip() or datetime.now(BRT).date().isoformat()
-    horario = os.getenv("HORARIO_PUBLICACAO", "").strip() or datetime.now(BRT).strftime("%H:%M")
     fila = json.loads(FILA_FILE.read_text(encoding="utf-8"))
-    itens = [item for item in fila["conteudos"] if item["data"] == hoje and item["horario"] == horario]
-    if not itens:
-        print(f"Nenhum Reel previsto para {hoje} às {horario}.")
+    item = proximo_item(fila)
+    if not item:
+        print("Nenhum Reel pendente e devido para publicação.")
         return
-    if len(itens) != 1:
-        raise RuntimeError("A fila precisa ter exatamente um Reel por data e horário.")
-    item = itens[0]
-    caminho = VIDEO_DIR / item["video_file"]
-    if not caminho.exists():
-        raise FileNotFoundError(caminho)
-    repo = obrigatoria("GITHUB_REPOSITORY")
-    url = f"https://raw.githubusercontent.com/{repo}/main/videos/{quote(item['video_file'])}"
-    executar(item, "instagram", publicar_instagram, url)
-    executar(item, "facebook", publicar_facebook, caminho)
+    executar(item, "instagram", publicar_instagram)
+    executar(item, "facebook", publicar_facebook)
     if all(item[p].get("status") == "publicado" for p in PLATAFORMAS):
-        item["status"] = "concluido"
-        caminho.unlink(missing_ok=True)
+        item.update({"status": "concluido", "concluido_em": datetime.now(BRT).isoformat()})
     salvar_fila(fila)
     if any(item[p].get("status") == "erro" for p in PLATAFORMAS):
         raise SystemExit(1)

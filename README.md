@@ -1,12 +1,16 @@
-# Publicador de Reels — Instagram e Facebook
+# Automação Instagram e Facebook — Como Jesus Cristo faria?
 
-Este repositório publica somente Reels da conta **Como Jesus Cristo faria?**
-no Instagram e na Página do Facebook, às 09:00 e 21:00 (Brasília).
+Este repositório executa somente estes fluxos, mesmo com o computador desligado:
 
-- Fila ativa: `fila/fila-reels.json`.
-- Mídias temporárias: `videos/`.
-- Uma execução só processa um item de cada vez, identificado por data e horário.
-- TikTok, YouTube e Stories não são executados por este repositório.
+- Reels: 09:00 e 21:00, horário de Brasília;
+- Stories: um pacote diário às 09:00, com partes sequenciais de no máximo 59 segundos;
+- publicação independente no Instagram e na Página do Facebook;
+- confirmação separada por rede, sem repetir a rede que já confirmou.
 
-Os vídeos permanentes e os estados operacionais ficam no Drive do projeto; este
-repositório recebe mídia apenas durante o intervalo necessário para a API da Meta.
+As filas são `fila/fila-reels.json` e `fila/fila-stories.json`. Cada item aponta
+para um asset temporário da release `fila-instagram-facebook`; ele não entra no
+histórico Git. O asset só é removido depois da confirmação das duas redes.
+
+O Drive continua sendo o acervo permanente e o computador apenas repõe o estoque
+mínimo de 30 dias quando voltar a ficar ligado. TikTok e YouTube não têm acesso a
+este repositório ou a essas filas.

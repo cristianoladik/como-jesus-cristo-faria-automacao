@@ -1,6 +1,6 @@
 {
-  "canal": "instagram-facebook-reels",
+  "canal": "instagram-facebook-stories",
   "timezone": "America/Sao_Paulo",
   "estoque_minimo_dias": 30,
-  "conteudos": []
+  "pacotes": []
 }
