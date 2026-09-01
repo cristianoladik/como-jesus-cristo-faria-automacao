@@ -109,7 +109,9 @@ def executar(item: dict, plataforma: str, funcao, *args) -> None:
 
 
 def main() -> None:
-    hoje = os.getenv("DATA_PUBLICACAO", "").strip() or date.today().isoformat()
+    # O runner do GitHub usa UTC. Em 21:00 BRT já é 00:00 UTC do dia seguinte,
+    # portanto a data padrão precisa ser calculada no fuso de Brasília.
+    hoje = os.getenv("DATA_PUBLICACAO", "").strip() or datetime.now(BRT).date().isoformat()
     horario = os.getenv("HORARIO_PUBLICACAO", "").strip() or datetime.now(BRT).strftime("%H:%M")
     fila = json.loads(FILA_FILE.read_text(encoding="utf-8"))
     itens = [item for item in fila["conteudos"] if item["data"] == hoje and item["horario"] == horario]
