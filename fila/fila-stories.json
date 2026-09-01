@@ -1544,22 +1544,22 @@
       ]
     },
     {
-      "id": "story-20261011-96719d0f0d",
+      "id": "story-20261011-6acb66c8ce",
       "data": "2026-10-11",
       "horario": "09:00",
       "status": "pendente",
       "origem": {
-        "arquivo": "141 - Uma mensagem para o seu coração 141.mp4",
-        "sha256": "96719d0f0d1f71340aa2c24b610d8c4b17b3e14d82f8242cbaa84d12fc8a768b"
+        "arquivo": "141 - Uma mensagem para o seu coração.mp4",
+        "sha256": "6acb66c8ce34e38c39898ac7f19f04786afbdadb669ffc58a04b7fb2c10dc5fc"
       },
       "partes": [
         {
           "ordem": 1,
           "midia": {
-            "asset": "141.-.Uma.mensagem.para.o.seu.coracao.141-parte-01.mp4",
-            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/141.-.Uma.mensagem.para.o.seu.coracao.141-parte-01.mp4",
-            "sha256": "19977d5cfd2642bb90a21366b0cae3522c65e3f1af1381ba41bcd834f054d95f",
-            "tamanho_bytes": 7217413,
+            "asset": "141.-.Uma.mensagem.para.o.seu.coracao-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/141.-.Uma.mensagem.para.o.seu.coracao-parte-01.mp4",
+            "sha256": "5af0de068a369ac07c1b36e15c83dc8fbaf0cb68650f168029986cb5dc2bc090",
+            "tamanho_bytes": 7203772,
             "duracao_segundos": 39.68
           },
           "instagram": {
@@ -1572,10 +1572,10 @@
         {
           "ordem": 2,
           "midia": {
-            "asset": "141.-.Uma.mensagem.para.o.seu.coracao.141-parte-02.mp4",
-            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/141.-.Uma.mensagem.para.o.seu.coracao.141-parte-02.mp4",
-            "sha256": "277f57e19417c0ad318aa353d8c92ee8a5560bf7a5135ca8582674698b310183",
-            "tamanho_bytes": 7494724,
+            "asset": "141.-.Uma.mensagem.para.o.seu.coracao-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/141.-.Uma.mensagem.para.o.seu.coracao-parte-02.mp4",
+            "sha256": "f6e78d36fc70347461caf510cd903bb65cf118d026f5d27fd95ee8e38ae59c0a",
+            "tamanho_bytes": 7498407,
             "duracao_segundos": 39.672
           },
           "instagram": {
