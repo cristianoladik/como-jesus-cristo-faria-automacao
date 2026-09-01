@@ -1,5 +1,4 @@
-"""Monta a fila de publicação a partir dos vídeos finalizados no Drive G:."""
-
+"""Gera a fila exclusiva de Reels para Instagram e Facebook."""
 from __future__ import annotations
 
 import argparse
@@ -8,16 +7,11 @@ import re
 from datetime import date, timedelta
 from pathlib import Path
 
-
-LEGENDA_IG = "Siga @como_jesuscristo_faria."
-LEGENDA_TIKTOK = "Siga @como_jesuscristo_faria."
-DESCRICAO_YT = (
-    "Inscreva-se no canal Como Jesus Cristo faria? e acompanhe uma nova "
-    "reflexão todos os dias."
-)
+LEGENDA = "Siga @como_jesuscristo_faria."
+HORARIOS = ("09:00", "21:00")
 
 
-def titulo_do_arquivo(nome: str) -> str:
+def titulo(nome: str) -> str:
     return re.sub(r"^\d+\s*-\s*", "", Path(nome).stem).strip()
 
 
@@ -27,40 +21,21 @@ def main() -> None:
     parser.add_argument("--inicio", required=True, type=date.fromisoformat)
     parser.add_argument("--saida", required=True, type=Path)
     args = parser.parse_args()
-
     if args.pasta.resolve().drive.upper() != "G:":
-        raise RuntimeError("Os vídeos finalizados precisam estar no Drive G:.")
-    videos = sorted(args.pasta.glob("*.mp4"))
+        raise RuntimeError("A fila deve ser montada a partir do Drive G:.")
     conteudos = []
-    for indice, video in enumerate(videos):
-        titulo = titulo_do_arquivo(video.name)
-        conteudos.append(
-            {
-                "data": (args.inicio + timedelta(days=indice)).isoformat(),
-                "video_file": video.name,
-                "titulo": titulo,
-                "status": "pendente",
-                "instagram": {"legenda": LEGENDA_IG, "status": "pendente"},
-                "facebook": {"legenda": LEGENDA_IG, "status": "pendente"},
-                "tiktok": {
-                    "legenda": LEGENDA_TIKTOK,
-                    "privacidade": "PUBLIC_TO_EVERYONE",
-                    "status": "pendente",
-                },
-                "youtube": {
-                    "titulo": titulo,
-                    "descricao": DESCRICAO_YT,
-                    "status": "pendente",
-                },
-            }
-        )
+    for indice, video in enumerate(sorted(args.pasta.glob("*.mp4"))):
+        dia, horario = divmod(indice, len(HORARIOS))
+        conteudos.append({
+            "data": (args.inicio + timedelta(days=dia)).isoformat(),
+            "horario": HORARIOS[horario], "video_file": video.name,
+            "titulo": titulo(video.name), "status": "pendente",
+            "instagram": {"legenda": LEGENDA, "status": "pendente"},
+            "facebook": {"legenda": LEGENDA, "status": "pendente"},
+        })
     args.saida.parent.mkdir(parents=True, exist_ok=True)
-    args.saida.write_text(
-        json.dumps({"conteudos": conteudos}, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    args.saida.write_text(json.dumps({"canal": "instagram-facebook-reels", "timezone": "America/Sao_Paulo", "conteudos": conteudos}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":
     main()
-
