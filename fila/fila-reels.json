@@ -1442,6 +1442,1447 @@
         "legenda": "Siga @como_jesuscristo_faria.",
         "status": "pendente"
       }
+    },
+    {
+      "id": "reel-20261001-2100-81c64e67df",
+      "data": "2026-10-01",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "168 - Uma mensagem para o seu coração 168.mp4",
+        "sha256": "81c64e67dfea17f0da71489e744982f13665dcd06757414cf3b2ae13d2f98620"
+      },
+      "midia": {
+        "asset": "168.-.Uma.mensagem.para.o.seu.coracao.168.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/168.-.Uma.mensagem.para.o.seu.coracao.168.mp4",
+        "sha256": "81c64e67dfea17f0da71489e744982f13665dcd06757414cf3b2ae13d2f98620",
+        "tamanho_bytes": 19364764
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261002-0900-74ee248134",
+      "data": "2026-10-02",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "169 - Uma mensagem para o seu coração 169.mp4",
+        "sha256": "74ee2481342f1387f7c290e63bd3101cd83fd1992d39fd884d9fde9e1612f1f8"
+      },
+      "midia": {
+        "asset": "169.-.Uma.mensagem.para.o.seu.coracao.169.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/169.-.Uma.mensagem.para.o.seu.coracao.169.mp4",
+        "sha256": "74ee2481342f1387f7c290e63bd3101cd83fd1992d39fd884d9fde9e1612f1f8",
+        "tamanho_bytes": 18345985
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261002-2100-5551b99e89",
+      "data": "2026-10-02",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "170 - Uma mensagem para o seu coração 170.mp4",
+        "sha256": "5551b99e89bff9ce92f6b148484714235920fd39314a8386fdd491f839224b2d"
+      },
+      "midia": {
+        "asset": "170.-.Uma.mensagem.para.o.seu.coracao.170.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/170.-.Uma.mensagem.para.o.seu.coracao.170.mp4",
+        "sha256": "5551b99e89bff9ce92f6b148484714235920fd39314a8386fdd491f839224b2d",
+        "tamanho_bytes": 19803482
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261003-0900-bdec498f2d",
+      "data": "2026-10-03",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "171 - Uma mensagem para o seu coração 171.mp4",
+        "sha256": "bdec498f2d9165de119dc30768df21f370f2f42267d0f1e4f8f776a916be6c2a"
+      },
+      "midia": {
+        "asset": "171.-.Uma.mensagem.para.o.seu.coracao.171.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/171.-.Uma.mensagem.para.o.seu.coracao.171.mp4",
+        "sha256": "bdec498f2d9165de119dc30768df21f370f2f42267d0f1e4f8f776a916be6c2a",
+        "tamanho_bytes": 16130150
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261003-2100-aeaf0f0331",
+      "data": "2026-10-03",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "172 - Uma mensagem para o seu coração 172.mp4",
+        "sha256": "aeaf0f03315849f0eaba444169151f905a2de216bf77c3889a258fa91c40ff88"
+      },
+      "midia": {
+        "asset": "172.-.Uma.mensagem.para.o.seu.coracao.172.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/172.-.Uma.mensagem.para.o.seu.coracao.172.mp4",
+        "sha256": "aeaf0f03315849f0eaba444169151f905a2de216bf77c3889a258fa91c40ff88",
+        "tamanho_bytes": 17123696
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261004-0900-f8b218b6a8",
+      "data": "2026-10-04",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "174 - Uma mensagem para o seu coração 174.mp4",
+        "sha256": "f8b218b6a8a07d59acffe9daf63ea8f4d5890ec9a356d6f25876dd9bc648e8a1"
+      },
+      "midia": {
+        "asset": "174.-.Uma.mensagem.para.o.seu.coracao.174.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/174.-.Uma.mensagem.para.o.seu.coracao.174.mp4",
+        "sha256": "f8b218b6a8a07d59acffe9daf63ea8f4d5890ec9a356d6f25876dd9bc648e8a1",
+        "tamanho_bytes": 11022487
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261004-2100-5a7adacc5f",
+      "data": "2026-10-04",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "175 - Uma mensagem para o seu coração 175.mp4",
+        "sha256": "5a7adacc5ffcb306e2a899d0c3bc45c3c2f86574bcb9609063ca35b8eae76065"
+      },
+      "midia": {
+        "asset": "175.-.Uma.mensagem.para.o.seu.coracao.175.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/175.-.Uma.mensagem.para.o.seu.coracao.175.mp4",
+        "sha256": "5a7adacc5ffcb306e2a899d0c3bc45c3c2f86574bcb9609063ca35b8eae76065",
+        "tamanho_bytes": 10752288
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261005-0900-d00a631540",
+      "data": "2026-10-05",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "176 - Uma mensagem para o seu coração 176.mp4",
+        "sha256": "d00a6315406ad3da6aacb154248551d16216242aeb50f05080314719ef6a4b9d"
+      },
+      "midia": {
+        "asset": "176.-.Uma.mensagem.para.o.seu.coracao.176.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/176.-.Uma.mensagem.para.o.seu.coracao.176.mp4",
+        "sha256": "d00a6315406ad3da6aacb154248551d16216242aeb50f05080314719ef6a4b9d",
+        "tamanho_bytes": 19496459
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261005-2100-cd4567287f",
+      "data": "2026-10-05",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "177 - Uma mensagem para o seu coração 177.mp4",
+        "sha256": "cd4567287facb918c90abf2b12ee6009d4d82b6ab91d1a3a769718df7792bfb9"
+      },
+      "midia": {
+        "asset": "177.-.Uma.mensagem.para.o.seu.coracao.177.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/177.-.Uma.mensagem.para.o.seu.coracao.177.mp4",
+        "sha256": "cd4567287facb918c90abf2b12ee6009d4d82b6ab91d1a3a769718df7792bfb9",
+        "tamanho_bytes": 30991443
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261006-0900-34bf128dfd",
+      "data": "2026-10-06",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "178 - Uma mensagem para o seu coração 178.mp4",
+        "sha256": "34bf128dfdd6230a8885bb0171da8527bcb872fcd3d3e1521d5a8831b7d40c6e"
+      },
+      "midia": {
+        "asset": "178.-.Uma.mensagem.para.o.seu.coracao.178.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/178.-.Uma.mensagem.para.o.seu.coracao.178.mp4",
+        "sha256": "34bf128dfdd6230a8885bb0171da8527bcb872fcd3d3e1521d5a8831b7d40c6e",
+        "tamanho_bytes": 25824046
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261006-2100-4730f2c9e3",
+      "data": "2026-10-06",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "179 - Uma mensagem para o seu coração 179.mp4",
+        "sha256": "4730f2c9e3be69d48a388da5718f3f94bd7667b1d8159b87e42e8a4019bf2f88"
+      },
+      "midia": {
+        "asset": "179.-.Uma.mensagem.para.o.seu.coracao.179.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/179.-.Uma.mensagem.para.o.seu.coracao.179.mp4",
+        "sha256": "4730f2c9e3be69d48a388da5718f3f94bd7667b1d8159b87e42e8a4019bf2f88",
+        "tamanho_bytes": 21089355
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261007-0900-522f53b1ff",
+      "data": "2026-10-07",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "181 - Uma mensagem para o seu coração 181.mp4",
+        "sha256": "522f53b1ffc7328b2a4e6780c0fc36425da5b68eb1a85ae97c6a054fb61df54f"
+      },
+      "midia": {
+        "asset": "181.-.Uma.mensagem.para.o.seu.coracao.181.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/181.-.Uma.mensagem.para.o.seu.coracao.181.mp4",
+        "sha256": "522f53b1ffc7328b2a4e6780c0fc36425da5b68eb1a85ae97c6a054fb61df54f",
+        "tamanho_bytes": 26275463
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261007-2100-52a05ed1a3",
+      "data": "2026-10-07",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "182 - Uma mensagem para o seu coração 182.mp4",
+        "sha256": "52a05ed1a356f0a3a09dfd3aa463fad942f9865b8d149ff45f265a0d496a4e6c"
+      },
+      "midia": {
+        "asset": "182.-.Uma.mensagem.para.o.seu.coracao.182.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/182.-.Uma.mensagem.para.o.seu.coracao.182.mp4",
+        "sha256": "52a05ed1a356f0a3a09dfd3aa463fad942f9865b8d149ff45f265a0d496a4e6c",
+        "tamanho_bytes": 20441691
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261008-0900-278545b41a",
+      "data": "2026-10-08",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "183 - Uma mensagem para o seu coração 183.mp4",
+        "sha256": "278545b41a3875be5c22795a632c57a4c5f5a1962e1246624eff2a418f38d493"
+      },
+      "midia": {
+        "asset": "183.-.Uma.mensagem.para.o.seu.coracao.183.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/183.-.Uma.mensagem.para.o.seu.coracao.183.mp4",
+        "sha256": "278545b41a3875be5c22795a632c57a4c5f5a1962e1246624eff2a418f38d493",
+        "tamanho_bytes": 10171412
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261008-2100-6de0894df2",
+      "data": "2026-10-08",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "185 - Uma mensagem para o seu coração 185.mp4",
+        "sha256": "6de0894df206bb3b3be9d5c8492712b5effa54d86641d238d7b02cef8c0c1322"
+      },
+      "midia": {
+        "asset": "185.-.Uma.mensagem.para.o.seu.coracao.185.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/185.-.Uma.mensagem.para.o.seu.coracao.185.mp4",
+        "sha256": "6de0894df206bb3b3be9d5c8492712b5effa54d86641d238d7b02cef8c0c1322",
+        "tamanho_bytes": 22265632
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261009-0900-bce5af6ef3",
+      "data": "2026-10-09",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "186 - Uma mensagem para o seu coração 186.mp4",
+        "sha256": "bce5af6ef3872a4e820302b7f4ffc3e9b050a28de3986160c69f377099df8033"
+      },
+      "midia": {
+        "asset": "186.-.Uma.mensagem.para.o.seu.coracao.186.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/186.-.Uma.mensagem.para.o.seu.coracao.186.mp4",
+        "sha256": "bce5af6ef3872a4e820302b7f4ffc3e9b050a28de3986160c69f377099df8033",
+        "tamanho_bytes": 12455671
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261009-2100-47b4aa2754",
+      "data": "2026-10-09",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "187 - Uma mensagem para o seu coração 187.mp4",
+        "sha256": "47b4aa275485049b2496e09c18708484d1d5ed53c09379fbc48ac32d84473c94"
+      },
+      "midia": {
+        "asset": "187.-.Uma.mensagem.para.o.seu.coracao.187.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/187.-.Uma.mensagem.para.o.seu.coracao.187.mp4",
+        "sha256": "47b4aa275485049b2496e09c18708484d1d5ed53c09379fbc48ac32d84473c94",
+        "tamanho_bytes": 28655056
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261010-0900-0ef5128bf6",
+      "data": "2026-10-10",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "188 - Uma mensagem para o seu coração 188.mp4",
+        "sha256": "0ef5128bf65f17fac2269448d350d8f198ca0f73f6c90c79396fa2e923c824a4"
+      },
+      "midia": {
+        "asset": "188.-.Uma.mensagem.para.o.seu.coracao.188.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/188.-.Uma.mensagem.para.o.seu.coracao.188.mp4",
+        "sha256": "0ef5128bf65f17fac2269448d350d8f198ca0f73f6c90c79396fa2e923c824a4",
+        "tamanho_bytes": 13790929
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261010-2100-e990f974b4",
+      "data": "2026-10-10",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "189 - Uma mensagem para o seu coração 189.mp4",
+        "sha256": "e990f974b4ab3bbffae681764eb0827332c233412f092d67afe90f51787d89a7"
+      },
+      "midia": {
+        "asset": "189.-.Uma.mensagem.para.o.seu.coracao.189.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/189.-.Uma.mensagem.para.o.seu.coracao.189.mp4",
+        "sha256": "e990f974b4ab3bbffae681764eb0827332c233412f092d67afe90f51787d89a7",
+        "tamanho_bytes": 30774209
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261011-0900-d3d5e41e5d",
+      "data": "2026-10-11",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "19 - Jesus chama você pelo nome.mp4",
+        "sha256": "d3d5e41e5dc1e3319eb7d399dc2869bab3a0095e044ac5dc15f7e65d05955502"
+      },
+      "midia": {
+        "asset": "19.-.Jesus.chama.voce.pelo.nome.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/19.-.Jesus.chama.voce.pelo.nome.mp4",
+        "sha256": "d3d5e41e5dc1e3319eb7d399dc2869bab3a0095e044ac5dc15f7e65d05955502",
+        "tamanho_bytes": 35326561
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261011-2100-1a44e2351f",
+      "data": "2026-10-11",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "193 - Uma mensagem para o seu coração 193.mp4",
+        "sha256": "1a44e2351f0f281d59052404b4a259347d576d40c45af6f62e7f03a1aad3e2fc"
+      },
+      "midia": {
+        "asset": "193.-.Uma.mensagem.para.o.seu.coracao.193.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/193.-.Uma.mensagem.para.o.seu.coracao.193.mp4",
+        "sha256": "1a44e2351f0f281d59052404b4a259347d576d40c45af6f62e7f03a1aad3e2fc",
+        "tamanho_bytes": 27197373
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261012-0900-72d52f270f",
+      "data": "2026-10-12",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "194 - Uma mensagem para o seu coração 194.mp4",
+        "sha256": "72d52f270fb0de16b32502aa16b982d5cbdb61e0b85068a6c3fda35b3528771c"
+      },
+      "midia": {
+        "asset": "194.-.Uma.mensagem.para.o.seu.coracao.194.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/194.-.Uma.mensagem.para.o.seu.coracao.194.mp4",
+        "sha256": "72d52f270fb0de16b32502aa16b982d5cbdb61e0b85068a6c3fda35b3528771c",
+        "tamanho_bytes": 19457158
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261012-2100-083fa1a57f",
+      "data": "2026-10-12",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "195 - Uma mensagem para o seu coração 195.mp4",
+        "sha256": "083fa1a57f6f0656a3524eae989eabea9f285051218e242b70fb26a793658f6e"
+      },
+      "midia": {
+        "asset": "195.-.Uma.mensagem.para.o.seu.coracao.195.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/195.-.Uma.mensagem.para.o.seu.coracao.195.mp4",
+        "sha256": "083fa1a57f6f0656a3524eae989eabea9f285051218e242b70fb26a793658f6e",
+        "tamanho_bytes": 14446317
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261013-0900-a9ac0a02db",
+      "data": "2026-10-13",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "196 - Uma mensagem para o seu coração 196.mp4",
+        "sha256": "a9ac0a02db9d623c333119d356f1d786a86faa3d296dbba4c19833fd574833e8"
+      },
+      "midia": {
+        "asset": "196.-.Uma.mensagem.para.o.seu.coracao.196.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/196.-.Uma.mensagem.para.o.seu.coracao.196.mp4",
+        "sha256": "a9ac0a02db9d623c333119d356f1d786a86faa3d296dbba4c19833fd574833e8",
+        "tamanho_bytes": 15884123
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261013-2100-15decc372a",
+      "data": "2026-10-13",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "197 - Uma mensagem para o seu coração 197.mp4",
+        "sha256": "15decc372a200a0ac4bb44cb4b09fc95e2997bc56e837fd26e9e008ee4ef2b0d"
+      },
+      "midia": {
+        "asset": "197.-.Uma.mensagem.para.o.seu.coracao.197.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/197.-.Uma.mensagem.para.o.seu.coracao.197.mp4",
+        "sha256": "15decc372a200a0ac4bb44cb4b09fc95e2997bc56e837fd26e9e008ee4ef2b0d",
+        "tamanho_bytes": 19488475
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261014-0900-bc936cd432",
+      "data": "2026-10-14",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "198 - Uma mensagem para o seu coração 198.mp4",
+        "sha256": "bc936cd43275f796d2ff69bc471d793d518e2f91a18ff2851108cbf560382ac1"
+      },
+      "midia": {
+        "asset": "198.-.Uma.mensagem.para.o.seu.coracao.198.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/198.-.Uma.mensagem.para.o.seu.coracao.198.mp4",
+        "sha256": "bc936cd43275f796d2ff69bc471d793d518e2f91a18ff2851108cbf560382ac1",
+        "tamanho_bytes": 30695258
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261014-2100-c641fc93ed",
+      "data": "2026-10-14",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "199 - Uma mensagem para o seu coração 199.mp4",
+        "sha256": "c641fc93ed9966ca89af0af714014529ded63a23dfae285cf1aeda54cbc501e0"
+      },
+      "midia": {
+        "asset": "199.-.Uma.mensagem.para.o.seu.coracao.199.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/199.-.Uma.mensagem.para.o.seu.coracao.199.mp4",
+        "sha256": "c641fc93ed9966ca89af0af714014529ded63a23dfae285cf1aeda54cbc501e0",
+        "tamanho_bytes": 8255307
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261015-0900-da261a95ba",
+      "data": "2026-10-15",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "20 - Você quer ser curado.mp4",
+        "sha256": "da261a95ba10d3ec4cb0ccf845be1176ef5ec35182309c25270d36b72979626a"
+      },
+      "midia": {
+        "asset": "20.-.Voce.quer.ser.curado.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/20.-.Voce.quer.ser.curado.mp4",
+        "sha256": "da261a95ba10d3ec4cb0ccf845be1176ef5ec35182309c25270d36b72979626a",
+        "tamanho_bytes": 15737219
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261015-2100-503e951441",
+      "data": "2026-10-15",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "200 - Uma mensagem para o seu coração 200.mp4",
+        "sha256": "503e951441bedefce73761719d2a00712fc01f3ddbc17f1779a1bc671d31498c"
+      },
+      "midia": {
+        "asset": "200.-.Uma.mensagem.para.o.seu.coracao.200.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/200.-.Uma.mensagem.para.o.seu.coracao.200.mp4",
+        "sha256": "503e951441bedefce73761719d2a00712fc01f3ddbc17f1779a1bc671d31498c",
+        "tamanho_bytes": 14126001
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261016-0900-01b0e3ede5",
+      "data": "2026-10-16",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "201 - Uma mensagem para o seu coração 201.mp4",
+        "sha256": "01b0e3ede569e58bd03175b35b9e38cee1f1dd66a4ed9d8ed98846b2301f9c39"
+      },
+      "midia": {
+        "asset": "201.-.Uma.mensagem.para.o.seu.coracao.201.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/201.-.Uma.mensagem.para.o.seu.coracao.201.mp4",
+        "sha256": "01b0e3ede569e58bd03175b35b9e38cee1f1dd66a4ed9d8ed98846b2301f9c39",
+        "tamanho_bytes": 25887311
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261016-2100-6ca6188fc6",
+      "data": "2026-10-16",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "202 - Uma mensagem para o seu coração 202.mp4",
+        "sha256": "6ca6188fc6b446a3d38557a98d3a411d2369113e7a225740181c7514b94be21a"
+      },
+      "midia": {
+        "asset": "202.-.Uma.mensagem.para.o.seu.coracao.202.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/202.-.Uma.mensagem.para.o.seu.coracao.202.mp4",
+        "sha256": "6ca6188fc6b446a3d38557a98d3a411d2369113e7a225740181c7514b94be21a",
+        "tamanho_bytes": 29674812
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261017-0900-6be7f2d6e2",
+      "data": "2026-10-17",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "203 - Uma mensagem para o seu coração 203.mp4",
+        "sha256": "6be7f2d6e2678bc26ca55697b3114dba83f7f0f4038a1a7c2ea83bd7927c11cf"
+      },
+      "midia": {
+        "asset": "203.-.Uma.mensagem.para.o.seu.coracao.203.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/203.-.Uma.mensagem.para.o.seu.coracao.203.mp4",
+        "sha256": "6be7f2d6e2678bc26ca55697b3114dba83f7f0f4038a1a7c2ea83bd7927c11cf",
+        "tamanho_bytes": 13126964
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261017-2100-ed6aba0dcb",
+      "data": "2026-10-17",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "204 - Uma mensagem para o seu coração 204.mp4",
+        "sha256": "ed6aba0dcb4a8f3f92357fcd4df564ae7bbec45f71592b45205caaaaee1a388d"
+      },
+      "midia": {
+        "asset": "204.-.Uma.mensagem.para.o.seu.coracao.204.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/204.-.Uma.mensagem.para.o.seu.coracao.204.mp4",
+        "sha256": "ed6aba0dcb4a8f3f92357fcd4df564ae7bbec45f71592b45205caaaaee1a388d",
+        "tamanho_bytes": 23476045
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261018-0900-24555bece4",
+      "data": "2026-10-18",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "205 - Uma mensagem para o seu coração 205.mp4",
+        "sha256": "24555bece4ede3984d6e47063dfea91552ce3d7c494551fb5aec86947dfbb787"
+      },
+      "midia": {
+        "asset": "205.-.Uma.mensagem.para.o.seu.coracao.205.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/205.-.Uma.mensagem.para.o.seu.coracao.205.mp4",
+        "sha256": "24555bece4ede3984d6e47063dfea91552ce3d7c494551fb5aec86947dfbb787",
+        "tamanho_bytes": 4346541
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261018-2100-1bb528f451",
+      "data": "2026-10-18",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "206 - Uma mensagem para o seu coração 206.mp4",
+        "sha256": "1bb528f45162deb81f87dec611d4e3d36b76516795a00f77496acd92d17fcc03"
+      },
+      "midia": {
+        "asset": "206.-.Uma.mensagem.para.o.seu.coracao.206.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/206.-.Uma.mensagem.para.o.seu.coracao.206.mp4",
+        "sha256": "1bb528f45162deb81f87dec611d4e3d36b76516795a00f77496acd92d17fcc03",
+        "tamanho_bytes": 16942269
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261019-0900-c74740201d",
+      "data": "2026-10-19",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "207 - Uma mensagem para o seu coração 207.mp4",
+        "sha256": "c74740201d3b6f31ee8e5b6db196fc1aeba855dcaca231100cefab074994d37a"
+      },
+      "midia": {
+        "asset": "207.-.Uma.mensagem.para.o.seu.coracao.207.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/207.-.Uma.mensagem.para.o.seu.coracao.207.mp4",
+        "sha256": "c74740201d3b6f31ee8e5b6db196fc1aeba855dcaca231100cefab074994d37a",
+        "tamanho_bytes": 18007428
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261019-2100-48bb70ff97",
+      "data": "2026-10-19",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "209 - Uma mensagem para o seu coração 209.mp4",
+        "sha256": "48bb70ff9723e20c4afee344857860131002fccb5d66c52ffaf8f778a0e0be92"
+      },
+      "midia": {
+        "asset": "209.-.Uma.mensagem.para.o.seu.coracao.209.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/209.-.Uma.mensagem.para.o.seu.coracao.209.mp4",
+        "sha256": "48bb70ff9723e20c4afee344857860131002fccb5d66c52ffaf8f778a0e0be92",
+        "tamanho_bytes": 948663
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261020-0900-076285613f",
+      "data": "2026-10-20",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "21 - O perdão de Jesus não depende do seu passado.mp4",
+        "sha256": "076285613fa0949476f5a4096fa6afea31d4274c9dea82ddc4ea1bc68b632bbc"
+      },
+      "midia": {
+        "asset": "21.-.O.perdao.de.Jesus.nao.depende.do.seu.passado.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/21.-.O.perdao.de.Jesus.nao.depende.do.seu.passado.mp4",
+        "sha256": "076285613fa0949476f5a4096fa6afea31d4274c9dea82ddc4ea1bc68b632bbc",
+        "tamanho_bytes": 23843743
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261020-2100-fe4c51623e",
+      "data": "2026-10-20",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "210 - retina.mp4",
+        "sha256": "fe4c51623e71f4853b522afffad19fe5f3467f7d7593aa271164aa304cb35dee"
+      },
+      "midia": {
+        "asset": "210.-.retina.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/210.-.retina.mp4",
+        "sha256": "fe4c51623e71f4853b522afffad19fe5f3467f7d7593aa271164aa304cb35dee",
+        "tamanho_bytes": 1211140
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261021-0900-55aae9c4be",
+      "data": "2026-10-21",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "211 - Uma mensagem para o seu coração 211.mp4",
+        "sha256": "55aae9c4be8b7692dfdbcd0b6ed26f82f93007438aa8ae0877d07d3a4a007c35"
+      },
+      "midia": {
+        "asset": "211.-.Uma.mensagem.para.o.seu.coracao.211.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/211.-.Uma.mensagem.para.o.seu.coracao.211.mp4",
+        "sha256": "55aae9c4be8b7692dfdbcd0b6ed26f82f93007438aa8ae0877d07d3a4a007c35",
+        "tamanho_bytes": 4076325
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261021-2100-f36e196fb7",
+      "data": "2026-10-21",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "212 - Uma mensagem para o seu coração 212.mp4",
+        "sha256": "f36e196fb7b98c6cdba00e224650444374b7adc9965930c6c54efa947813ce05"
+      },
+      "midia": {
+        "asset": "212.-.Uma.mensagem.para.o.seu.coracao.212.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/212.-.Uma.mensagem.para.o.seu.coracao.212.mp4",
+        "sha256": "f36e196fb7b98c6cdba00e224650444374b7adc9965930c6c54efa947813ce05",
+        "tamanho_bytes": 16447741
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261022-0900-a5ae5420df",
+      "data": "2026-10-22",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "213 - Uma mensagem para o seu coração 213.mp4",
+        "sha256": "a5ae5420dfea50aad29b5d7646c26151cb2d59e8d44bd6fb1bd4b80566fcf302"
+      },
+      "midia": {
+        "asset": "213.-.Uma.mensagem.para.o.seu.coracao.213.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/213.-.Uma.mensagem.para.o.seu.coracao.213.mp4",
+        "sha256": "a5ae5420dfea50aad29b5d7646c26151cb2d59e8d44bd6fb1bd4b80566fcf302",
+        "tamanho_bytes": 6634244
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261022-2100-5901df4914",
+      "data": "2026-10-22",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "214 - Uma mensagem para o seu coração 214.mp4",
+        "sha256": "5901df4914330af978431bbfd6c64fb7dcd5ee42205fca206323afb5f837fa09"
+      },
+      "midia": {
+        "asset": "214.-.Uma.mensagem.para.o.seu.coracao.214.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/214.-.Uma.mensagem.para.o.seu.coracao.214.mp4",
+        "sha256": "5901df4914330af978431bbfd6c64fb7dcd5ee42205fca206323afb5f837fa09",
+        "tamanho_bytes": 20364387
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261023-0900-e0886cd34b",
+      "data": "2026-10-23",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "215 - Uma mensagem para o seu coração 215.mp4",
+        "sha256": "e0886cd34bfc3075c62f291d579f928c9ed16dce1f20f108ec182cc4f54127f6"
+      },
+      "midia": {
+        "asset": "215.-.Uma.mensagem.para.o.seu.coracao.215.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/215.-.Uma.mensagem.para.o.seu.coracao.215.mp4",
+        "sha256": "e0886cd34bfc3075c62f291d579f928c9ed16dce1f20f108ec182cc4f54127f6",
+        "tamanho_bytes": 6713139
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261023-2100-db1f315176",
+      "data": "2026-10-23",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "216 - Uma mensagem para o seu coração 216.mp4",
+        "sha256": "db1f315176166db9e50ad2bc3471bbd1407556fbe22d890896e439bb79b9f2f7"
+      },
+      "midia": {
+        "asset": "216.-.Uma.mensagem.para.o.seu.coracao.216.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/216.-.Uma.mensagem.para.o.seu.coracao.216.mp4",
+        "sha256": "db1f315176166db9e50ad2bc3471bbd1407556fbe22d890896e439bb79b9f2f7",
+        "tamanho_bytes": 19805390
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261024-0900-d1a7414c2c",
+      "data": "2026-10-24",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "217 - Uma mensagem para o seu coração 217.mp4",
+        "sha256": "d1a7414c2cf3992917bb2f0d0150a0d636758913049c995fe0b07b770d5f6bd3"
+      },
+      "midia": {
+        "asset": "217.-.Uma.mensagem.para.o.seu.coracao.217.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/217.-.Uma.mensagem.para.o.seu.coracao.217.mp4",
+        "sha256": "d1a7414c2cf3992917bb2f0d0150a0d636758913049c995fe0b07b770d5f6bd3",
+        "tamanho_bytes": 26012462
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261024-2100-a6d951f274",
+      "data": "2026-10-24",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "218 - Uma mensagem para o seu coração 218.mp4",
+        "sha256": "a6d951f27469c7ce9480a22b2c7b692aa60dd80719d7d5b05f930f48c070be65"
+      },
+      "midia": {
+        "asset": "218.-.Uma.mensagem.para.o.seu.coracao.218.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/218.-.Uma.mensagem.para.o.seu.coracao.218.mp4",
+        "sha256": "a6d951f27469c7ce9480a22b2c7b692aa60dd80719d7d5b05f930f48c070be65",
+        "tamanho_bytes": 21224394
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261025-0900-ad49a561bb",
+      "data": "2026-10-25",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "219 - Uma mensagem para o seu coração 219.mp4",
+        "sha256": "ad49a561bb2f4b1c39068a94f2099333cd9d2594a082ee914dc8e93b281abafd"
+      },
+      "midia": {
+        "asset": "219.-.Uma.mensagem.para.o.seu.coracao.219.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/219.-.Uma.mensagem.para.o.seu.coracao.219.mp4",
+        "sha256": "ad49a561bb2f4b1c39068a94f2099333cd9d2594a082ee914dc8e93b281abafd",
+        "tamanho_bytes": 18503265
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261025-2100-6342b451b6",
+      "data": "2026-10-25",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "22 - Minhas oferias ouvinha minha voz.mp4",
+        "sha256": "6342b451b63737b855aa8cce9f34fa95a832e80501e72e8acd9a47a3ec863c84"
+      },
+      "midia": {
+        "asset": "22.-.Minhas.oferias.ouvinha.minha.voz.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/22.-.Minhas.oferias.ouvinha.minha.voz.mp4",
+        "sha256": "6342b451b63737b855aa8cce9f34fa95a832e80501e72e8acd9a47a3ec863c84",
+        "tamanho_bytes": 29319530
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261026-0900-77e7f74985",
+      "data": "2026-10-26",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "220 - Uma mensagem para o seu coração 220.mp4",
+        "sha256": "77e7f74985fab7cbc57ec3cc4dd56e7d8f0bf1e8d43e28c95eca37bfda495e66"
+      },
+      "midia": {
+        "asset": "220.-.Uma.mensagem.para.o.seu.coracao.220.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/220.-.Uma.mensagem.para.o.seu.coracao.220.mp4",
+        "sha256": "77e7f74985fab7cbc57ec3cc4dd56e7d8f0bf1e8d43e28c95eca37bfda495e66",
+        "tamanho_bytes": 15312823
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261026-2100-ebd21278d6",
+      "data": "2026-10-26",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "221 - Uma mensagem para o seu coração 221.mp4",
+        "sha256": "ebd21278d636d0d7e987530607e76ff8714684a9565d3153a49e240f4d91047e"
+      },
+      "midia": {
+        "asset": "221.-.Uma.mensagem.para.o.seu.coracao.221.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/221.-.Uma.mensagem.para.o.seu.coracao.221.mp4",
+        "sha256": "ebd21278d636d0d7e987530607e76ff8714684a9565d3153a49e240f4d91047e",
+        "tamanho_bytes": 13463984
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261027-0900-b51fdcd326",
+      "data": "2026-10-27",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "222 - Uma mensagem para o seu coração 222.mp4",
+        "sha256": "b51fdcd326957ea63c69b652ab6169103427303ba0786384c2da015acf38c701"
+      },
+      "midia": {
+        "asset": "222.-.Uma.mensagem.para.o.seu.coracao.222.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/222.-.Uma.mensagem.para.o.seu.coracao.222.mp4",
+        "sha256": "b51fdcd326957ea63c69b652ab6169103427303ba0786384c2da015acf38c701",
+        "tamanho_bytes": 25309376
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261027-2100-07b9ce4f60",
+      "data": "2026-10-27",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "226 - Uma mensagem para o seu coração 226.mp4",
+        "sha256": "07b9ce4f600776b7f56c7f408373129fdb91e18d996eb688ac1dbcb8ef002f89"
+      },
+      "midia": {
+        "asset": "226.-.Uma.mensagem.para.o.seu.coracao.226.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/226.-.Uma.mensagem.para.o.seu.coracao.226.mp4",
+        "sha256": "07b9ce4f600776b7f56c7f408373129fdb91e18d996eb688ac1dbcb8ef002f89",
+        "tamanho_bytes": 27491198
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261028-0900-ce512612c8",
+      "data": "2026-10-28",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "227 - Uma mensagem para o seu coração 227.mp4",
+        "sha256": "ce512612c81779504675e69442b651d65a3b35ab75bc80441ccf32c2f2333267"
+      },
+      "midia": {
+        "asset": "227.-.Uma.mensagem.para.o.seu.coracao.227.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/227.-.Uma.mensagem.para.o.seu.coracao.227.mp4",
+        "sha256": "ce512612c81779504675e69442b651d65a3b35ab75bc80441ccf32c2f2333267",
+        "tamanho_bytes": 18902575
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261028-2100-367b2ac617",
+      "data": "2026-10-28",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "228 - Uma mensagem para o seu coração 228.mp4",
+        "sha256": "367b2ac6178447386bba7619d2cf02dbb4659f162917d9560ee19f89ab5a9978"
+      },
+      "midia": {
+        "asset": "228.-.Uma.mensagem.para.o.seu.coracao.228.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/228.-.Uma.mensagem.para.o.seu.coracao.228.mp4",
+        "sha256": "367b2ac6178447386bba7619d2cf02dbb4659f162917d9560ee19f89ab5a9978",
+        "tamanho_bytes": 25957796
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261029-0900-498146d69d",
+      "data": "2026-10-29",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "229 - Uma mensagem para o seu coração 229.mp4",
+        "sha256": "498146d69daee8363a74593f640eee0c75ab8bf6bd47cc5604bcc84c0437243f"
+      },
+      "midia": {
+        "asset": "229.-.Uma.mensagem.para.o.seu.coracao.229.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/229.-.Uma.mensagem.para.o.seu.coracao.229.mp4",
+        "sha256": "498146d69daee8363a74593f640eee0c75ab8bf6bd47cc5604bcc84c0437243f",
+        "tamanho_bytes": 22332513
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261029-2100-2d11556a64",
+      "data": "2026-10-29",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "23 - Eu falo as palavras do meu pai no céu, e os líderes.mp4",
+        "sha256": "2d11556a64f4a6f6f4f6491530d4b56dc8cd95b35c0d518c45e279b2280950df"
+      },
+      "midia": {
+        "asset": "23.-.Eu.falo.as.palavras.do.meu.pai.no.ceu.e.os.lideres.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/23.-.Eu.falo.as.palavras.do.meu.pai.no.ceu.e.os.lideres.mp4",
+        "sha256": "2d11556a64f4a6f6f4f6491530d4b56dc8cd95b35c0d518c45e279b2280950df",
+        "tamanho_bytes": 15499802
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261030-0900-421d7f08fa",
+      "data": "2026-10-30",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "231 - Uma mensagem para o seu coração 231.mp4",
+        "sha256": "421d7f08fa2136cb4142159ddbd7bf4e356c7cb914e455c245a2b731a047ed3a"
+      },
+      "midia": {
+        "asset": "231.-.Uma.mensagem.para.o.seu.coracao.231.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/231.-.Uma.mensagem.para.o.seu.coracao.231.mp4",
+        "sha256": "421d7f08fa2136cb4142159ddbd7bf4e356c7cb914e455c245a2b731a047ed3a",
+        "tamanho_bytes": 10001692
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261030-2100-16ad5f1413",
+      "data": "2026-10-30",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "232 - Uma mensagem para o seu coração 232.mp4",
+        "sha256": "16ad5f14131a0f69614ae0e6fac4f040180c3066192cc9241eefb80a43d5c742"
+      },
+      "midia": {
+        "asset": "232.-.Uma.mensagem.para.o.seu.coracao.232.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/232.-.Uma.mensagem.para.o.seu.coracao.232.mp4",
+        "sha256": "16ad5f14131a0f69614ae0e6fac4f040180c3066192cc9241eefb80a43d5c742",
+        "tamanho_bytes": 7121100
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261031-0900-25192edf82",
+      "data": "2026-10-31",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "234 - Uma mensagem para o seu coração 234.mp4",
+        "sha256": "25192edf8294eddd2ca25074404d801f8e5aad31bca2ee650e110c7ce20afc99"
+      },
+      "midia": {
+        "asset": "234.-.Uma.mensagem.para.o.seu.coracao.234.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/234.-.Uma.mensagem.para.o.seu.coracao.234.mp4",
+        "sha256": "25192edf8294eddd2ca25074404d801f8e5aad31bca2ee650e110c7ce20afc99",
+        "tamanho_bytes": 19705994
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
     }
-  ]
+  ],
+  "estoque_alvo_dias": 60
 }
