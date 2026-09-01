@@ -1,33 +1,23 @@
-name: Publicar Instagram, Facebook, YouTube e TikTok
+name: Publicar Reels Instagram e Facebook
 
 on:
   schedule:
-    # Todos os dias às 09:00 e 17:00 de Brasília (12:00 e 20:00 UTC).
+    # 09:00 e 21:00 em Brasília (UTC-3).
     - cron: "0 12 * * *"
-    - cron: "0 20 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
     inputs:
       data_publicacao:
-        description: "Data do item da fila (AAAA-MM-DD); vazio usa hoje"
+        description: "Data do Reel (AAAA-MM-DD); vazio usa hoje"
         required: false
         type: string
       horario_publicacao:
-        description: "Horário do item da fila (HH:MM); vazio usa o horário atual de Brasília"
+        description: "Horário do Reel (09:00 ou 21:00); vazio usa horário atual de Brasília"
         required: false
         type: string
-      plataformas:
-        description: "Plataformas desta execução (automático: somente YouTube)"
-        required: false
-        default: "youtube"
-        type: string
-      diagnostico_facebook:
-        description: "Apenas verifica o vínculo do token do Facebook; não publica"
-        required: false
-        default: false
-        type: boolean
 
 concurrency:
-  group: publicacao-diaria
+  group: publicacao-reels-instagram-facebook
   cancel-in-progress: false
 
 jobs:
@@ -36,50 +26,28 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Baixar repositório
-        uses: actions/checkout@v4
-      - name: Configurar Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: pip
-      - name: Instalar dependências
-        run: pip install -r requirements.txt
-      - name: Publicar conteúdo do dia
+      - run: pip install -r requirements.txt
+      - name: Publicar Reel
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_BUSINESS_ID: ${{ secrets.IG_BUSINESS_ID }}
           FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
-          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
-          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
-          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
-          TIKTOK_REFRESH_TOKEN_FILE: ${{ runner.temp }}/tiktok_refresh_token
-          ATIVAR_YOUTUBE: "true"
-          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
-          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
-          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           DATA_PUBLICACAO: ${{ inputs.data_publicacao }}
           HORARIO_PUBLICACAO: ${{ inputs.horario_publicacao }}
-          PLATAFORMAS: ${{ inputs.plataformas || 'youtube' }}
-          DIAGNOSTICO_FACEBOOK: ${{ inputs.diagnostico_facebook }}
         run: python publicar.py
-      - name: Guardar refresh token renovado do TikTok
-        if: always()
-        env:
-          GH_TOKEN: ${{ secrets.TIKTOK_SECRETS_PAT }}
-        run: |
-          if [ -s "$RUNNER_TEMP/tiktok_refresh_token" ] && [ -n "$GH_TOKEN" ]; then
-            gh secret set TIKTOK_REFRESH_TOKEN < "$RUNNER_TEMP/tiktok_refresh_token"
-          fi
-      - name: Salvar resultado e remover mídias concluídas
+      - name: Salvar resultado
         if: always()
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add fila/fila.json
+          git add fila/fila-reels.json
           git add -u videos/
-          git diff --staged --quiet || git commit -m "chore: atualizar publicação $(date +%F)"
+          git diff --staged --quiet || git commit -m "chore: atualizar reels $(date +%F)"
           git push
-
