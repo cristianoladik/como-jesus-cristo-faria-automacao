@@ -2,8 +2,7 @@ name: Publicar Reels Instagram e Facebook
 
 on:
   schedule:
-    # 09:00 e 21:00 em Brasília (UTC-3).
-    - cron: "0 12 * * *"
+    # 21:00 em Brasília (UTC-3). O Reel das 09:00 roda junto aos Stories.
     - cron: "0 0 * * *"
   workflow_dispatch:
     inputs:
