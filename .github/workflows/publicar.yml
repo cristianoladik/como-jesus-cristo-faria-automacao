@@ -16,7 +16,7 @@ on:
         type: string
 
 concurrency:
-  group: publicacao-reels-instagram-facebook
+  group: publicacao-instagram-facebook
   cancel-in-progress: false
 
 jobs:

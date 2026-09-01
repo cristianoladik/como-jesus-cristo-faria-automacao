@@ -12,7 +12,7 @@ on:
         type: string
 
 concurrency:
-  group: publicacao-stories-instagram-facebook
+  group: publicacao-instagram-facebook
   cancel-in-progress: false
 
 jobs:

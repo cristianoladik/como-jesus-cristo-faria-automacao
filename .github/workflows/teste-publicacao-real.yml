@@ -25,7 +25,7 @@ on:
         type: string
 
 concurrency:
-  group: teste-real-publicacao-igfb
+  group: publicacao-instagram-facebook
   cancel-in-progress: false
 
 jobs:
