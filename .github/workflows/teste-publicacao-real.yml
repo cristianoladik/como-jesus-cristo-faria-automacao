@@ -1,0 +1,63 @@
+name: Teste real de Reel e Story IG FB
+
+on:
+  workflow_dispatch:
+    inputs:
+      test_video_url:
+        description: URL pública temporária do vídeo de teste
+        required: true
+        type: string
+      test_asset:
+        description: Nome do asset temporário da release
+        required: true
+        type: string
+      test_source_name:
+        description: Nome do vídeo mestre usado no teste
+        required: true
+        type: string
+      test_sha256:
+        description: SHA-256 do vídeo mestre
+        required: true
+        type: string
+      test_tamanho_bytes:
+        description: Tamanho exato do vídeo mestre em bytes
+        required: true
+        type: string
+
+concurrency:
+  group: teste-real-publicacao-igfb
+  cancel-in-progress: false
+
+jobs:
+  testar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Publicar teste real
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_BUSINESS_ID: ${{ secrets.IG_BUSINESS_ID }}
+          FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          MEDIA_CACHE_DIR: ${{ runner.temp }}/midias
+          TEST_VIDEO_URL: ${{ inputs.test_video_url }}
+          TEST_ASSET: ${{ inputs.test_asset }}
+          TEST_SOURCE_NAME: ${{ inputs.test_source_name }}
+          TEST_SHA256: ${{ inputs.test_sha256 }}
+          TEST_TAMANHO_BYTES: ${{ inputs.test_tamanho_bytes }}
+        run: python testar_publicacao.py
+      - name: Salvar resultados do teste
+        if: always()
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add fila/testes-publicacao.json
+          git diff --staged --quiet || git commit -m "test: registrar publicação igfb $(date +%F)"
+          git push
