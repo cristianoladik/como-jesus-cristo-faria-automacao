@@ -7,7 +7,7 @@
       "id": "story-20260902-a126051795",
       "data": "2026-09-02",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "02 - Busque primeiro o Reino de Deus.mp4",
         "sha256": "a1260517954b4648340919aaa62d6e9c138c9cc4fddbc068b77cf4c94813fc89"
@@ -20,13 +20,18 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/02.-.Busque.primeiro.o.Reino.de.Deus-parte-01.mp4",
             "sha256": "b8dcb9d04e8d51cfa8d2d441e8c5ab0270c485c72d9ebe3b9e290cec4c2c9a3f",
             "tamanho_bytes": 4389410,
-            "duracao_segundos": 31.52
+            "duracao_segundos": 31.52,
+            "removido_da_release_em": "2026-09-02T09:36:07.797820-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18109591277270369",
+            "publicado_em": "2026-09-02T09:33:50.290404-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1610515013963059",
+            "publicado_em": "2026-09-02T09:34:01.869492-03:00"
           }
         },
         {
@@ -36,16 +41,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/02.-.Busque.primeiro.o.Reino.de.Deus-parte-02.mp4",
             "sha256": "a615f15334136bb10a2fa74e7c74a1954c56af002fe554ef2c4ebc1e2dead83a",
             "tamanho_bytes": 4618405,
-            "duracao_segundos": 31.52
+            "duracao_segundos": 31.52,
+            "removido_da_release_em": "2026-09-02T09:36:08.164866-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18374480776232660",
+            "publicado_em": "2026-09-02T09:34:46.355198-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "27432412686433266",
+            "publicado_em": "2026-09-02T09:34:57.931488-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-02T09:34:57.931507-03:00"
     },
     {
       "id": "story-20260903-432f589743",

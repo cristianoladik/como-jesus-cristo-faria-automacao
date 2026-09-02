@@ -37,7 +37,7 @@
       "id": "reel-20260902-0900-432f589743",
       "data": "2026-09-02",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "03 - Jesus quer o seu coração.mp4",
         "sha256": "432f5897436e422935ccb38d8db56292fa524495c7d31c689c57edb25aaa131a"
@@ -46,16 +46,22 @@
         "asset": "03.-.Jesus.quer.o.seu.coracao.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/03.-.Jesus.quer.o.seu.coracao.mp4",
         "sha256": "432f5897436e422935ccb38d8db56292fa524495c7d31c689c57edb25aaa131a",
-        "tamanho_bytes": 31367742
+        "tamanho_bytes": 31367742,
+        "removido_da_release_em": "2026-09-02T09:36:09.196220-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18111285985955832",
+        "publicado_em": "2026-09-02T09:35:53.997886-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "2126376021277372",
+        "publicado_em": "2026-09-02T09:36:06.949929-03:00"
+      },
+      "concluido_em": "2026-09-02T09:36:06.949948-03:00"
     },
     {
       "id": "reel-20260902-2100-f60a0acfd7",
