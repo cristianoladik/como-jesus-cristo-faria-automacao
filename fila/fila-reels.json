@@ -2602,19 +2602,19 @@
       }
     },
     {
-      "id": "reel-20261025-2100-375c4ca510",
+      "id": "reel-20261025-2100-6bb0f110e5",
       "data": "2026-10-25",
       "horario": "21:00",
       "status": "pendente",
       "origem": {
-        "arquivo": "22 - Minhas ovelhas ouvem a minha voz - Dco1fqQJWX1-4ddd44106e.mp4",
-        "sha256": "375c4ca510b8187e91d43eb48ad15d3223aa017b3bdf0dfe2ed35a366083c444"
+        "arquivo": "22 - Uma mensagem para o seu coração - Dco1fqQJWX1-49ab28e970.mp4",
+        "sha256": "6bb0f110e5489f1227770488016afc924425d861f9cea505550c964b5158326b"
       },
       "midia": {
-        "asset": "22.-.Minhas.ovelhas.ouvem.a.minha.voz.-.Dco1fqQJWX1-4ddd44106e.mp4",
-        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/22.-.Minhas.ovelhas.ouvem.a.minha.voz.-.Dco1fqQJWX1-4ddd44106e.mp4",
-        "sha256": "375c4ca510b8187e91d43eb48ad15d3223aa017b3bdf0dfe2ed35a366083c444",
-        "tamanho_bytes": 29321056
+        "asset": "22.-.Uma.mensagem.para.o.seu.coracao.-.Dco1fqQJWX1-49ab28e970.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/22.-.Uma.mensagem.para.o.seu.coracao.-.Dco1fqQJWX1-49ab28e970.mp4",
+        "sha256": "6bb0f110e5489f1227770488016afc924425d861f9cea505550c964b5158326b",
+        "tamanho_bytes": 29329937
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
@@ -2794,19 +2794,19 @@
       }
     },
     {
-      "id": "reel-20261029-2100-4b6d79c7ea",
+      "id": "reel-20261029-2100-deac9fe953",
       "data": "2026-10-29",
       "horario": "21:00",
       "status": "pendente",
       "origem": {
-        "arquivo": "23 - Eu falo as palavras do meu pai no céu - Dcnrzs8hUNS-d52e67f7e1.mp4",
-        "sha256": "4b6d79c7ea062ea54c19300b0c6be56f5bb25a55b64d6895b1b39aa096c5703b"
+        "arquivo": "23 - Uma mensagem para o seu coração - Dcnrzs8hUNS-49ab28e970.mp4",
+        "sha256": "deac9fe953c11b3ab195500d0b7a121dd167fddb60ad6cb960ef299a39baa7c5"
       },
       "midia": {
-        "asset": "23.-.Eu.falo.as.palavras.do.meu.pai.no.ceu.-.Dcnrzs8hUNS-d52e67f7e1.mp4",
-        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/23.-.Eu.falo.as.palavras.do.meu.pai.no.ceu.-.Dcnrzs8hUNS-d52e67f7e1.mp4",
-        "sha256": "4b6d79c7ea062ea54c19300b0c6be56f5bb25a55b64d6895b1b39aa096c5703b",
-        "tamanho_bytes": 15477068
+        "asset": "23.-.Uma.mensagem.para.o.seu.coracao.-.Dcnrzs8hUNS-49ab28e970.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/23.-.Uma.mensagem.para.o.seu.coracao.-.Dcnrzs8hUNS-49ab28e970.mp4",
+        "sha256": "deac9fe953c11b3ab195500d0b7a121dd167fddb60ad6cb960ef299a39baa7c5",
+        "tamanho_bytes": 15479090
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
