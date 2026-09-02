@@ -423,22 +423,22 @@
       ]
     },
     {
-      "id": "story-20260912-151a90d653",
+      "id": "story-20260912-9e838a658a",
       "data": "2026-09-12",
       "horario": "09:00",
       "status": "pendente",
       "origem": {
-        "arquivo": "103 - Quem tocou em mim.mp4",
-        "sha256": "151a90d6537e432fe6c7a3614075d239ae1ce54e1405a71809f1bc046633ffef"
+        "arquivo": "103 - Quem tocou em mim - Da-yrzyRdne-eeb577f825.mp4",
+        "sha256": "9e838a658a083ae2062e8ea328c7949cdd4ef449d0e03fa9a9963da8483bee0e"
       },
       "partes": [
         {
           "ordem": 1,
           "midia": {
-            "asset": "103.-.Quem.tocou.em.mim-parte-01.mp4",
-            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/103.-.Quem.tocou.em.mim-parte-01.mp4",
-            "sha256": "7ca01f3d71fcaeeb490fc6d2b0855781e65bfc2ba0e34dd102406b49d048a59c",
-            "tamanho_bytes": 7307408,
+            "asset": "103.-.Quem.tocou.em.mim.-.Da-yrzyRdne-eeb577f825-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/103.-.Quem.tocou.em.mim.-.Da-yrzyRdne-eeb577f825-parte-01.mp4",
+            "sha256": "a295b0ca70b6f6664be8106b3b31e2cc846668bb5dfaaca44e7adeed4d67464b",
+            "tamanho_bytes": 7314622,
             "duracao_segundos": 39.72
           },
           "instagram": {
@@ -451,10 +451,10 @@
         {
           "ordem": 2,
           "midia": {
-            "asset": "103.-.Quem.tocou.em.mim-parte-02.mp4",
-            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/103.-.Quem.tocou.em.mim-parte-02.mp4",
-            "sha256": "383f7978c45febeb3c63fb4740533195044484b38d91e65398172484c275a8ec",
-            "tamanho_bytes": 7485151,
+            "asset": "103.-.Quem.tocou.em.mim.-.Da-yrzyRdne-eeb577f825-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/103.-.Quem.tocou.em.mim.-.Da-yrzyRdne-eeb577f825-parte-02.mp4",
+            "sha256": "e3304c562c2658c45e471919b840e1dbd0c50a0eb569a03311d47e8b531286e7",
+            "tamanho_bytes": 7498167,
             "duracao_segundos": 39.719
           },
           "instagram": {
@@ -511,22 +511,22 @@
       ]
     },
     {
-      "id": "story-20260914-c52c233264",
+      "id": "story-20260914-c26dea0444",
       "data": "2026-09-14",
       "horario": "09:00",
       "status": "pendente",
       "origem": {
-        "arquivo": "105 - Ainda, esta noite todos vocês vão me abandonar.mp4",
-        "sha256": "c52c233264d519de5f7043f047a0ea01a0f35730c5609f7fd3b6379f4d27831b"
+        "arquivo": "105 - Uma mensagem para o seu coração - Da7jBXtxUAn-49ab28e970.mp4",
+        "sha256": "c26dea044472223a71dd1de1167f1ed54ff44f9d303e83f5c2e69a13029f53bd"
       },
       "partes": [
         {
           "ordem": 1,
           "midia": {
-            "asset": "105.-.Ainda.esta.noite.todos.voces.vao.me.abandonar-parte-01.mp4",
-            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/105.-.Ainda.esta.noite.todos.voces.vao.me.abandonar-parte-01.mp4",
-            "sha256": "723dd752920c414fee8562ef0ebbe6c82b345d0e44fc5bc2955e5e017785b0e2",
-            "tamanho_bytes": 5393523,
+            "asset": "105.-.Uma.mensagem.para.o.seu.coracao.-.Da7jBXtxUAn-49ab28e970-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/105.-.Uma.mensagem.para.o.seu.coracao.-.Da7jBXtxUAn-49ab28e970-parte-01.mp4",
+            "sha256": "fd420f90283119fbc3e3f7b494c7048c4c15197fb05d4156cc060450dd525315",
+            "tamanho_bytes": 5374355,
             "duracao_segundos": 44.6
           },
           "instagram": {
@@ -539,10 +539,10 @@
         {
           "ordem": 2,
           "midia": {
-            "asset": "105.-.Ainda.esta.noite.todos.voces.vao.me.abandonar-parte-02.mp4",
-            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/105.-.Ainda.esta.noite.todos.voces.vao.me.abandonar-parte-02.mp4",
-            "sha256": "e4f117c41b1f406f0d2969d45e1ce027686b5f98dbfa0ed1d7cf5a989e361b2f",
-            "tamanho_bytes": 6099196,
+            "asset": "105.-.Uma.mensagem.para.o.seu.coracao.-.Da7jBXtxUAn-49ab28e970-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/105.-.Uma.mensagem.para.o.seu.coracao.-.Da7jBXtxUAn-49ab28e970-parte-02.mp4",
+            "sha256": "591a49481b80f8a4ef31cc84ef5c8100ab79b39e2cb4b02cb0860ff43e01c693",
+            "tamanho_bytes": 6081507,
             "duracao_segundos": 44.6
           },
           "instagram": {
@@ -787,22 +787,22 @@
       ]
     },
     {
-      "id": "story-20260921-80f69e544d",
+      "id": "story-20260921-4d1e68fe22",
       "data": "2026-09-21",
       "horario": "09:00",
       "status": "pendente",
       "origem": {
-        "arquivo": "116 - Você o conhece - DatTqlxp7gO-976afe2ff0.mp4",
-        "sha256": "80f69e544dc3f71691d2cf07bfcd048c5c3e3b6c6194ce85ca5b74a82f4ca545"
+        "arquivo": "116 - Uma mensagem para o seu coração - DatTqlxp7gO-49ab28e970.mp4",
+        "sha256": "4d1e68fe229d8ce336e0bf0cd1b718a389557a026a8af3dc05681cb1161f4a8e"
       },
       "partes": [
         {
           "ordem": 1,
           "midia": {
-            "asset": "116.-.Voce.o.conhece.-.DatTqlxp7gO-976afe2ff0-parte-01.mp4",
-            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/116.-.Voce.o.conhece.-.DatTqlxp7gO-976afe2ff0-parte-01.mp4",
-            "sha256": "678156dec3dd2225e12cee1d39df6bc96f01ce2a2c4e01dd3fb0cd4bf5efae12",
-            "tamanho_bytes": 8586848,
+            "asset": "116.-.Uma.mensagem.para.o.seu.coracao.-.DatTqlxp7gO-49ab28e970-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/116.-.Uma.mensagem.para.o.seu.coracao.-.DatTqlxp7gO-49ab28e970-parte-01.mp4",
+            "sha256": "b0cc7b9682b5a03d3d766578c264716b49a3b925d56f4c058156a088e66529d3",
+            "tamanho_bytes": 8589518,
             "duracao_segundos": 45.12
           },
           "instagram": {
@@ -843,22 +843,22 @@
       ]
     },
     {
-      "id": "story-20260923-15feb0c312",
+      "id": "story-20260923-7d8ad61c3c",
       "data": "2026-09-23",
       "horario": "09:00",
       "status": "pendente",
       "origem": {
-        "arquivo": "118 - E o que significa você ser um sal da Terra.mp4",
-        "sha256": "15feb0c3128e5fbb3317ad277e3105633acf65bac3479833d00a85af354d0e95"
+        "arquivo": "118 - Uma mensagem para o seu coração - Daq9O1FxWm--49ab28e970.mp4",
+        "sha256": "7d8ad61c3c54deb0eac787c363bfa32a8226f9e2743e337b3afb21f1a6596961"
       },
       "partes": [
         {
           "ordem": 1,
           "midia": {
-            "asset": "118.-.E.o.que.significa.voce.ser.um.sal.da.Terra-parte-01.mp4",
-            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/118.-.E.o.que.significa.voce.ser.um.sal.da.Terra-parte-01.mp4",
-            "sha256": "95c13245c2ce7fb8dd51ffa7b305afe06fb90d1144d80c1f6ea31d1f0f4512b9",
-            "tamanho_bytes": 7953408,
+            "asset": "118.-.Uma.mensagem.para.o.seu.coracao.-.Daq9O1FxWm--49ab28e970-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/118.-.Uma.mensagem.para.o.seu.coracao.-.Daq9O1FxWm--49ab28e970-parte-01.mp4",
+            "sha256": "7be963732f9947a6707de1f9b4ceb11e8c3ee7718759f0a32c96ee66b88b22b4",
+            "tamanho_bytes": 7935636,
             "duracao_segundos": 30.64
           },
           "instagram": {
@@ -871,10 +871,10 @@
         {
           "ordem": 2,
           "midia": {
-            "asset": "118.-.E.o.que.significa.voce.ser.um.sal.da.Terra-parte-02.mp4",
-            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/118.-.E.o.que.significa.voce.ser.um.sal.da.Terra-parte-02.mp4",
-            "sha256": "e6265c13a92f80e08a91208d58bf4688982fb0d50495640f458f3ebd14489a8a",
-            "tamanho_bytes": 7463714,
+            "asset": "118.-.Uma.mensagem.para.o.seu.coracao.-.Daq9O1FxWm--49ab28e970-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/118.-.Uma.mensagem.para.o.seu.coracao.-.Daq9O1FxWm--49ab28e970-parte-02.mp4",
+            "sha256": "622980adcefa2042c783581c31a39631ddecc6fd8f55ce43d42d91b3113552b3",
+            "tamanho_bytes": 7457018,
             "duracao_segundos": 30.616
           },
           "instagram": {
@@ -1147,22 +1147,22 @@
       ]
     },
     {
-      "id": "story-20261001-a23f66bd76",
+      "id": "story-20261001-0f253c80a0",
       "data": "2026-10-01",
       "horario": "09:00",
       "status": "pendente",
       "origem": {
-        "arquivo": "128 - Foi difícil deixar tudo para trás - Dad03ymBpSO-a19961a086.mp4",
-        "sha256": "a23f66bd76de21d23bb93d6f8ac0fc67410a0a7b39209ece74b19649ced035a3"
+        "arquivo": "128 - Uma mensagem para o seu coração - Dad03ymBpSO-49ab28e970.mp4",
+        "sha256": "0f253c80a03ba2eb2e52305988998b83be525f53432d102c098366a26f7f62f7"
       },
       "partes": [
         {
           "ordem": 1,
           "midia": {
-            "asset": "128.-.Foi.dificil.deixar.tudo.para.tras.-.Dad03ymBpSO-a19961a086-parte-01.mp4",
-            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/128.-.Foi.dificil.deixar.tudo.para.tras.-.Dad03ymBpSO-a19961a086-parte-01.mp4",
-            "sha256": "b79d600fa1f229f650c45f5663dc9021b60a0d1e85c7a82849b5a67f716d401a",
-            "tamanho_bytes": 6461680,
+            "asset": "128.-.Uma.mensagem.para.o.seu.coracao.-.Dad03ymBpSO-49ab28e970-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/128.-.Uma.mensagem.para.o.seu.coracao.-.Dad03ymBpSO-49ab28e970-parte-01.mp4",
+            "sha256": "36c4553318ac73c622360b89d087f7163b77d6ddead5c297fd9cd609fe8a3c01",
+            "tamanho_bytes": 6507617,
             "duracao_segundos": 30.12
           },
           "instagram": {
@@ -1175,10 +1175,10 @@
         {
           "ordem": 2,
           "midia": {
-            "asset": "128.-.Foi.dificil.deixar.tudo.para.tras.-.Dad03ymBpSO-a19961a086-parte-02.mp4",
-            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/128.-.Foi.dificil.deixar.tudo.para.tras.-.Dad03ymBpSO-a19961a086-parte-02.mp4",
-            "sha256": "182fa6e7beb5d7952efd63bf3d472a9bba4074ce9861068497476c0231845148",
-            "tamanho_bytes": 6640475,
+            "asset": "128.-.Uma.mensagem.para.o.seu.coracao.-.Dad03ymBpSO-49ab28e970-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/128.-.Uma.mensagem.para.o.seu.coracao.-.Dad03ymBpSO-49ab28e970-parte-02.mp4",
+            "sha256": "f428e862ba23255ebf052fc0cdf8bc53cbe53a5f4f0bc85355395c169c7ba0c6",
+            "tamanho_bytes": 6642851,
             "duracao_segundos": 30.12
           },
           "instagram": {
