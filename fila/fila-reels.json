@@ -7,7 +7,7 @@
       "id": "reel-20260901-2100-a126051795",
       "data": "2026-09-01",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "02 - Busque primeiro o Reino de Deus.mp4",
         "sha256": "a1260517954b4648340919aaa62d6e9c138c9cc4fddbc068b77cf4c94813fc89"
@@ -16,16 +16,22 @@
         "asset": "02.-.Busque.primeiro.o.Reino.de.Deus.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/02.-.Busque.primeiro.o.Reino.de.Deus.mp4",
         "sha256": "a1260517954b4648340919aaa62d6e9c138c9cc4fddbc068b77cf4c94813fc89",
-        "tamanho_bytes": 15497987
+        "tamanho_bytes": 15497987,
+        "removido_da_release_em": "2026-09-01T22:39:03.150212-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "17886573021614092",
+        "publicado_em": "2026-09-01T22:38:49.884259-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "1628654735639600",
+        "publicado_em": "2026-09-01T22:39:02.122173-03:00"
+      },
+      "concluido_em": "2026-09-01T22:39:02.122202-03:00"
     },
     {
       "id": "reel-20260902-0900-432f589743",
