@@ -172,19 +172,19 @@
       }
     },
     {
-      "id": "reel-20260905-0900-521060f5da",
+      "id": "reel-20260905-0900-b05bfb53fd",
       "data": "2026-09-05",
       "horario": "09:00",
       "status": "pendente",
       "origem": {
-        "arquivo": "100 - Quanto as ovelhas, temos sempre o professor.mp4",
-        "sha256": "521060f5dacf3591119b22a3f094550a10ae94a3b9c6d37d827929a6d110a073"
+        "arquivo": "100 - Quantas ovelhas - DbDSbRaRssu.mp4",
+        "sha256": "b05bfb53fdbff919e0ff0991bcfef80965557b5a642ffe7eea0b3f33ddf36689"
       },
       "midia": {
-        "asset": "100.-.Quanto.as.ovelhas.temos.sempre.o.professor.mp4",
-        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/100.-.Quanto.as.ovelhas.temos.sempre.o.professor.mp4",
-        "sha256": "521060f5dacf3591119b22a3f094550a10ae94a3b9c6d37d827929a6d110a073",
-        "tamanho_bytes": 21485400
+        "asset": "100.-.Quantas.ovelhas.-.DbDSbRaRssu.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/100.-.Quantas.ovelhas.-.DbDSbRaRssu.mp4",
+        "sha256": "b05bfb53fdbff919e0ff0991bcfef80965557b5a642ffe7eea0b3f33ddf36689",
+        "tamanho_bytes": 21490243
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",

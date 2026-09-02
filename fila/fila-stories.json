@@ -296,22 +296,22 @@
       ]
     },
     {
-      "id": "story-20260909-521060f5da",
+      "id": "story-20260909-b05bfb53fd",
       "data": "2026-09-09",
       "horario": "09:00",
       "status": "pendente",
       "origem": {
-        "arquivo": "100 - Quanto as ovelhas, temos sempre o professor.mp4",
-        "sha256": "521060f5dacf3591119b22a3f094550a10ae94a3b9c6d37d827929a6d110a073"
+        "arquivo": "100 - Quantas ovelhas - DbDSbRaRssu.mp4",
+        "sha256": "b05bfb53fdbff919e0ff0991bcfef80965557b5a642ffe7eea0b3f33ddf36689"
       },
       "partes": [
         {
           "ordem": 1,
           "midia": {
-            "asset": "100.-.Quanto.as.ovelhas.temos.sempre.o.professor-parte-01.mp4",
-            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/100.-.Quanto.as.ovelhas.temos.sempre.o.professor-parte-01.mp4",
-            "sha256": "d67ab68f131ef9ed7a2159b18ee41fffd07e01eff29997ae63d106b185649993",
-            "tamanho_bytes": 6711228,
+            "asset": "100.-.Quantas.ovelhas.-.DbDSbRaRssu-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/100.-.Quantas.ovelhas.-.DbDSbRaRssu-parte-01.mp4",
+            "sha256": "4376906feff89ce078afc67161dbd62278804d4e235723d7250351b2c57d3474",
+            "tamanho_bytes": 6705738,
             "duracao_segundos": 34.0
           },
           "instagram": {
@@ -324,10 +324,10 @@
         {
           "ordem": 2,
           "midia": {
-            "asset": "100.-.Quanto.as.ovelhas.temos.sempre.o.professor-parte-02.mp4",
-            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/100.-.Quanto.as.ovelhas.temos.sempre.o.professor-parte-02.mp4",
-            "sha256": "cf9ad1fa846bfa9c3d70115fdc1500ecb654a6afe003dad10b2861872c6d5227",
-            "tamanho_bytes": 5938375,
+            "asset": "100.-.Quantas.ovelhas.-.DbDSbRaRssu-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/100.-.Quantas.ovelhas.-.DbDSbRaRssu-parte-02.mp4",
+            "sha256": "9939bbb4a6910a2cbc985b188e6d44dd9b838716fcd66a2b976dd94a7037899c",
+            "tamanho_bytes": 5919117,
             "duracao_segundos": 34.0
           },
           "instagram": {
