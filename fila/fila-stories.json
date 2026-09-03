@@ -62,7 +62,7 @@
       "id": "story-20260903-432f589743",
       "data": "2026-09-03",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "03 - Jesus quer o seu coração.mp4",
         "sha256": "432f5897436e422935ccb38d8db56292fa524495c7d31c689c57edb25aaa131a"
@@ -75,13 +75,18 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/03.-.Jesus.quer.o.seu.coracao-parte-01.mp4",
             "sha256": "a5c6ed18ed4596d0d7b1f605cdc9680546f8973da4d1a796ce186651cc3061c0",
             "tamanho_bytes": 8986180,
-            "duracao_segundos": 41.32
+            "duracao_segundos": 41.32,
+            "removido_da_release_em": "2026-09-03T12:31:24.701928-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18092564564429259",
+            "publicado_em": "2026-09-03T12:29:13.982968-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1729015038353572",
+            "publicado_em": "2026-09-03T12:29:24.692652-03:00"
           }
         },
         {
@@ -91,16 +96,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/03.-.Jesus.quer.o.seu.coracao-parte-02.mp4",
             "sha256": "25b4fe05868530ebb4dd5ecd950c2ad9145e26372bb326d12eb9b8b78160bbf8",
             "tamanho_bytes": 8843462,
-            "duracao_segundos": 41.32
+            "duracao_segundos": 41.32,
+            "removido_da_release_em": "2026-09-03T12:31:25.022620-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18084083714674678",
+            "publicado_em": "2026-09-03T12:30:07.206569-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1448722893767270",
+            "publicado_em": "2026-09-03T12:30:18.817072-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-03T12:30:18.817101-03:00"
     },
     {
       "id": "story-20260904-f60a0acfd7",
