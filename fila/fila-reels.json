@@ -67,7 +67,7 @@
       "id": "reel-20260902-2100-f60a0acfd7",
       "data": "2026-09-02",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "04 - Jesus continua amando você.mp4",
         "sha256": "f60a0acfd7b006df3668a3fa75e793900a04539559ecc83f217749f84f1a2915"
@@ -76,16 +76,22 @@
         "asset": "04.-.Jesus.continua.amando.voce.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/04.-.Jesus.continua.amando.voce.mp4",
         "sha256": "f60a0acfd7b006df3668a3fa75e793900a04539559ecc83f217749f84f1a2915",
-        "tamanho_bytes": 24268772
+        "tamanho_bytes": 24268772,
+        "removido_da_release_em": "2026-09-02T22:43:39.955868-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "17894532063398802",
+        "publicado_em": "2026-09-02T22:43:20.182012-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "1064174203017799",
+        "publicado_em": "2026-09-02T22:43:39.201412-03:00"
+      },
+      "concluido_em": "2026-09-02T22:43:39.201434-03:00"
     },
     {
       "id": "reel-20260903-0900-62cd8dbd80",
