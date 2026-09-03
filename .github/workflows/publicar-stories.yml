@@ -4,6 +4,8 @@ on:
   schedule:
     # 09:00 em Brasília (UTC-3).
     - cron: "0 12 * * *"
+    # Retentativa idempotente: só publica se o item das 09:00 ainda estiver pendente.
+    - cron: "15 12 * * *"
   workflow_dispatch:
     inputs:
       data_publicacao:
@@ -27,6 +29,13 @@ jobs:
           python-version: "3.11"
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Definir escopo manual quando solicitado
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.data_publicacao != '' }}
+        env:
+          DATA_MANUAL: ${{ inputs.data_publicacao }}
+        run: |
+          echo "DATA_PUBLICACAO=$DATA_MANUAL" >> "$GITHUB_ENV"
+          echo "HORARIO_PUBLICACAO=09:00" >> "$GITHUB_ENV"
       - name: Publicar pacote de Stories
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
@@ -35,7 +44,6 @@ jobs:
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           MEDIA_CACHE_DIR: ${{ runner.temp }}/midias
-          DATA_PUBLICACAO: ${{ inputs.data_publicacao }}
         run: python publicar_stories.py
       - name: Publicar Reel das 09:00
         env:
@@ -45,8 +53,6 @@ jobs:
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           MEDIA_CACHE_DIR: ${{ runner.temp }}/midias
-          DATA_PUBLICACAO: ${{ inputs.data_publicacao }}
-          HORARIO_PUBLICACAO: "09:00"
         run: python publicar.py
       - name: Remover partes temporárias já publicadas
         if: always()
