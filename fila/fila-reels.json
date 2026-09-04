@@ -127,7 +127,7 @@
       "id": "reel-20260903-2100-600ac50f18",
       "data": "2026-09-03",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "06 - Pare e ouça as palavras de Jesus.mp4",
         "sha256": "600ac50f187ddea556a29e3e3c1a29933c854f4679ec01481a25f73b9ac4e8a5"
@@ -136,16 +136,22 @@
         "asset": "06.-.Pare.e.ouca.as.palavras.de.Jesus.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/06.-.Pare.e.ouca.as.palavras.de.Jesus.mp4",
         "sha256": "600ac50f187ddea556a29e3e3c1a29933c854f4679ec01481a25f73b9ac4e8a5",
-        "tamanho_bytes": 20665322
+        "tamanho_bytes": 20665322,
+        "removido_da_release_em": "2026-09-03T22:37:34.038446-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18078358850702686",
+        "publicado_em": "2026-09-03T22:37:18.877222-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "1388582046721880",
+        "publicado_em": "2026-09-03T22:37:33.155913-03:00"
+      },
+      "concluido_em": "2026-09-03T22:37:33.155934-03:00"
     },
     {
       "id": "reel-20260904-0900-8872fedf0d",
