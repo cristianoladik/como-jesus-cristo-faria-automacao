@@ -157,7 +157,7 @@
       "id": "reel-20260904-0900-8872fedf0d",
       "data": "2026-09-04",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "07 - Jesus vê você.mp4",
         "sha256": "8872fedf0de9d53fa47a8dab8fc97fe12fb1a2b1495c7a85a90224b0a5990854"
@@ -166,16 +166,22 @@
         "asset": "07.-.Jesus.ve.voce.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/07.-.Jesus.ve.voce.mp4",
         "sha256": "8872fedf0de9d53fa47a8dab8fc97fe12fb1a2b1495c7a85a90224b0a5990854",
-        "tamanho_bytes": 21695054
+        "tamanho_bytes": 21695054,
+        "removido_da_release_em": "2026-09-04T12:53:55.499766-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18153375061511823",
+        "publicado_em": "2026-09-04T12:53:35.097259-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "1712135606751684",
+        "publicado_em": "2026-09-04T12:53:52.833487-03:00"
+      },
+      "concluido_em": "2026-09-04T12:53:52.833509-03:00"
     },
     {
       "id": "reel-20260904-2100-4245616378",

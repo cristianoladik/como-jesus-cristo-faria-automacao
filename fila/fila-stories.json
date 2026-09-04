@@ -117,7 +117,7 @@
       "id": "story-20260904-f60a0acfd7",
       "data": "2026-09-04",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "04 - Jesus continua amando você.mp4",
         "sha256": "f60a0acfd7b006df3668a3fa75e793900a04539559ecc83f217749f84f1a2915"
@@ -130,13 +130,18 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/04.-.Jesus.continua.amando.voce-parte-01.mp4",
             "sha256": "2e761c1c32b6230b9c34be98d55c3909fd6ad0e62ce79756b76ac47a016a88e5",
             "tamanho_bytes": 7767413,
-            "duracao_segundos": 34.32
+            "duracao_segundos": 34.32,
+            "removido_da_release_em": "2026-09-04T12:53:53.976133-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "17942946369340466",
+            "publicado_em": "2026-09-04T12:51:03.622553-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "4558226211121094",
+            "publicado_em": "2026-09-04T12:51:18.263900-03:00"
           }
         },
         {
@@ -146,16 +151,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/04.-.Jesus.continua.amando.voce-parte-02.mp4",
             "sha256": "0747612f19b024dd9f19087a356494db3cef51264a0ac7f03f1088b1ffbadaf2",
             "tamanho_bytes": 6332826,
-            "duracao_segundos": 34.32
+            "duracao_segundos": 34.32,
+            "removido_da_release_em": "2026-09-04T12:53:54.352681-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "17956990587219314",
+            "publicado_em": "2026-09-04T12:52:01.237161-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1060777483396434",
+            "publicado_em": "2026-09-04T12:52:16.028717-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-04T12:52:16.028743-03:00"
     },
     {
       "id": "story-20260905-62cd8dbd80",
