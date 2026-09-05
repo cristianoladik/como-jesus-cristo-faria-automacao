@@ -217,7 +217,7 @@
       "id": "reel-20260905-0900-575941810b",
       "data": "2026-09-05",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "100 - Quantas ovelhas - DbDSbRaRssu-86605cf45d.mp4",
         "sha256": "575941810bf4627f60ff595e9e2b58fd6b8e62fecea8995027111922050a01f0"
@@ -226,16 +226,22 @@
         "asset": "100.-.Quantas.ovelhas.-.DbDSbRaRssu-86605cf45d.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/100.-.Quantas.ovelhas.-.DbDSbRaRssu-86605cf45d.mp4",
         "sha256": "575941810bf4627f60ff595e9e2b58fd6b8e62fecea8995027111922050a01f0",
-        "tamanho_bytes": 21501926
+        "tamanho_bytes": 21501926,
+        "removido_da_release_em": "2026-09-05T09:03:35.538119-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18165111727415960",
+        "publicado_em": "2026-09-05T09:03:20.809524-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "1725113788713265",
+        "publicado_em": "2026-09-05T09:03:32.629243-03:00"
+      },
+      "concluido_em": "2026-09-05T09:03:32.629265-03:00"
     },
     {
       "id": "reel-20260905-2100-80714b3d5b",

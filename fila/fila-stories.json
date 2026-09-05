@@ -172,7 +172,7 @@
       "id": "story-20260905-62cd8dbd80",
       "data": "2026-09-05",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "05 - Jesus viu você debaixo da figueira.mp4",
         "sha256": "62cd8dbd8045c6041cb58a345b41b94b49dc7edda48fa3448f2328958720bedf"
@@ -185,13 +185,18 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/05.-.Jesus.viu.voce.debaixo.da.figueira-parte-01.mp4",
             "sha256": "c90b3c981440f978dac9d27af5d19b85230af16e878ae888f2e8fc241b1fbae9",
             "tamanho_bytes": 6691253,
-            "duracao_segundos": 44.28
+            "duracao_segundos": 44.28,
+            "removido_da_release_em": "2026-09-05T09:03:33.779155-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18071317682472675",
+            "publicado_em": "2026-09-05T09:01:10.889140-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1637938907881070",
+            "publicado_em": "2026-09-05T09:01:24.578911-03:00"
           }
         },
         {
@@ -201,16 +206,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/05.-.Jesus.viu.voce.debaixo.da.figueira-parte-02.mp4",
             "sha256": "fb14150d28289cb72b7a7f2ec31a123e1f64f6434f4f9e666292d8fa378a3bab",
             "tamanho_bytes": 6913025,
-            "duracao_segundos": 44.28
+            "duracao_segundos": 44.28,
+            "removido_da_release_em": "2026-09-05T09:03:34.315319-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "17974004349130501",
+            "publicado_em": "2026-09-05T09:02:04.727689-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1476467044526254",
+            "publicado_em": "2026-09-05T09:02:16.027401-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-05T09:02:16.027422-03:00"
     },
     {
       "id": "story-20260906-600ac50f18",
