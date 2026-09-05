@@ -187,7 +187,7 @@
       "id": "reel-20260904-2100-4245616378",
       "data": "2026-09-04",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "10 - Em quem está a sua fé.mp4",
         "sha256": "4245616378853ae5148271414c26bef896666adf0009543849b7ebc757f8aa6c"
@@ -196,16 +196,22 @@
         "asset": "10.-.Em.quem.esta.a.sua.fe.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/10.-.Em.quem.esta.a.sua.fe.mp4",
         "sha256": "4245616378853ae5148271414c26bef896666adf0009543849b7ebc757f8aa6c",
-        "tamanho_bytes": 13195717
+        "tamanho_bytes": 13195717,
+        "removido_da_release_em": "2026-09-04T21:02:00.817455-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18107825744602444",
+        "publicado_em": "2026-09-04T21:01:44.269064-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "2036929393856793",
+        "publicado_em": "2026-09-04T21:01:59.639305-03:00"
+      },
+      "concluido_em": "2026-09-04T21:01:59.639327-03:00"
     },
     {
       "id": "reel-20260905-0900-575941810b",
