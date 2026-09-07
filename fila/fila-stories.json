@@ -282,7 +282,7 @@
       "id": "story-20260907-8872fedf0d",
       "data": "2026-09-07",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "07 - Jesus vê você.mp4",
         "sha256": "8872fedf0de9d53fa47a8dab8fc97fe12fb1a2b1495c7a85a90224b0a5990854"
@@ -295,13 +295,18 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/07.-.Jesus.ve.voce-parte-01.mp4",
             "sha256": "ce1e483225522388a09ca400995c5614da38320e264e3a666c5e656e4483a5e2",
             "tamanho_bytes": 6391738,
-            "duracao_segundos": 40.44
+            "duracao_segundos": 40.44,
+            "removido_da_release_em": "2026-09-07T09:03:43.807552-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18107799854140482",
+            "publicado_em": "2026-09-07T09:01:13.081037-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1327381315941434",
+            "publicado_em": "2026-09-07T09:01:30.540698-03:00"
           }
         },
         {
@@ -311,16 +316,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/07.-.Jesus.ve.voce-parte-02.mp4",
             "sha256": "df9c9d1f8bec53df447605afa88dcd701d4e3a32ea5546a0159c9ab6c9716243",
             "tamanho_bytes": 6815526,
-            "duracao_segundos": 40.415
+            "duracao_segundos": 40.415,
+            "removido_da_release_em": "2026-09-07T09:03:44.175533-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18115446307981923",
+            "publicado_em": "2026-09-07T09:02:06.674128-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "2271228523670201",
+            "publicado_em": "2026-09-07T09:02:23.073249-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-07T09:02:23.073275-03:00"
     },
     {
       "id": "story-20260908-4245616378",

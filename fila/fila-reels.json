@@ -337,7 +337,7 @@
       "id": "reel-20260907-0900-ac5832dddd",
       "data": "2026-09-07",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "104 - Ah, que bela bandeja - Da8xnnaxf10-13c6ab14b0.mp4",
         "sha256": "ac5832dddd23f1f2e223d1ae95ce063d2138a1a9726035207fef33e875adb014"
@@ -346,16 +346,22 @@
         "asset": "104.-.Ah.que.bela.bandeja.-.Da8xnnaxf10-13c6ab14b0.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/104.-.Ah.que.bela.bandeja.-.Da8xnnaxf10-13c6ab14b0.mp4",
         "sha256": "ac5832dddd23f1f2e223d1ae95ce063d2138a1a9726035207fef33e875adb014",
-        "tamanho_bytes": 26035683
+        "tamanho_bytes": 26035683,
+        "removido_da_release_em": "2026-09-07T09:03:45.217522-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18422425819195869",
+        "publicado_em": "2026-09-07T09:03:23.418347-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "1368490275010545",
+        "publicado_em": "2026-09-07T09:03:42.896627-03:00"
+      },
+      "concluido_em": "2026-09-07T09:03:42.896652-03:00"
     },
     {
       "id": "reel-20260907-2100-c26dea0444",
