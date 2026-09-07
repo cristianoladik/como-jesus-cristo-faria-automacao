@@ -307,7 +307,7 @@
       "id": "reel-20260906-2100-9e838a658a",
       "data": "2026-09-06",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "103 - Quem tocou em mim - Da-yrzyRdne-eeb577f825.mp4",
         "sha256": "9e838a658a083ae2062e8ea328c7949cdd4ef449d0e03fa9a9963da8483bee0e"
@@ -316,16 +316,22 @@
         "asset": "103.-.Quem.tocou.em.mim.-.Da-yrzyRdne-eeb577f825.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/103.-.Quem.tocou.em.mim.-.Da-yrzyRdne-eeb577f825.mp4",
         "sha256": "9e838a658a083ae2062e8ea328c7949cdd4ef449d0e03fa9a9963da8483bee0e",
-        "tamanho_bytes": 25355219
+        "tamanho_bytes": 25355219,
+        "removido_da_release_em": "2026-09-06T21:01:42.791576-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18105248581903732",
+        "publicado_em": "2026-09-06T21:01:28.033706-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "1516294260519777",
+        "publicado_em": "2026-09-06T21:01:41.709903-03:00"
+      },
+      "concluido_em": "2026-09-06T21:01:41.709924-03:00"
     },
     {
       "id": "reel-20260907-0900-ac5832dddd",
