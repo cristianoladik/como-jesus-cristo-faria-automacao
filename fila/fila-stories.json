@@ -337,7 +337,7 @@
       "id": "story-20260908-4245616378",
       "data": "2026-09-08",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "10 - Em quem está a sua fé.mp4",
         "sha256": "4245616378853ae5148271414c26bef896666adf0009543849b7ebc757f8aa6c"
@@ -350,16 +350,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/10.-.Em.quem.esta.a.sua.fe-parte-01.mp4",
             "sha256": "46b15c01fffa882ec4444b25da7d53c7b1d3d8f16e4174b8036a58add103c792",
             "tamanho_bytes": 7998129,
-            "duracao_segundos": 53.52
+            "duracao_segundos": 53.52,
+            "removido_da_release_em": "2026-09-08T09:02:07.166426-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18151570663525058",
+            "publicado_em": "2026-09-08T09:01:12.781511-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "2017136245628722",
+            "publicado_em": "2026-09-08T09:01:23.487140-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-08T09:01:23.487168-03:00"
     },
     {
       "id": "story-20260909-575941810b",
