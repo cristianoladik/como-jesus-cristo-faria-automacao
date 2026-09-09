@@ -427,7 +427,7 @@
       "id": "reel-20260908-2100-786cd7df76",
       "data": "2026-09-08",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "109 - Você é o Cristo, o filho do Deus vivo - Da2bxojRCW8-75ed14580e.mp4",
         "sha256": "786cd7df76525a431baf5941bd5b4f4a999e0cbc75eb63c3cafa1800a58a0b07"
@@ -436,16 +436,22 @@
         "asset": "109.-.Voce.e.o.Cristo.o.filho.do.Deus.vivo.-.Da2bxojRCW8-75ed14580e.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/109.-.Voce.e.o.Cristo.o.filho.do.Deus.vivo.-.Da2bxojRCW8-75ed14580e.mp4",
         "sha256": "786cd7df76525a431baf5941bd5b4f4a999e0cbc75eb63c3cafa1800a58a0b07",
-        "tamanho_bytes": 23127188
+        "tamanho_bytes": 23127188,
+        "removido_da_release_em": "2026-09-08T21:01:31.108739-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18112270256085214",
+        "publicado_em": "2026-09-08T21:01:15.016455-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "4672410063004594",
+        "publicado_em": "2026-09-08T21:01:29.994448-03:00"
+      },
+      "concluido_em": "2026-09-08T21:01:29.994469-03:00"
     },
     {
       "id": "reel-20260909-0900-617f1445e7",
