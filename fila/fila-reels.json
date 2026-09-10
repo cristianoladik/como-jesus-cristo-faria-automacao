@@ -501,8 +501,8 @@
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
         "status": "erro",
-        "erro": "Instagram não processou o Reel: {'status_code': 'ERROR', 'status': 'Error: Media upload has failed with error code 2207076', 'id': '18097443110159481'}",
-        "ultima_tentativa_em": "2026-09-09T22:43:00.612248-03:00"
+        "erro": "Instagram não processou o Reel: {'status_code': 'ERROR', 'status': 'Error: Media upload has failed with error code 2207076', 'id': '18097667615159481'}",
+        "ultima_tentativa_em": "2026-09-10T13:21:57.993322-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",

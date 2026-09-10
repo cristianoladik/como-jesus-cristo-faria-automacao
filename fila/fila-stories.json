@@ -426,7 +426,7 @@
       "id": "story-20260910-80714b3d5b",
       "data": "2026-09-10",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "101 - Uma mensagem para o seu coração - DbB3lTqpgms-49ab28e970.mp4",
         "sha256": "80714b3d5bfae8d53ff7650a971ceaf185ecd22fc347c665a8ad6432ef297cc1"
@@ -439,12 +439,14 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/101.-.Uma.mensagem.para.o.seu.coracao.-.DbB3lTqpgms-49ab28e970-parte-01.mp4",
             "sha256": "3d79229142c04026c99545ba3b410cf0a4e9138b609e49a2fb7c0b5c07876339",
             "tamanho_bytes": 9391218,
-            "duracao_segundos": 54.498
+            "duracao_segundos": 54.498,
+            "removido_da_release_em": "2026-09-10T13:21:59.007061-03:00"
           },
           "instagram": {
-            "status": "erro",
-            "erro": "Instagram não processou o Reel: {'status_code': 'ERROR', 'status': 'Error: Media upload has failed with error code 2207076', 'id': '18097659821159481'}",
-            "ultima_tentativa_em": "2026-09-10T12:54:19.232605-03:00"
+            "status": "publicado",
+            "ultima_tentativa_em": "2026-09-10T12:54:19.232605-03:00",
+            "id": "17907766965541548",
+            "publicado_em": "2026-09-10T13:21:43.430433-03:00"
           },
           "facebook": {
             "status": "publicado",
@@ -452,7 +454,8 @@
             "publicado_em": "2026-09-10T09:00:58.628723-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-10T13:21:43.430458-03:00"
     },
     {
       "id": "story-20260911-ae2b509214",
