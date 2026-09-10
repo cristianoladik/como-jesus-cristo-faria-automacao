@@ -443,8 +443,8 @@
           },
           "instagram": {
             "status": "erro",
-            "erro": "Instagram não processou o Reel: {'status_code': 'ERROR', 'status': 'Error: Media upload has failed with error code 2207076', 'id': '18097585472159481'}",
-            "ultima_tentativa_em": "2026-09-10T09:00:40.788320-03:00"
+            "erro": "Instagram não processou o Reel: {'status_code': 'ERROR', 'status': 'Error: Media upload has failed with error code 2207076', 'id': '18097659821159481'}",
+            "ultima_tentativa_em": "2026-09-10T12:54:19.232605-03:00"
           },
           "facebook": {
             "status": "publicado",
