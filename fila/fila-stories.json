@@ -442,10 +442,14 @@
             "duracao_segundos": 54.498
           },
           "instagram": {
-            "status": "pendente"
+            "status": "erro",
+            "erro": "Instagram não processou o Reel: {'status_code': 'ERROR', 'status': 'Error: Media upload has failed with error code 2207076', 'id': '18097585472159481'}",
+            "ultima_tentativa_em": "2026-09-10T09:00:40.788320-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "28384464577852873",
+            "publicado_em": "2026-09-10T09:00:58.628723-03:00"
           }
         }
       ]
