@@ -10,7 +10,7 @@ from pathlib import Path
 
 import requests
 
-from publicar import BRT, PLATAFORMAS, aguardar_instagram, baixar_midia, graph_get, graph_post, obrigatoria
+from publicar import BRT, MAX_TENTATIVAS, PLATAFORMAS, aguardar_instagram, baixar_midia, graph_get, graph_post, obrigatoria
 
 ROOT = Path(__file__).resolve().parent
 FILA_FILE = ROOT / "fila" / "fila-stories.json"
@@ -71,38 +71,89 @@ def executar(parte: dict, plataforma: str, funcao) -> None:
         print(f"ERRO {plataforma}, parte {parte['ordem']}: {erro}")
 
 
-def proximo_pacote(fila: dict) -> dict | None:
+def pacotes_devidos(fila: dict) -> list[dict]:
+    """Devolve os pacotes já vencidos, do mais antigo para o mais novo.
+
+    Pacotes ``concluido`` e ``pulado`` ficam de fora, para que um vídeo recusado
+    pelo Instagram não segure os dias seguintes.
+    """
     data_forcada = os.getenv("DATA_PUBLICACAO", "").strip()
     if data_forcada:
         encontrados = [x for x in fila.get("pacotes", []) if x["data"] == data_forcada and x.get("status") != "concluido"]
         if len(encontrados) > 1:
             raise RuntimeError("A fila tem mais de um pacote de Stories para esta data.")
-        return encontrados[0] if encontrados else None
+        return encontrados[:1]
     agora = datetime.now(BRT)
     devidos = []
     for pacote in fila.get("pacotes", []):
-        if pacote.get("status") == "concluido":
+        if pacote.get("status") in ("concluido", "pulado"):
             continue
         agendado = datetime.fromisoformat(f"{pacote['data']}T{pacote.get('horario', '09:00')}:00").replace(tzinfo=BRT)
         if agendado <= agora:
             devidos.append((agendado, pacote))
-    return min(devidos, key=lambda par: par[0])[1] if devidos else None
+    return [pacote for _, pacote in sorted(devidos, key=lambda par: par[0])]
 
 
-def main() -> None:
-    fila = json.loads(FILA_FILE.read_text(encoding="utf-8"))
-    pacote = proximo_pacote(fila)
-    if not pacote:
-        print("Nenhum pacote de Stories pendente e devido para publicação.")
-        return
+def publicar_pacote(pacote: dict) -> bool:
+    """Publica as partes na ordem. Devolve False assim que uma parte falha.
+
+    A ordem das partes é o próprio conteúdo do Story, então uma parte que falha
+    interrompe o pacote inteiro. Quem pula é o pacote, nunca uma parte do meio.
+    """
     for parte in sorted(pacote["partes"], key=lambda x: x["ordem"]):
         executar(parte, "instagram", publicar_instagram)
         executar(parte, "facebook", publicar_facebook)
         if any(parte[p].get("status") == "erro" for p in PLATAFORMAS):
-            salvar_fila(fila)
-            raise SystemExit(1)
-    pacote.update({"status": "concluido", "concluido_em": datetime.now(BRT).isoformat()})
+            return False
+    return True
+
+
+def registrar_falha(pacote: dict) -> None:
+    """Conta a tentativa do pacote e o aposenta quando esgota o limite."""
+    tentativas = int(pacote.get("tentativas", 0)) + 1
+    pacote["tentativas"] = tentativas
+    motivos = [
+        parte[p].get("erro")
+        for parte in pacote["partes"] for p in PLATAFORMAS
+        if parte[p].get("status") == "erro"
+    ]
+    if tentativas >= MAX_TENTATIVAS:
+        pacote.update({
+            "status": "pulado",
+            "pulado_em": datetime.now(BRT).isoformat(),
+            "motivo_pulado": f"Falhou {tentativas} vezes seguidas: {motivos[0] if motivos else 'erro desconhecido'}",
+        })
+        print(f"PULADO em definitivo ({tentativas} tentativas): pacote de {pacote['data']}")
+    else:
+        print(f"Falhou (tentativa {tentativas} de {MAX_TENTATIVAS}); seguindo para o próximo pacote.")
+
+
+def main() -> None:
+    fila = json.loads(FILA_FILE.read_text(encoding="utf-8"))
+    devidos = pacotes_devidos(fila)
+    if not devidos:
+        print("Nenhum pacote de Stories pendente e devido para publicação.")
+        return
+    print(f"{len(devidos)} pacote(s) de Stories vencido(s) na fila.")
+    publicado = None
+    falhados = []
+    for pacote in devidos:
+        print(f"Tentando pacote de {pacote['data']} ({len(pacote['partes'])} parte(s))")
+        if publicar_pacote(pacote):
+            pacote.update({"status": "concluido", "concluido_em": datetime.now(BRT).isoformat()})
+            pacote.pop("tentativas", None)
+            publicado = pacote
+            break
+        registrar_falha(pacote)
+        falhados.append(pacote)
     salvar_fila(fila)
+    if publicado:
+        print(f"PUBLICADO: pacote de {publicado['data']}")
+        if falhados:
+            print(f"{len(falhados)} pacote(s) foram pulados antes de chegar nele.")
+        return
+    print(f"Nenhum dos {len(devidos)} pacote(s) vencido(s) pôde ser publicado nesta execução.")
+    raise SystemExit(1)
 
 
 if __name__ == "__main__":

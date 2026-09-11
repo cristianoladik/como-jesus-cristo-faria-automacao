@@ -21,6 +21,7 @@ FILA_FILE = ROOT / "fila" / "fila-reels.json"
 BRT = timezone(timedelta(hours=-3))
 GRAPH_BASE = f"https://graph.facebook.com/{os.getenv('META_GRAPH_VERSION', 'v23.0')}"
 PLATAFORMAS = ("instagram", "facebook")
+MAX_TENTATIVAS = int(os.getenv("MAX_TENTATIVAS", "3"))
 
 
 def obrigatoria(nome: str) -> str:
@@ -145,7 +146,12 @@ def executar(item: dict, plataforma: str, funcao) -> None:
         print(f"ERRO {plataforma}: {erro}")
 
 
-def proximo_item(fila: dict) -> dict | None:
+def itens_devidos(fila: dict) -> list[dict]:
+    """Devolve os Reels já vencidos, do mais antigo para o mais novo.
+
+    Itens ``concluido`` e ``pulado`` ficam de fora: o primeiro já saiu, o segundo
+    esgotou as tentativas e não pode travar a fila de quem vem depois.
+    """
     data_forcada = os.getenv("DATA_PUBLICACAO", "").strip()
     horario_forcado = os.getenv("HORARIO_PUBLICACAO", "").strip()
     if bool(data_forcada) != bool(horario_forcado):
@@ -155,31 +161,62 @@ def proximo_item(fila: dict) -> dict | None:
         encontrados = [x for x in conteudos if x["data"] == data_forcada and x["horario"] == horario_forcado and x.get("status") != "concluido"]
         if len(encontrados) > 1:
             raise RuntimeError("A fila tem mais de um Reel para esta data e horário.")
-        return encontrados[0] if encontrados else None
+        return encontrados[:1]
     agora = datetime.now(BRT)
     devidos = []
     for item in conteudos:
-        if item.get("status") == "concluido":
+        if item.get("status") in ("concluido", "pulado"):
             continue
         agendado = datetime.fromisoformat(f"{item['data']}T{item['horario']}:00").replace(tzinfo=BRT)
         if agendado <= agora:
             devidos.append((agendado, item))
-    return min(devidos, key=lambda par: par[0])[1] if devidos else None
+    return [item for _, item in sorted(devidos, key=lambda par: par[0])]
+
+
+def registrar_falha(item: dict) -> None:
+    """Conta a tentativa e aposenta o item quando ele esgota o limite."""
+    tentativas = int(item.get("tentativas", 0)) + 1
+    item["tentativas"] = tentativas
+    motivos = [item[p].get("erro") for p in PLATAFORMAS if item[p].get("status") == "erro"]
+    if tentativas >= MAX_TENTATIVAS:
+        item.update({
+            "status": "pulado",
+            "pulado_em": datetime.now(BRT).isoformat(),
+            "motivo_pulado": f"Falhou {tentativas} vezes seguidas: {motivos[0] if motivos else 'erro desconhecido'}",
+        })
+        print(f"PULADO em definitivo ({tentativas} tentativas): {item['data']} {item['horario']} — {item.get('titulo', item['id'])}")
+    else:
+        print(f"Falhou (tentativa {tentativas} de {MAX_TENTATIVAS}); seguindo para o próximo da fila.")
 
 
 def main() -> None:
     fila = json.loads(FILA_FILE.read_text(encoding="utf-8"))
-    item = proximo_item(fila)
-    if not item:
+    devidos = itens_devidos(fila)
+    if not devidos:
         print("Nenhum Reel pendente e devido para publicação.")
         return
-    executar(item, "instagram", publicar_instagram)
-    executar(item, "facebook", publicar_facebook)
-    if all(item[p].get("status") == "publicado" for p in PLATAFORMAS):
-        item.update({"status": "concluido", "concluido_em": datetime.now(BRT).isoformat()})
+    print(f"{len(devidos)} Reel(s) vencido(s) na fila.")
+    publicado = None
+    falhados = []
+    for item in devidos:
+        print(f"Tentando {item['data']} {item['horario']} — {item.get('titulo', item['id'])}")
+        executar(item, "instagram", publicar_instagram)
+        executar(item, "facebook", publicar_facebook)
+        if all(item[p].get("status") == "publicado" for p in PLATAFORMAS):
+            item.update({"status": "concluido", "concluido_em": datetime.now(BRT).isoformat()})
+            item.pop("tentativas", None)
+            publicado = item
+            break
+        registrar_falha(item)
+        falhados.append(item)
     salvar_fila(fila)
-    if any(item[p].get("status") == "erro" for p in PLATAFORMAS):
-        raise SystemExit(1)
+    if publicado:
+        print(f"PUBLICADO: {publicado['data']} {publicado['horario']} — {publicado.get('titulo', publicado['id'])}")
+        if falhados:
+            print(f"{len(falhados)} item(ns) foram pulados antes de chegar nele.")
+        return
+    print(f"Nenhum dos {len(devidos)} Reel(s) vencido(s) pôde ser publicado nesta execução.")
+    raise SystemExit(1)
 
 
 if __name__ == "__main__":
