@@ -461,7 +461,7 @@
       "id": "story-20260911-ae2b509214",
       "data": "2026-09-11",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "102 - Na verdade, eu te digo que aquele que não nascer da água e do Espírito não pode entrar no reino de Deus - DbAtKWZRxrj-d3dffaecdc.mp4",
         "sha256": "ae2b5092148660c1b30e9b9c04970fe27510cc2f97182879f9fdfc8a95faf957"
@@ -474,13 +474,18 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/102.-.Na.verdade.eu.te.digo.que.aquele.que.nao.nascer.da.agua.e.do.Espirito.nao.pode.entrar.no.reino.de.Deus.-.DbAtKWZRxrj-d3dffaecdc-parte-01.mp4",
             "sha256": "f98c08f3c1760f6955afead2786a3dffb98db24ee8e11080c3102b46be34379e",
             "tamanho_bytes": 5943351,
-            "duracao_segundos": 43.16
+            "duracao_segundos": 43.16,
+            "removido_da_release_em": "2026-09-11T09:03:48.680548-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18131037052661296",
+            "publicado_em": "2026-09-11T09:01:14.836380-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1402537942023464",
+            "publicado_em": "2026-09-11T09:01:27.494792-03:00"
           }
         },
         {
@@ -490,16 +495,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/102.-.Na.verdade.eu.te.digo.que.aquele.que.nao.nascer.da.agua.e.do.Espirito.nao.pode.entrar.no.reino.de.Deus.-.DbAtKWZRxrj-d3dffaecdc-parte-02.mp4",
             "sha256": "9d9117de22665780482f6f31b8e3d709085adfd3d7428b8cb238df1f6ee9759c",
             "tamanho_bytes": 6724943,
-            "duracao_segundos": 43.16
+            "duracao_segundos": 43.16,
+            "removido_da_release_em": "2026-09-11T09:03:49.036186-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "17880334884529842",
+            "publicado_em": "2026-09-11T09:02:36.544834-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1388004182848477",
+            "publicado_em": "2026-09-11T09:02:50.497928-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-11T09:02:50.497958-03:00"
     },
     {
       "id": "story-20260912-9e838a658a",

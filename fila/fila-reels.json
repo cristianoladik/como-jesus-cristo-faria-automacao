@@ -548,7 +548,7 @@
       "id": "reel-20260910-2100-23e231016d",
       "data": "2026-09-10",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "115 - Que seus corações não se perturbem - DauuWzux_GW-aff9e3c6de.mp4",
         "sha256": "23e231016d3cf65a3120164d78d4955959fabd6a9e0edb027cb4161e158fa089"
@@ -557,16 +557,22 @@
         "asset": "115.-.Que.seus.coracoes.nao.se.perturbem.-.DauuWzux_GW-aff9e3c6de.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/115.-.Que.seus.coracoes.nao.se.perturbem.-.DauuWzux_GW-aff9e3c6de.mp4",
         "sha256": "23e231016d3cf65a3120164d78d4955959fabd6a9e0edb027cb4161e158fa089",
-        "tamanho_bytes": 5462372
+        "tamanho_bytes": 5462372,
+        "removido_da_release_em": "2026-09-11T09:03:50.130845-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "17879896149689822",
+        "publicado_em": "2026-09-11T09:03:36.995517-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "4480159432195572",
+        "publicado_em": "2026-09-11T09:03:47.685618-03:00"
+      },
+      "concluido_em": "2026-09-11T09:03:47.685646-03:00"
     },
     {
       "id": "reel-20260911-0900-4d1e68fe22",
