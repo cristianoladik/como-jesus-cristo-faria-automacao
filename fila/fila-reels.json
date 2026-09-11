@@ -518,7 +518,7 @@
       "id": "reel-20260910-0900-259d6503af",
       "data": "2026-09-10",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "114 - Vão entregar vocês para serem perseguidos e condenados à morte - Dav3PIbpoIC-3268b8a221.mp4",
         "sha256": "259d6503af4fb51fffc0965569797a956ab21b1ffd4c630439abb952a4d2db1e"
@@ -527,16 +527,22 @@
         "asset": "114.-.Vao.entregar.voces.para.serem.perseguidos.e.condenados.a.morte.-.Dav3PIbpoIC-3268b8a221.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/114.-.Vao.entregar.voces.para.serem.perseguidos.e.condenados.a.morte.-.Dav3PIbpoIC-3268b8a221.mp4",
         "sha256": "259d6503af4fb51fffc0965569797a956ab21b1ffd4c630439abb952a4d2db1e",
-        "tamanho_bytes": 13677791
+        "tamanho_bytes": 13677791,
+        "removido_da_release_em": "2026-09-11T08:51:28.780442-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18124518412885879",
+        "publicado_em": "2026-09-11T08:51:14.653436-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "1593370015650463",
+        "publicado_em": "2026-09-11T08:51:27.603444-03:00"
+      },
+      "concluido_em": "2026-09-11T08:51:27.603469-03:00"
     },
     {
       "id": "reel-20260910-2100-23e231016d",
