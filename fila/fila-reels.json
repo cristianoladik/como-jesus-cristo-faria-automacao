@@ -487,7 +487,7 @@
       "id": "reel-20260909-2100-95c8665e32",
       "data": "2026-09-09",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "113 - Eu não vim para chamar os justos, mas os pecadores - DaxRQN-xWpp-567a4a9039.mp4",
         "sha256": "95c8665e32fbc67ab596c0786ef5c51b6c17633ec2df7f7a7a3186db5b28b41e"
@@ -496,20 +496,23 @@
         "asset": "113.-.Eu.nao.vim.para.chamar.os.justos.mas.os.pecadores.-.DaxRQN-xWpp-567a4a9039.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/113.-.Eu.nao.vim.para.chamar.os.justos.mas.os.pecadores.-.DaxRQN-xWpp-567a4a9039.mp4",
         "sha256": "95c8665e32fbc67ab596c0786ef5c51b6c17633ec2df7f7a7a3186db5b28b41e",
-        "tamanho_bytes": 15376325
+        "tamanho_bytes": 15376325,
+        "removido_da_release_em": "2026-09-10T22:43:42.983192-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "erro",
-        "erro": "Meta HTTP 500: {\"error\":{\"message\":\"An unexpected error has occurred. Please retry your request later.\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\":2,\"fbtrace_id\":\"AUruTfAnKgdzwurcXAD52Es\"}}",
-        "ultima_tentativa_em": "2026-09-10T21:01:34.880690-03:00"
+        "status": "publicado",
+        "ultima_tentativa_em": "2026-09-10T21:01:34.880690-03:00",
+        "id": "18217410655342515",
+        "publicado_em": "2026-09-10T22:43:41.839841-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
         "status": "publicado",
         "id": "1072616075521579",
         "publicado_em": "2026-09-09T21:00:49.572852-03:00"
-      }
+      },
+      "concluido_em": "2026-09-10T22:43:41.839863-03:00"
     },
     {
       "id": "reel-20260910-0900-259d6503af",
