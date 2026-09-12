@@ -3015,6 +3015,534 @@
         "legenda": "Siga @como_jesuscristo_faria.",
         "status": "pendente"
       }
+    },
+    {
+      "id": "reel-20261031-2100-cd7c0fa167",
+      "data": "2026-10-31",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0002 - Uma mensagem para o seu coração - DaC74MWRxfN-49ab28e970.mp4",
+        "sha256": "cd7c0fa167d64f4480777be49ef7971ac87870817077f35d6062bf71228ce9c5"
+      },
+      "midia": {
+        "asset": "0002.-.Uma.mensagem.para.o.seu.coracao.-.DaC74MWRxfN-49ab28e970.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0002.-.Uma.mensagem.para.o.seu.coracao.-.DaC74MWRxfN-49ab28e970.mp4",
+        "sha256": "cd7c0fa167d64f4480777be49ef7971ac87870817077f35d6062bf71228ce9c5",
+        "tamanho_bytes": 37556563
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261101-0900-42b62cbd32",
+      "data": "2026-11-01",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0003 - Uma mensagem para o seu coração 259.mp4",
+        "sha256": "42b62cbd325e12b3c911349c254fbc7cef1273931075686074517d54a32a4542"
+      },
+      "midia": {
+        "asset": "0003.-.Uma.mensagem.para.o.seu.coracao.259.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0003.-.Uma.mensagem.para.o.seu.coracao.259.mp4",
+        "sha256": "42b62cbd325e12b3c911349c254fbc7cef1273931075686074517d54a32a4542",
+        "tamanho_bytes": 39820753
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261101-2100-9f8b6f2bb8",
+      "data": "2026-11-01",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0004 - Bom dia - DaSZ7XDxea7-b51add27c1.mp4",
+        "sha256": "9f8b6f2bb8c4bb92af72a04983e0e1eccc1bf72f86060407494166bf03e42bcb"
+      },
+      "midia": {
+        "asset": "0004.-.Bom.dia.-.DaSZ7XDxea7-b51add27c1.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0004.-.Bom.dia.-.DaSZ7XDxea7-b51add27c1.mp4",
+        "sha256": "9f8b6f2bb8c4bb92af72a04983e0e1eccc1bf72f86060407494166bf03e42bcb",
+        "tamanho_bytes": 42647639
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261102-0900-54b56bcf68",
+      "data": "2026-11-02",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0005 - Você quer ser curado - DaFfRmKBe53-d3c1797fbb.mp4",
+        "sha256": "54b56bcf68d9b2ff57a36397eb192ea47d074c399853597054bd5460bf2e7805"
+      },
+      "midia": {
+        "asset": "0005.-.Voce.quer.ser.curado.-.DaFfRmKBe53-d3c1797fbb.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0005.-.Voce.quer.ser.curado.-.DaFfRmKBe53-d3c1797fbb.mp4",
+        "sha256": "54b56bcf68d9b2ff57a36397eb192ea47d074c399853597054bd5460bf2e7805",
+        "tamanho_bytes": 30399522
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261102-2100-71968a547d",
+      "data": "2026-11-02",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0006 - Uma mensagem para o seu coração 165.mp4",
+        "sha256": "71968a547d57a0e572c0cdff0583d1f8dcd1ebb8949eaf95fdb3a65b11f081e8"
+      },
+      "midia": {
+        "asset": "0006.-.Uma.mensagem.para.o.seu.coracao.165.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0006.-.Uma.mensagem.para.o.seu.coracao.165.mp4",
+        "sha256": "71968a547d57a0e572c0cdff0583d1f8dcd1ebb8949eaf95fdb3a65b11f081e8",
+        "tamanho_bytes": 33906330
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261103-0900-9b7d7aa43b",
+      "data": "2026-11-03",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0008 - Uma mensagem para o seu coração 244.mp4",
+        "sha256": "9b7d7aa43bb5510d88b08761f65c9e15ad89cebf49638276f189f6f2b814e308"
+      },
+      "midia": {
+        "asset": "0008.-.Uma.mensagem.para.o.seu.coracao.244.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0008.-.Uma.mensagem.para.o.seu.coracao.244.mp4",
+        "sha256": "9b7d7aa43bb5510d88b08761f65c9e15ad89cebf49638276f189f6f2b814e308",
+        "tamanho_bytes": 15272620
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261103-2100-b20ddbc6d4",
+      "data": "2026-11-03",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0009 - Você é o Cristo, o Filho do Deus Vivo - DclGqxhRjeM-122654ba9c.mp4",
+        "sha256": "b20ddbc6d4f0706a8ec68e6ab5dc025cf1b31f3dde654ad85a6fdd0055c7eb9d"
+      },
+      "midia": {
+        "asset": "0009.-.Voce.e.o.Cristo.o.Filho.do.Deus.Vivo.-.DclGqxhRjeM-122654ba9c.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0009.-.Voce.e.o.Cristo.o.Filho.do.Deus.Vivo.-.DclGqxhRjeM-122654ba9c.mp4",
+        "sha256": "b20ddbc6d4f0706a8ec68e6ab5dc025cf1b31f3dde654ad85a6fdd0055c7eb9d",
+        "tamanho_bytes": 29515579
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261104-0900-0ba5de3fc7",
+      "data": "2026-11-04",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0010 - Uma mensagem para o seu coração - DcihfsHx_9X-49ab28e970.mp4",
+        "sha256": "0ba5de3fc74cdf3a651b37d42d65ae6bf922224fec986772ec0d57c756d5c0f5"
+      },
+      "midia": {
+        "asset": "0010.-.Uma.mensagem.para.o.seu.coracao.-.DcihfsHx_9X-49ab28e970.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0010.-.Uma.mensagem.para.o.seu.coracao.-.DcihfsHx_9X-49ab28e970.mp4",
+        "sha256": "0ba5de3fc74cdf3a651b37d42d65ae6bf922224fec986772ec0d57c756d5c0f5",
+        "tamanho_bytes": 24766013
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261104-2100-adc58a949a",
+      "data": "2026-11-04",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0011 - Você quer que as coisas sejam justas - DSlH0UEkeWv-e289faff19.mp4",
+        "sha256": "adc58a949a8ff83a858ef9eb6472abb1e0a82c37cc29189e4d29408778425d1a"
+      },
+      "midia": {
+        "asset": "0011.-.Voce.quer.que.as.coisas.sejam.justas.-.DSlH0UEkeWv-e289faff19.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0011.-.Voce.quer.que.as.coisas.sejam.justas.-.DSlH0UEkeWv-e289faff19.mp4",
+        "sha256": "adc58a949a8ff83a858ef9eb6472abb1e0a82c37cc29189e4d29408778425d1a",
+        "tamanho_bytes": 15658384
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261105-0900-43d93ef698",
+      "data": "2026-11-05",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0012 - Uma mensagem para o seu coração - DcZdQXFpRay-49ab28e970.mp4",
+        "sha256": "43d93ef6987335563e98774d13d0028f6886e42efc06fdc14d43dddc29e048b0"
+      },
+      "midia": {
+        "asset": "0012.-.Uma.mensagem.para.o.seu.coracao.-.DcZdQXFpRay-49ab28e970.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0012.-.Uma.mensagem.para.o.seu.coracao.-.DcZdQXFpRay-49ab28e970.mp4",
+        "sha256": "43d93ef6987335563e98774d13d0028f6886e42efc06fdc14d43dddc29e048b0",
+        "tamanho_bytes": 21052488
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261105-2100-5f61590792",
+      "data": "2026-11-05",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0013 - Bem-aventurados os pobres em espírito, pois deles é o reino dos céus - DQsJ16REfXV-92b61aae52.mp4",
+        "sha256": "5f61590792b85179e6a8b674fd2c4027136c7a26c9ce471d95499f0bfb27a263"
+      },
+      "midia": {
+        "asset": "0013.-.Bem-aventurados.os.pobres.em.espirito.pois.deles.e.o.reino.dos.ceus.-.DQsJ16REfXV-92b61aae52.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0013.-.Bem-aventurados.os.pobres.em.espirito.pois.deles.e.o.reino.dos.ceus.-.DQsJ16REfXV-92b61aae52.mp4",
+        "sha256": "5f61590792b85179e6a8b674fd2c4027136c7a26c9ce471d95499f0bfb27a263",
+        "tamanho_bytes": 36556254
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261106-0900-fb43737671",
+      "data": "2026-11-06",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0014 - Quem tocou em mim - DcTFO1lxGol-eeb577f825.mp4",
+        "sha256": "fb437376715a297ac7be1f5a6ccb9eb76b39f590dc5a8ed439a73e3a524c774a"
+      },
+      "midia": {
+        "asset": "0014.-.Quem.tocou.em.mim.-.DcTFO1lxGol-eeb577f825.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0014.-.Quem.tocou.em.mim.-.DcTFO1lxGol-eeb577f825.mp4",
+        "sha256": "fb437376715a297ac7be1f5a6ccb9eb76b39f590dc5a8ed439a73e3a524c774a",
+        "tamanho_bytes": 24190548
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261106-2100-65c4209aee",
+      "data": "2026-11-06",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0015 - Há quanto tempo aquele homem está aqui.mp4",
+        "sha256": "65c4209aeed658c1cd37f6da89de772327604838d17d9e949a09c73ee9ea736a"
+      },
+      "midia": {
+        "asset": "0015.-.Ha.quanto.tempo.aquele.homem.esta.aqui.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0015.-.Ha.quanto.tempo.aquele.homem.esta.aqui.mp4",
+        "sha256": "65c4209aeed658c1cd37f6da89de772327604838d17d9e949a09c73ee9ea736a",
+        "tamanho_bytes": 38955682
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261107-0900-c7640625fb",
+      "data": "2026-11-07",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0016 - E se eu não fizer essa coisa grande que você imaginou que eu deveria fazer agora.mp4",
+        "sha256": "c7640625fbe659591801dfee47324a032281eadf5340a2404c4e02bfbd3f7a5e"
+      },
+      "midia": {
+        "asset": "0016.-.E.se.eu.nao.fizer.essa.coisa.grande.que.voce.imaginou.que.eu.deveria.fazer.agora.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0016.-.E.se.eu.nao.fizer.essa.coisa.grande.que.voce.imaginou.que.eu.deveria.fazer.agora.mp4",
+        "sha256": "c7640625fbe659591801dfee47324a032281eadf5340a2404c4e02bfbd3f7a5e",
+        "tamanho_bytes": 63825765
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261107-2100-4b75e93518",
+      "data": "2026-11-07",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0017 - Ele morreu por mim.mp4",
+        "sha256": "4b75e93518e6c5b87821884eabd2be8066a002aa722d1ce58f9442d6760bccff"
+      },
+      "midia": {
+        "asset": "0017.-.Ele.morreu.por.mim.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0017.-.Ele.morreu.por.mim.mp4",
+        "sha256": "4b75e93518e6c5b87821884eabd2be8066a002aa722d1ce58f9442d6760bccff",
+        "tamanho_bytes": 30157736
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261108-0900-55f94a6264",
+      "data": "2026-11-08",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0018 - É um leproso. Para trás.mp4",
+        "sha256": "55f94a6264577f1df23be3138c511f779f5088670394e147927658a9c756d9e6"
+      },
+      "midia": {
+        "asset": "0018.-.E.um.leproso.Para.tras.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0018.-.E.um.leproso.Para.tras.mp4",
+        "sha256": "55f94a6264577f1df23be3138c511f779f5088670394e147927658a9c756d9e6",
+        "tamanho_bytes": 77729189
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261108-2100-56adabb4a7",
+      "data": "2026-11-08",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0019 - Ah, qual é a graça.mp4",
+        "sha256": "56adabb4a7c522aca14247ac388ba7c30b36450f1ac512f9098a8da3607c6273"
+      },
+      "midia": {
+        "asset": "0019.-.Ah.qual.e.a.graca.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0019.-.Ah.qual.e.a.graca.mp4",
+        "sha256": "56adabb4a7c522aca14247ac388ba7c30b36450f1ac512f9098a8da3607c6273",
+        "tamanho_bytes": 62764719
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261109-0900-5011c8ee0f",
+      "data": "2026-11-09",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0020 - Eu devo admitir que estou intrigado com a sua presa.mp4",
+        "sha256": "5011c8ee0fbcdf26254842a17521ffe92c57df4b3a5e8a5d61f4c6888e676424"
+      },
+      "midia": {
+        "asset": "0020.-.Eu.devo.admitir.que.estou.intrigado.com.a.sua.presa.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0020.-.Eu.devo.admitir.que.estou.intrigado.com.a.sua.presa.mp4",
+        "sha256": "5011c8ee0fbcdf26254842a17521ffe92c57df4b3a5e8a5d61f4c6888e676424",
+        "tamanho_bytes": 32092590
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261109-2100-f177ab8182",
+      "data": "2026-11-09",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0021 - Thiaguinho, o que aconteceu.mp4",
+        "sha256": "f177ab8182c1fe2defc765f15d83c15a0abf5d2b31a0f18d9a3ed8516dd2c946"
+      },
+      "midia": {
+        "asset": "0021.-.Thiaguinho.o.que.aconteceu.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0021.-.Thiaguinho.o.que.aconteceu.mp4",
+        "sha256": "f177ab8182c1fe2defc765f15d83c15a0abf5d2b31a0f18d9a3ed8516dd2c946",
+        "tamanho_bytes": 34226475
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261110-0900-38a001f633",
+      "data": "2026-11-10",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0022 - O que está acontecendo.mp4",
+        "sha256": "38a001f6336075b302ea950f2ea3b42657adff0f09df88716e2cd04e2d011828"
+      },
+      "midia": {
+        "asset": "0022.-.O.que.esta.acontecendo.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0022.-.O.que.esta.acontecendo.mp4",
+        "sha256": "38a001f6336075b302ea950f2ea3b42657adff0f09df88716e2cd04e2d011828",
+        "tamanho_bytes": 60631978
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261110-2100-820248df8d",
+      "data": "2026-11-10",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0023 - ENTENDER COMO JESUS CRISTO PENSA É O SEGREDO.mp4",
+        "sha256": "820248df8defd7b1a1853a2387776f8ee9402defe15b1523a27a8fb89418396f"
+      },
+      "midia": {
+        "asset": "0023.-.ENTENDER.COMO.JESUS.CRISTO.PENSA.E.O.SEGREDO.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0023.-.ENTENDER.COMO.JESUS.CRISTO.PENSA.E.O.SEGREDO.mp4",
+        "sha256": "820248df8defd7b1a1853a2387776f8ee9402defe15b1523a27a8fb89418396f",
+        "tamanho_bytes": 30626212
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261111-0900-04329083af",
+      "data": "2026-11-11",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0024 - E se eu não fizer essa coisa grande que você imaginou que eu deveria fazer agora, ainda vai acreditar - Db562s2xCPX-d881b7163b.mp4",
+        "sha256": "04329083af41cb74097463425be20625ee8fa5cf9a6213009d9a22b4b21118fe"
+      },
+      "midia": {
+        "asset": "0024.-.E.se.eu.nao.fizer.essa.coisa.grande.que.voce.imaginou.que.eu.deveria.fazer.agora.ainda.vai.acreditar.-.Db562s2xCPX-d881b7163b.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0024.-.E.se.eu.nao.fizer.essa.coisa.grande.que.voce.imaginou.que.eu.deveria.fazer.agora.ainda.vai.acreditar.-.Db562s2xCPX-d881b7163b.mp4",
+        "sha256": "04329083af41cb74097463425be20625ee8fa5cf9a6213009d9a22b4b21118fe",
+        "tamanho_bytes": 32655395
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
     }
   ],
   "estoque_alvo_dias": 60
