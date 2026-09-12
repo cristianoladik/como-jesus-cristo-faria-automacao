@@ -608,7 +608,7 @@
       "id": "reel-20260911-2100-91bd3f80ac",
       "data": "2026-09-11",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "117 - As coisas vão mudar, mas fica perto de mim enquanto elas mudam - DasG2mPhrjF-7769239928.mp4",
         "sha256": "91bd3f80ac38414c702d3b896bb5711b7cc819834fdbc5672446d108f03c84c9"
@@ -617,16 +617,22 @@
         "asset": "117.-.As.coisas.vao.mudar.mas.fica.perto.de.mim.enquanto.elas.mudam.-.DasG2mPhrjF-7769239928.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/117.-.As.coisas.vao.mudar.mas.fica.perto.de.mim.enquanto.elas.mudam.-.DasG2mPhrjF-7769239928.mp4",
         "sha256": "91bd3f80ac38414c702d3b896bb5711b7cc819834fdbc5672446d108f03c84c9",
-        "tamanho_bytes": 6195179
+        "tamanho_bytes": 6195179,
+        "removido_da_release_em": "2026-09-11T21:01:13.917447-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18097623008324271",
+        "publicado_em": "2026-09-11T21:01:00.260447-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "1686542173256026",
+        "publicado_em": "2026-09-11T21:01:13.077578-03:00"
+      },
+      "concluido_em": "2026-09-11T21:01:13.077603-03:00"
     },
     {
       "id": "reel-20260912-0900-7d8ad61c3c",
