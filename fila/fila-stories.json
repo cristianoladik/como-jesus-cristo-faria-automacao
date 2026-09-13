@@ -571,7 +571,7 @@
       "id": "story-20260913-ac5832dddd",
       "data": "2026-09-13",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "104 - Ah, que bela bandeja - Da8xnnaxf10-13c6ab14b0.mp4",
         "sha256": "ac5832dddd23f1f2e223d1ae95ce063d2138a1a9726035207fef33e875adb014"
@@ -584,13 +584,18 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/104.-.Ah.que.bela.bandeja.-.Da8xnnaxf10-13c6ab14b0-parte-01.mp4",
             "sha256": "67c023042f7900e8922b8cad750e0cbb7f5c568f364fea00ef49acdb55aa5c69",
             "tamanho_bytes": 7009511,
-            "duracao_segundos": 40.36
+            "duracao_segundos": 40.36,
+            "removido_da_release_em": "2026-09-13T09:04:10.652922-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18174502540445837",
+            "publicado_em": "2026-09-13T09:01:13.479687-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1406147355036411",
+            "publicado_em": "2026-09-13T09:01:29.164424-03:00"
           }
         },
         {
@@ -600,16 +605,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/104.-.Ah.que.bela.bandeja.-.Da8xnnaxf10-13c6ab14b0-parte-02.mp4",
             "sha256": "2e677c5308cf7002fb749566ac86a558d628bb0a2884d2cae8fdd0894c187ce9",
             "tamanho_bytes": 7887496,
-            "duracao_segundos": 40.322
+            "duracao_segundos": 40.322,
+            "removido_da_release_em": "2026-09-13T09:04:11.033448-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18110363573107246",
+            "publicado_em": "2026-09-13T09:02:11.796439-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1098406319213496",
+            "publicado_em": "2026-09-13T09:02:25.574318-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-13T09:02:25.574342-03:00"
     },
     {
       "id": "story-20260914-c26dea0444",

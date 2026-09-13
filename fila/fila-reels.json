@@ -698,7 +698,7 @@
       "id": "reel-20260913-0900-1cae30f6ec",
       "data": "2026-09-13",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "12 - Jesus encontra você no meio da sua dor.mp4",
         "sha256": "1cae30f6ecbeea9847e7cd2185d639c8e4d8c2496a5b9c2914b21cd115aa6219"
@@ -707,16 +707,22 @@
         "asset": "12.-.Jesus.encontra.voce.no.meio.da.sua.dor.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/12.-.Jesus.encontra.voce.no.meio.da.sua.dor.mp4",
         "sha256": "1cae30f6ecbeea9847e7cd2185d639c8e4d8c2496a5b9c2914b21cd115aa6219",
-        "tamanho_bytes": 38304651
+        "tamanho_bytes": 38304651,
+        "removido_da_release_em": "2026-09-13T09:04:12.131834-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18176992111430592",
+        "publicado_em": "2026-09-13T09:03:54.509363-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "2183938205800416",
+        "publicado_em": "2026-09-13T09:04:09.538133-03:00"
+      },
+      "concluido_em": "2026-09-13T09:04:09.538154-03:00"
     },
     {
       "id": "reel-20260913-2100-75a1696944",
