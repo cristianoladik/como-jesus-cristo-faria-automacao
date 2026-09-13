@@ -12,6 +12,10 @@ import requests
 
 from publicar import BRT, MAX_TENTATIVAS, PLATAFORMAS, aguardar_instagram, baixar_midia, graph_get, graph_post, obrigatoria
 
+# Mesma divisão de trabalho dos Reels: o conferidor só avisa sobre pacote ruim e
+# quem recusa é aqui, na escolha do pacote do dia (incidente de 12/09/2026).
+from validar_filas_release import defeito_do_story
+
 ROOT = Path(__file__).resolve().parent
 FILA_FILE = ROOT / "fila" / "fila-stories.json"
 
@@ -76,12 +80,20 @@ def pacotes_devidos(fila: dict) -> list[dict]:
 
     Pacotes ``concluido`` e ``pulado`` ficam de fora, para que um vídeo recusado
     pelo Instagram não segure os dias seguintes.
+
+    Pacote com defeito também é recusado aqui. No disparo manual, que mira um dia
+    só, a execução falha; na rodada automática só aquele pacote é recusado e o
+    laço segue para o próximo dia vencido.
     """
     data_forcada = os.getenv("DATA_PUBLICACAO", "").strip()
     if data_forcada:
         encontrados = [x for x in fila.get("pacotes", []) if x["data"] == data_forcada and x.get("status") != "concluido"]
         if len(encontrados) > 1:
             raise RuntimeError("A fila tem mais de um pacote de Stories para esta data.")
+        for pacote in encontrados:
+            defeito = defeito_do_story(pacote, str(pacote.get("id", "")))
+            if defeito:
+                raise SystemExit(f"Story do slot recusado por defeito: {defeito}")
         return encontrados[:1]
     agora = datetime.now(BRT)
     devidos = []
@@ -89,8 +101,13 @@ def pacotes_devidos(fila: dict) -> list[dict]:
         if pacote.get("status") in ("concluido", "pulado"):
             continue
         agendado = datetime.fromisoformat(f"{pacote['data']}T{pacote.get('horario', '09:00')}:00").replace(tzinfo=BRT)
-        if agendado <= agora:
-            devidos.append((agendado, pacote))
+        if agendado > agora:
+            continue
+        defeito = defeito_do_story(pacote, str(pacote.get("id", "")))
+        if defeito:
+            print(f"Story do slot recusado por defeito: {defeito}")
+            continue
+        devidos.append((agendado, pacote))
     return [pacote for _, pacote in sorted(devidos, key=lambda par: par[0])]
 
 

@@ -16,6 +16,13 @@ from pathlib import Path
 
 import requests
 
+# O conferidor da fila agora só AVISA sobre item ruim, para um vídeo errado lá no
+# fim da fila não calar o canal inteiro (incidente de 12/09/2026). Quem barra o
+# item ruim é aqui, na hora de escolher o vídeo do horário. A conferência usada
+# aqui é offline, só com os campos da fila: o runner não pode depender do gh nem
+# de rede para decidir se o vídeo presta.
+from validar_filas_release import defeito_do_reel
+
 ROOT = Path(__file__).resolve().parent
 FILA_FILE = ROOT / "fila" / "fila-reels.json"
 BRT = timezone(timedelta(hours=-3))
@@ -151,6 +158,11 @@ def itens_devidos(fila: dict) -> list[dict]:
 
     Itens ``concluido`` e ``pulado`` ficam de fora: o primeiro já saiu, o segundo
     esgotou as tentativas e não pode travar a fila de quem vem depois.
+
+    Item com defeito também fica de fora, recusado aqui mesmo. No disparo manual,
+    que mira um horário só, a execução falha; na rodada automática, que varre
+    todos os vencidos, só aquele item é recusado e o laço segue para o próximo,
+    senão um vídeo ruim calaria o canal inteiro de novo.
     """
     data_forcada = os.getenv("DATA_PUBLICACAO", "").strip()
     horario_forcado = os.getenv("HORARIO_PUBLICACAO", "").strip()
@@ -161,6 +173,10 @@ def itens_devidos(fila: dict) -> list[dict]:
         encontrados = [x for x in conteudos if x["data"] == data_forcada and x["horario"] == horario_forcado and x.get("status") != "concluido"]
         if len(encontrados) > 1:
             raise RuntimeError("A fila tem mais de um Reel para esta data e horário.")
+        for item in encontrados:
+            defeito = defeito_do_reel(item, str(item.get("id", "")))
+            if defeito:
+                raise SystemExit(f"Reel do slot recusado por defeito: {defeito}")
         return encontrados[:1]
     agora = datetime.now(BRT)
     devidos = []
@@ -168,8 +184,13 @@ def itens_devidos(fila: dict) -> list[dict]:
         if item.get("status") in ("concluido", "pulado"):
             continue
         agendado = datetime.fromisoformat(f"{item['data']}T{item['horario']}:00").replace(tzinfo=BRT)
-        if agendado <= agora:
-            devidos.append((agendado, item))
+        if agendado > agora:
+            continue
+        defeito = defeito_do_reel(item, str(item.get("id", "")))
+        if defeito:
+            print(f"Reel do slot recusado por defeito: {defeito}")
+            continue
+        devidos.append((agendado, item))
     return [item for _, item in sorted(devidos, key=lambda par: par[0])]
 
 
