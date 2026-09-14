@@ -758,7 +758,7 @@
       "id": "reel-20260914-0900-584f616a8d",
       "data": "2026-09-14",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "124 - Tirem a pedra - DajJYTCs_1r-c5e9ddce75.mp4",
         "sha256": "584f616a8d6ad9b1aa118a8772c16120d3fc35e5e128d9a90866a760ba9b5d48"
@@ -767,16 +767,22 @@
         "asset": "124.-.Tirem.a.pedra.-.DajJYTCs_1r-c5e9ddce75.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/124.-.Tirem.a.pedra.-.DajJYTCs_1r-c5e9ddce75.mp4",
         "sha256": "584f616a8d6ad9b1aa118a8772c16120d3fc35e5e128d9a90866a760ba9b5d48",
-        "tamanho_bytes": 20466814
+        "tamanho_bytes": 20466814,
+        "removido_da_release_em": "2026-09-14T09:03:33.373885-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18112055849033047",
+        "publicado_em": "2026-09-14T09:03:15.686386-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "1361038239113285",
+        "publicado_em": "2026-09-14T09:03:31.497551-03:00"
+      },
+      "concluido_em": "2026-09-14T09:03:31.497573-03:00"
     },
     {
       "id": "reel-20260914-2100-7f7069068a",
