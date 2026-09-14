@@ -3609,6 +3609,30 @@
         "legenda": "Siga @como_jesuscristo_faria.",
         "status": "pendente"
       }
+    },
+    {
+      "id": "reel-20261112-2100-5bb7e27e9e",
+      "data": "2026-11-12",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0027 - ENTENDER COMO JESUS CRISTO PENSA É O SEGREDO.mp4",
+        "sha256": "5bb7e27e9ed86761b8b87065631dddc9dd4bb34d86cd61be85406dbbb6d4ef5a"
+      },
+      "midia": {
+        "asset": "0027---ENTENDER-COMO-JESUS-CRISTO-PENSA-O-SEGREDO.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0027---ENTENDER-COMO-JESUS-CRISTO-PENSA-O-SEGREDO.mp4",
+        "sha256": "5bb7e27e9ed86761b8b87065631dddc9dd4bb34d86cd61be85406dbbb6d4ef5a",
+        "tamanho_bytes": 35974358
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
     }
   ],
   "estoque_alvo_dias": 60
