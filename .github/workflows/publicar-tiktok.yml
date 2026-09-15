@@ -1,0 +1,62 @@
+name: Publicar TikTok
+
+on:
+  schedule:
+    # 09:00 e 21:00 em Brasília (UTC-3).
+    - cron: "0 12 * * *"
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+    inputs:
+      data_publicacao:
+        description: "Data do vídeo (AAAA-MM-DD); vazio usa os vencidos"
+        required: false
+        type: string
+      horario_publicacao:
+        description: "Horário (09:00 ou 21:00)"
+        required: false
+        type: string
+
+concurrency:
+  group: publicacao-tiktok
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Publicar no TikTok
+        env:
+          # TIKTOK_ATIVO fica em NAO ate o TikTok aprovar o app (sem auditoria
+          # so publica em conta privada). Ligar em Settings > Variables.
+          TIKTOK_ATIVO: ${{ vars.TIKTOK_ATIVO }}
+          TIKTOK_PRIVACIDADE: ${{ vars.TIKTOK_PRIVACIDADE }}
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+          MEDIA_CACHE_DIR: ${{ runner.temp }}/midias
+          DATA_PUBLICACAO: ${{ inputs.data_publicacao }}
+          HORARIO_PUBLICACAO: ${{ inputs.horario_publicacao }}
+        run: python publicar_tiktok.py
+      - name: Remover mídia temporária já publicada
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          RELEASE_TAG: fila-tiktok
+        run: python limpar_release.py --fila fila/fila-tiktok.json
+      - name: Salvar resultado
+        if: always()
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add fila/fila-tiktok.json
+          git diff --staged --quiet || git commit -m "chore: atualizar tiktok $(date +%F)"
+          git push
