@@ -681,7 +681,7 @@
       "id": "story-20260915-9622bddad1",
       "data": "2026-09-15",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "107 - Uma mensagem para o seu coração - Da5BBpbRuWk-49ab28e970.mp4",
         "sha256": "9622bddad1a4a41f6b9ba430260caf4dcaba2d457dcc4f8a2a8238ba70abee85"
@@ -694,16 +694,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/107.-.Uma.mensagem.para.o.seu.coracao.-.Da5BBpbRuWk-49ab28e970-parte-01.mp4",
             "sha256": "eeaf517d9286f7571e2d5a6002193d4cc4924c6a3f7b89a27bfbb43fba199b1a",
             "tamanho_bytes": 7375078,
-            "duracao_segundos": 51.24
+            "duracao_segundos": 51.24,
+            "removido_da_release_em": "2026-09-15T09:02:33.622628-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18380958391236430",
+            "publicado_em": "2026-09-15T09:01:10.367025-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "2481909815553841",
+            "publicado_em": "2026-09-15T09:01:26.520282-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-15T09:01:26.520308-03:00"
     },
     {
       "id": "story-20260916-786cd7df76",
