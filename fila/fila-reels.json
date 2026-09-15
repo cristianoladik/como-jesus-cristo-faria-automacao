@@ -788,7 +788,7 @@
       "id": "reel-20260914-2100-7f7069068a",
       "data": "2026-09-14",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "125 - Pois nem mesmo o filho do homem veio para ser servido, mas para servir e dar a sua vida em resgate por muitos - Dah0TnIRIj6-474e4c25ff.mp4",
         "sha256": "7f7069068ae82c6a7cc6e5504c3d429a96f68120aeb7faa6ac979c3d16c7d0ea"
@@ -797,16 +797,22 @@
         "asset": "125.-.Pois.nem.mesmo.o.filho.do.homem.veio.para.ser.servido.mas.para.servir.e.dar.a.sua.vida.em.resgate.por.muitos.-.Dah0TnIRIj6-474e4c25ff.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/125.-.Pois.nem.mesmo.o.filho.do.homem.veio.para.ser.servido.mas.para.servir.e.dar.a.sua.vida.em.resgate.por.muitos.-.Dah0TnIRIj6-474e4c25ff.mp4",
         "sha256": "7f7069068ae82c6a7cc6e5504c3d429a96f68120aeb7faa6ac979c3d16c7d0ea",
-        "tamanho_bytes": 11335740
+        "tamanho_bytes": 11335740,
+        "removido_da_release_em": "2026-09-14T21:01:29.947012-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18165554347466996",
+        "publicado_em": "2026-09-14T21:01:10.337966-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "1077753768319803",
+        "publicado_em": "2026-09-14T21:01:29.170881-03:00"
+      },
+      "concluido_em": "2026-09-14T21:01:29.170904-03:00"
     },
     {
       "id": "reel-20260915-0900-859836f423",
