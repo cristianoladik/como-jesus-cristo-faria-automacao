@@ -3645,6 +3645,54 @@
         "legenda": "Siga @como_jesuscristo_faria.",
         "status": "pendente"
       }
+    },
+    {
+      "id": "reel-20261113-0900-a48be20e02",
+      "data": "2026-11-13",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0028 - ENTENDER COMO JESUS CRISTO PENSA É O SEGREDO.mp4",
+        "sha256": "a48be20e026cb03150029f95f603fcd0620e4406fd518520451b0ee15e0fa4b6"
+      },
+      "midia": {
+        "asset": "0028---ENTENDER-COMO-JESUS-CRISTO-PENSA-O-SEGREDO.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0028---ENTENDER-COMO-JESUS-CRISTO-PENSA-O-SEGREDO.mp4",
+        "sha256": "a48be20e026cb03150029f95f603fcd0620e4406fd518520451b0ee15e0fa4b6",
+        "tamanho_bytes": 18575120
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261113-2100-fb851174a3",
+      "data": "2026-11-13",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0051 - Se estiver disposto, Mestre, sei que você pode.mp4",
+        "sha256": "fb851174a3beb13d371b72baee229fd950bf76ee360616c4b15661837e9005f8"
+      },
+      "midia": {
+        "asset": "0051---Se-estiver-disposto-Mestre-sei-que-voc-pode.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0051---Se-estiver-disposto-Mestre-sei-que-voc-pode.mp4",
+        "sha256": "fb851174a3beb13d371b72baee229fd950bf76ee360616c4b15661837e9005f8",
+        "tamanho_bytes": 67950251
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
     }
   ],
   "estoque_alvo_dias": 60

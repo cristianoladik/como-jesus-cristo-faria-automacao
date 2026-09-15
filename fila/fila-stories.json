@@ -3108,6 +3108,50 @@
           }
         }
       ]
+    },
+    {
+      "id": "story-20261114-81c2005962",
+      "data": "2026-11-14",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "@sutonn_the chosen 3t 0000112 9：16.mp4",
+        "sha256": "81c20059625744b1721254bd9905666b0825bc4546a4d5ac55ee7d07fade16ca"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "014-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/014-parte-01.mp4",
+            "sha256": "0913c09ba2cba4c98d1a6a682b5b14a45bedad2ac016bfe8a6409d8c5ff01a24",
+            "tamanho_bytes": 13788200,
+            "duracao_segundos": 57.933
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "midia": {
+            "asset": "014-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/014-parte-02.mp4",
+            "sha256": "bced2bee1a31696d00ef0adca66bbf76bf36b21bc3d45280529a5abb25a348ef",
+            "tamanho_bytes": 12455332,
+            "duracao_segundos": 57.91
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
     }
   ],
   "estoque_alvo_dias": 60
