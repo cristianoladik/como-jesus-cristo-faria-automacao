@@ -1,1 +1,9 @@
-<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Autorização TikTok</title><meta name="viewport" content="width=device-width,initial-scale=1"><main><h1>Autorização recebida</h1><p>Você pode retornar ao processo de configuração.</p></main></html>
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Autorização TikTok</title><meta name="viewport" content="width=device-width,initial-scale=1">
+<style>body{font-family:system-ui;max-width:640px;margin:60px auto;padding:0 20px;color:#222}#s{color:#666}</style>
+<main><h1>Autorização recebida</h1><p>Você pode retornar ao processo de configuração.</p><p id="s"></p></main>
+<script>
+// Se o robo local estiver escutando (porta 8791), entrega o codigo pra ele sozinho.
+(async()=>{const q=location.search;if(!q.includes('code='))return;
+try{await fetch('http://127.0.0.1:8791/code'+q,{mode:'no-cors'});document.getElementById('s').textContent='Código entregue ao robô.';}
+catch(e){document.getElementById('s').textContent='Robô local não encontrado; copie a URL desta página.';}})();
+</script></html>
