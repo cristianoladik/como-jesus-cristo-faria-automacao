@@ -3705,6 +3705,54 @@
         "legenda": "Siga @como_jesuscristo_faria.",
         "status": "pendente"
       }
+    },
+    {
+      "id": "reel-20261114-0900-df19eddfa5",
+      "data": "2026-11-14",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0052 - O seu amigo, Elão, tem uma mão atrofiada.mp4",
+        "sha256": "df19eddfa5a0dcf04ca480dc61e9a3222ce1fefbb0cfaf88a215b5dffecb048f"
+      },
+      "midia": {
+        "asset": "0052---O-seu-amigo-El-o-tem-uma-m-o-atrofiada.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0052---O-seu-amigo-El-o-tem-uma-m-o-atrofiada.mp4",
+        "sha256": "df19eddfa5a0dcf04ca480dc61e9a3222ce1fefbb0cfaf88a215b5dffecb048f",
+        "tamanho_bytes": 67562315
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261114-2100-9007355a7b",
+      "data": "2026-11-14",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0053 - ENTENDER COMO JESUS CRISTO PENSA É O SEGREDO.mp4",
+        "sha256": "9007355a7baee9fdd9fc0fb19f76942b0f600e135750e4c3c353718203879750"
+      },
+      "midia": {
+        "asset": "0053---ENTENDER-COMO-JESUS-CRISTO-PENSA-O-SEGREDO.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0053---ENTENDER-COMO-JESUS-CRISTO-PENSA-O-SEGREDO.mp4",
+        "sha256": "9007355a7baee9fdd9fc0fb19f76942b0f600e135750e4c3c353718203879750",
+        "tamanho_bytes": 37490731
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
     }
   ],
   "estoque_alvo_dias": 60

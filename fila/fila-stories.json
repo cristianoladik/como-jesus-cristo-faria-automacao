@@ -3158,6 +3158,50 @@
           }
         }
       ]
+    },
+    {
+      "id": "story-20261115-53954535f3",
+      "data": "2026-11-15",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "@sutonn_the chosen 4 temporada 0001992 9：16.mp4",
+        "sha256": "53954535f33adcf376a72bb278f4a93cbd1b90b12f091d709cf784c5565df468"
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "midia": {
+            "asset": "015-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/015-parte-01.mp4",
+            "sha256": "aaa8cdfc8b459853b2136379a58d28aeec1c8fdda365bdd2d29c0617daeb784c",
+            "tamanho_bytes": 12928396,
+            "duracao_segundos": 48.933
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "midia": {
+            "asset": "015-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/015-parte-02.mp4",
+            "sha256": "0d182612369e86c447f20b1fd285678309c83f98ad3493ae3e339fe09b3ca3ac",
+            "tamanho_bytes": 11878043,
+            "duracao_segundos": 48.924
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
     }
   ],
   "estoque_alvo_dias": 60
