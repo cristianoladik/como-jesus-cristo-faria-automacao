@@ -938,7 +938,7 @@
       "id": "reel-20260917-0900-419f2c893c",
       "data": "2026-09-17",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "130 - Eles pedem coisas terrenas, posições de prestígio à minha direita, à minha esquerda, na glória - DabScksBE52-9b12300aae.mp4",
         "sha256": "419f2c893c44beb7ed7403be78ee5fdf373019d8460af7c333831ffa676d2b01"
@@ -947,16 +947,22 @@
         "asset": "130.-.Eles.pedem.coisas.terrenas.posicoes.de.prestigio.a.minha.direita.a.minha.esquerda.na.gloria.-.DabScksBE52-9b12300aae.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/130.-.Eles.pedem.coisas.terrenas.posicoes.de.prestigio.a.minha.direita.a.minha.esquerda.na.gloria.-.DabScksBE52-9b12300aae.mp4",
         "sha256": "419f2c893c44beb7ed7403be78ee5fdf373019d8460af7c333831ffa676d2b01",
-        "tamanho_bytes": 18452450
+        "tamanho_bytes": 18452450,
+        "removido_da_release_em": "2026-09-17T09:03:24.402186-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18111410930165239",
+        "publicado_em": "2026-09-17T09:03:09.358850-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "1790402265727309",
+        "publicado_em": "2026-09-17T09:03:21.946760-03:00"
+      },
+      "concluido_em": "2026-09-17T09:03:21.946785-03:00"
     },
     {
       "id": "reel-20260917-2100-37e2b96399",
