@@ -3765,6 +3765,54 @@
         "legenda": "Siga @como_jesuscristo_faria.",
         "status": "pendente"
       }
+    },
+    {
+      "id": "reel-20261115-0900-2554d70edc",
+      "data": "2026-11-15",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0058 - Coaaan xxx aaas yr.sa.mp4",
+        "sha256": "2554d70edc90f4c4262d9ca36b2974bd6dfede98e63791d688032da4accfed32"
+      },
+      "midia": {
+        "asset": "0058---Coaaan-xxx-aaas-yr.sa.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0058---Coaaan-xxx-aaas-yr.sa.mp4",
+        "sha256": "2554d70edc90f4c4262d9ca36b2974bd6dfede98e63791d688032da4accfed32",
+        "tamanho_bytes": 29403865
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261115-2100-1c287fff9f",
+      "data": "2026-11-15",
+      "horario": "21:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "0059 - ENTENDER COMO JESUS CRISTO PENSA É O SEGREDO.mp4",
+        "sha256": "1c287fff9f71598e6b7764b699d98225caca5330e89f6f262124511627167d16"
+      },
+      "midia": {
+        "asset": "0059---ENTENDER-COMO-JESUS-CRISTO-PENSA-O-SEGREDO.mp4",
+        "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/0059---ENTENDER-COMO-JESUS-CRISTO-PENSA-O-SEGREDO.mp4",
+        "sha256": "1c287fff9f71598e6b7764b699d98225caca5330e89f6f262124511627167d16",
+        "tamanho_bytes": 42804693
+      },
+      "instagram": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "Siga @como_jesuscristo_faria.",
+        "status": "pendente"
+      }
     }
   ],
   "estoque_alvo_dias": 60
