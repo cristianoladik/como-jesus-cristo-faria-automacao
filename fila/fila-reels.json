@@ -908,7 +908,7 @@
       "id": "reel-20260916-2100-876f9fc585",
       "data": "2026-09-16",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "13 - Jesus transforma por dentro e por fora.mp4",
         "sha256": "876f9fc5858ef67396acaa2f45c52d58020bac2c0b865ec66c826e0d142ef60a"
@@ -917,16 +917,22 @@
         "asset": "13.-.Jesus.transforma.por.dentro.e.por.fora.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/13.-.Jesus.transforma.por.dentro.e.por.fora.mp4",
         "sha256": "876f9fc5858ef67396acaa2f45c52d58020bac2c0b865ec66c826e0d142ef60a",
-        "tamanho_bytes": 27425594
+        "tamanho_bytes": 27425594,
+        "removido_da_release_em": "2026-09-16T21:01:32.695303-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18146460946514383",
+        "publicado_em": "2026-09-16T21:01:12.744643-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "1086188400442528",
+        "publicado_em": "2026-09-16T21:01:31.489829-03:00"
+      },
+      "concluido_em": "2026-09-16T21:01:31.489856-03:00"
     },
     {
       "id": "reel-20260917-0900-419f2c893c",
