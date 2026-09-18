@@ -825,7 +825,7 @@
       "id": "story-20260918-95c8665e32",
       "data": "2026-09-18",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "113 - Eu não vim para chamar os justos, mas os pecadores - DaxRQN-xWpp-567a4a9039.mp4",
         "sha256": "95c8665e32fbc67ab596c0786ef5c51b6c17633ec2df7f7a7a3186db5b28b41e"
@@ -838,13 +838,18 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/113.-.Eu.nao.vim.para.chamar.os.justos.mas.os.pecadores.-.DaxRQN-xWpp-567a4a9039-parte-01.mp4",
             "sha256": "9ae685a862183934be3597b22e466d911b2ac993bebd6e642f23cd005b165551",
             "tamanho_bytes": 4651120,
-            "duracao_segundos": 31.96
+            "duracao_segundos": 31.96,
+            "removido_da_release_em": "2026-09-18T09:03:23.992063-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18130354423678838",
+            "publicado_em": "2026-09-18T09:01:08.797150-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1601136271506744",
+            "publicado_em": "2026-09-18T09:01:23.128068-03:00"
           }
         },
         {
@@ -854,16 +859,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/113.-.Eu.nao.vim.para.chamar.os.justos.mas.os.pecadores.-.DaxRQN-xWpp-567a4a9039-parte-02.mp4",
             "sha256": "3a923cc1711a7bce6fc66f30d556ac97f06569dd69084cd3dc0bf6daecce9866",
             "tamanho_bytes": 4385389,
-            "duracao_segundos": 31.96
+            "duracao_segundos": 31.96,
+            "removido_da_release_em": "2026-09-18T09:03:24.287184-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18134337262629033",
+            "publicado_em": "2026-09-18T09:02:05.224531-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "28755853267373635",
+            "publicado_em": "2026-09-18T09:02:18.160015-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-18T09:02:18.160036-03:00"
     },
     {
       "id": "story-20260919-259d6503af",
