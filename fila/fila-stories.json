@@ -880,7 +880,7 @@
       "id": "story-20260919-259d6503af",
       "data": "2026-09-19",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "114 - Vão entregar vocês para serem perseguidos e condenados à morte - Dav3PIbpoIC-3268b8a221.mp4",
         "sha256": "259d6503af4fb51fffc0965569797a956ab21b1ffd4c630439abb952a4d2db1e"
@@ -893,13 +893,18 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/114.-.Vao.entregar.voces.para.serem.perseguidos.e.condenados.a.morte.-.Dav3PIbpoIC-3268b8a221-parte-01.mp4",
             "sha256": "5268a555794314386587c5962ba38e78b7c53f5248abbeb7c890d1df0eebb155",
             "tamanho_bytes": 4072583,
-            "duracao_segundos": 31.68
+            "duracao_segundos": 31.68,
+            "removido_da_release_em": "2026-09-19T09:03:32.723700-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18636717346000184",
+            "publicado_em": "2026-09-19T09:01:08.228593-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "2911208075895558",
+            "publicado_em": "2026-09-19T09:01:19.954732-03:00"
           }
         },
         {
@@ -909,16 +914,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/114.-.Vao.entregar.voces.para.serem.perseguidos.e.condenados.a.morte.-.Dav3PIbpoIC-3268b8a221-parte-02.mp4",
             "sha256": "643efcb612203500b90121904c3db6d9103cabd1ba5d9a8742ef796bad163b71",
             "tamanho_bytes": 4138676,
-            "duracao_segundos": 31.68
+            "duracao_segundos": 31.68,
+            "removido_da_release_em": "2026-09-19T09:03:32.932550-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18089254127208466",
+            "publicado_em": "2026-09-19T09:02:02.054999-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1075673871509210",
+            "publicado_em": "2026-09-19T09:02:14.069312-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-19T09:02:14.069335-03:00"
     },
     {
       "id": "story-20260920-23e231016d",
