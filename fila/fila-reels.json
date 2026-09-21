@@ -1148,7 +1148,7 @@
       "id": "reel-20260920-2100-e8a9f34e28",
       "data": "2026-09-20",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "14 - Jesus convida você a deixar o medo e segui-lo.mp4",
         "sha256": "e8a9f34e289be47d99c4986e42e7173251fa2833b1bfe831ffc2dc5578b9ad92"
@@ -1157,16 +1157,22 @@
         "asset": "14.-.Jesus.convida.voce.a.deixar.o.medo.e.segui-lo.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/14.-.Jesus.convida.voce.a.deixar.o.medo.e.segui-lo.mp4",
         "sha256": "e8a9f34e289be47d99c4986e42e7173251fa2833b1bfe831ffc2dc5578b9ad92",
-        "tamanho_bytes": 24473645
+        "tamanho_bytes": 24473645,
+        "removido_da_release_em": "2026-09-20T21:01:43.124457-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18073851380539277",
+        "publicado_em": "2026-09-20T21:01:29.246007-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "1446393900676793",
+        "publicado_em": "2026-09-20T21:01:42.252828-03:00"
+      },
+      "concluido_em": "2026-09-20T21:01:42.252849-03:00"
     },
     {
       "id": "reel-20260921-0900-6acb66c8ce",
