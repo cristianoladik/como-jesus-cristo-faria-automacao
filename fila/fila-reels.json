@@ -1238,7 +1238,7 @@
       "id": "reel-20260922-0900-f5c82db6ce",
       "data": "2026-09-22",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "142 - Eu não disse nada sobre uma coroa terrena - DaLykGeTy02-84ca03e7fa.mp4",
         "sha256": "f5c82db6ce3744ac587a1c83619b7e3dd33ac1031d3cd36a66ba694ca983fb3f"
@@ -1247,16 +1247,22 @@
         "asset": "142.-.Eu.nao.disse.nada.sobre.uma.coroa.terrena.-.DaLykGeTy02-84ca03e7fa.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/142.-.Eu.nao.disse.nada.sobre.uma.coroa.terrena.-.DaLykGeTy02-84ca03e7fa.mp4",
         "sha256": "f5c82db6ce3744ac587a1c83619b7e3dd33ac1031d3cd36a66ba694ca983fb3f",
-        "tamanho_bytes": 23126813
+        "tamanho_bytes": 23126813,
+        "removido_da_release_em": "2026-09-22T09:02:19.349520-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18149287672542653",
+        "publicado_em": "2026-09-22T09:02:03.877775-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "2101114603825456",
+        "publicado_em": "2026-09-22T09:02:17.071731-03:00"
+      },
+      "concluido_em": "2026-09-22T09:02:17.071752-03:00"
     },
     {
       "id": "reel-20260922-2100-53d9ce2695",

@@ -1003,7 +1003,7 @@
       "id": "story-20260922-91bd3f80ac",
       "data": "2026-09-22",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "117 - As coisas vão mudar, mas fica perto de mim enquanto elas mudam - DasG2mPhrjF-7769239928.mp4",
         "sha256": "91bd3f80ac38414c702d3b896bb5711b7cc819834fdbc5672446d108f03c84c9"
@@ -1016,16 +1016,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/117.-.As.coisas.vao.mudar.mas.fica.perto.de.mim.enquanto.elas.mudam.-.DasG2mPhrjF-7769239928-parte-01.mp4",
             "sha256": "1c8cf37ab3d90db0c64626a10bc641ec7b8a24d53162e3d08741914555c59ffe",
             "tamanho_bytes": 3771657,
-            "duracao_segundos": 30.257
+            "duracao_segundos": 30.257,
+            "removido_da_release_em": "2026-09-22T09:02:18.032374-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18095207645552892",
+            "publicado_em": "2026-09-22T09:01:05.415325-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1403662171885157",
+            "publicado_em": "2026-09-22T09:01:19.204940-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-22T09:01:19.204960-03:00"
     },
     {
       "id": "story-20260923-7d8ad61c3c",
