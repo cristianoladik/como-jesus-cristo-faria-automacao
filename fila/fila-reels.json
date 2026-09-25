@@ -1388,7 +1388,7 @@
       "id": "reel-20260924-2100-8ba87e804e",
       "data": "2026-09-24",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "15 - Jesus acredita em quem perdeu a esperança.mp4",
         "sha256": "8ba87e804e8b361ad411d15a0188276e91baa3ed1173cc9533d932a1be7fbccb"
@@ -1397,16 +1397,22 @@
         "asset": "15.-.Jesus.acredita.em.quem.perdeu.a.esperanca.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/15.-.Jesus.acredita.em.quem.perdeu.a.esperanca.mp4",
         "sha256": "8ba87e804e8b361ad411d15a0188276e91baa3ed1173cc9533d932a1be7fbccb",
-        "tamanho_bytes": 31581824
+        "tamanho_bytes": 31581824,
+        "removido_da_release_em": "2026-09-24T21:01:49.470595-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "17887797228616570",
+        "publicado_em": "2026-09-24T21:01:35.662358-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "2560211294447209",
+        "publicado_em": "2026-09-24T21:01:48.215708-03:00"
+      },
+      "concluido_em": "2026-09-24T21:01:48.215730-03:00"
     },
     {
       "id": "reel-20260925-0900-4f79285f74",
