@@ -1448,7 +1448,7 @@
       "id": "reel-20260925-2100-1f2a135e9f",
       "data": "2026-09-25",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "151 - Vocês trouxeram comida - DZ-6ti1Ro-H-a89874c988.mp4",
         "sha256": "1f2a135e9fad08478cb654e0ca0468ea6ece4bc9d5929a72a64c63a4684dafbe"
@@ -1457,16 +1457,22 @@
         "asset": "151.-.Voces.trouxeram.comida.-.DZ-6ti1Ro-H-a89874c988.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/151.-.Voces.trouxeram.comida.-.DZ-6ti1Ro-H-a89874c988.mp4",
         "sha256": "1f2a135e9fad08478cb654e0ca0468ea6ece4bc9d5929a72a64c63a4684dafbe",
-        "tamanho_bytes": 20050048
+        "tamanho_bytes": 20050048,
+        "removido_da_release_em": "2026-09-25T21:01:38.398469-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18101096003627149",
+        "publicado_em": "2026-09-25T21:01:24.603349-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "3702987406524342",
+        "publicado_em": "2026-09-25T21:01:37.397652-03:00"
+      },
+      "concluido_em": "2026-09-25T21:01:37.397676-03:00"
     },
     {
       "id": "reel-20260926-0900-3047d49c5c",
