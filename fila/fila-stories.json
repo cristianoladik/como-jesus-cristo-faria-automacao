@@ -1236,7 +1236,7 @@
       "id": "story-20260927-584f616a8d",
       "data": "2026-09-27",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "124 - Tirem a pedra - DajJYTCs_1r-c5e9ddce75.mp4",
         "sha256": "584f616a8d6ad9b1aa118a8772c16120d3fc35e5e128d9a90866a760ba9b5d48"
@@ -1249,13 +1249,18 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/124.-.Tirem.a.pedra.-.DajJYTCs_1r-c5e9ddce75-parte-01.mp4",
             "sha256": "f73f6ce762b85300cc81bd8f9f26ef459ac9d365764d33f8b5bbafba76e20ada",
             "tamanho_bytes": 6214436,
-            "duracao_segundos": 39.96
+            "duracao_segundos": 39.96,
+            "removido_da_release_em": "2026-09-27T09:03:45.290532-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "17989338149859057",
+            "publicado_em": "2026-09-27T09:01:09.325674-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1750266966187678",
+            "publicado_em": "2026-09-27T09:01:19.926608-03:00"
           }
         },
         {
@@ -1265,16 +1270,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/124.-.Tirem.a.pedra.-.DajJYTCs_1r-c5e9ddce75-parte-02.mp4",
             "sha256": "7f089b7fd7fbbcac1da0ac6b5803b5b33cc957514a1b622fb3c47c361b94c231",
             "tamanho_bytes": 6023129,
-            "duracao_segundos": 39.95
+            "duracao_segundos": 39.95,
+            "removido_da_release_em": "2026-09-27T09:03:45.510451-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18116879410816975",
+            "publicado_em": "2026-09-27T09:02:42.543560-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1374410921096192",
+            "publicado_em": "2026-09-27T09:02:53.211962-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-27T09:02:53.211985-03:00"
     },
     {
       "id": "story-20260928-7f7069068a",
