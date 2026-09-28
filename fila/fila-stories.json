@@ -1291,7 +1291,7 @@
       "id": "story-20260928-7f7069068a",
       "data": "2026-09-28",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "125 - Pois nem mesmo o filho do homem veio para ser servido, mas para servir e dar a sua vida em resgate por muitos - Dah0TnIRIj6-474e4c25ff.mp4",
         "sha256": "7f7069068ae82c6a7cc6e5504c3d429a96f68120aeb7faa6ac979c3d16c7d0ea"
@@ -1304,16 +1304,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/125.-.Pois.nem.mesmo.o.filho.do.homem.veio.para.ser.servido.mas.para.servir.e.dar.a.sua.vida.em.resgate.por.muitos.-.Dah0TnIRIj6-474e4c25ff-parte-01.mp4",
             "sha256": "460e0beafda63d0959710b98bacfc60dfc58c8679ef8da439aa3e6fcf0244105",
             "tamanho_bytes": 6846800,
-            "duracao_segundos": 43.446
+            "duracao_segundos": 43.446,
+            "removido_da_release_em": "2026-09-28T09:04:24.488523-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18029015906888039",
+            "publicado_em": "2026-09-28T09:02:08.461408-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "2483899675466067",
+            "publicado_em": "2026-09-28T09:02:26.119540-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-09-28T09:02:26.119563-03:00"
     },
     {
       "id": "story-20260929-859836f423",
