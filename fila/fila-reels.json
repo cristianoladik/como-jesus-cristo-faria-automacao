@@ -1688,7 +1688,7 @@
       "id": "reel-20260929-2100-d6100af525",
       "data": "2026-09-29",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "16 - Jesus acolhe até as suas dúvidas.mp4",
         "sha256": "d6100af5251d6aa8aff83792ae7f10d070e5a3016b0d16f66b1867a5084247b0"
@@ -1697,16 +1697,22 @@
         "asset": "16.-.Jesus.acolhe.ate.as.suas.duvidas.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/16.-.Jesus.acolhe.ate.as.suas.duvidas.mp4",
         "sha256": "d6100af5251d6aa8aff83792ae7f10d070e5a3016b0d16f66b1867a5084247b0",
-        "tamanho_bytes": 11210617
+        "tamanho_bytes": 11210617,
+        "removido_da_release_em": "2026-09-29T21:01:44.796865-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "17990337930107795",
+        "publicado_em": "2026-09-29T21:01:22.653810-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "1090518040610987",
+        "publicado_em": "2026-09-29T21:01:43.787368-03:00"
+      },
+      "concluido_em": "2026-09-29T21:01:43.787393-03:00"
     },
     {
       "id": "reel-20260930-0900-f20d11b5d0",
