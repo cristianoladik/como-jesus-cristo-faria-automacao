@@ -1469,7 +1469,7 @@
       "id": "story-20261002-876f9fc585",
       "data": "2026-10-02",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "13 - Jesus transforma por dentro e por fora.mp4",
         "sha256": "876f9fc5858ef67396acaa2f45c52d58020bac2c0b865ec66c826e0d142ef60a"
@@ -1482,13 +1482,18 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/13.-.Jesus.transforma.por.dentro.e.por.fora-parte-01.mp4",
             "sha256": "a5b7d332b9e2089af500818e7d2fbd90ebe08f1f6551c7a2cbddbc6fce5e5805",
             "tamanho_bytes": 6895816,
-            "duracao_segundos": 42.0
+            "duracao_segundos": 42.0,
+            "removido_da_release_em": "2026-10-02T09:03:46.603910-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18492668662097487",
+            "publicado_em": "2026-10-02T09:01:06.806741-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1273884901517326",
+            "publicado_em": "2026-10-02T09:01:21.173162-03:00"
           }
         },
         {
@@ -1498,16 +1503,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/13.-.Jesus.transforma.por.dentro.e.por.fora-parte-02.mp4",
             "sha256": "1c7d18f34fa8914136090249623f121f2046de55abd3f98869846792c9a72ecb",
             "tamanho_bytes": 8722412,
-            "duracao_segundos": 41.994
+            "duracao_segundos": 41.994,
+            "removido_da_release_em": "2026-10-02T09:03:46.985334-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18126417979883262",
+            "publicado_em": "2026-10-02T09:02:22.954361-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "2608641996253280",
+            "publicado_em": "2026-10-02T09:02:35.812564-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-02T09:02:35.812589-03:00"
     },
     {
       "id": "story-20261003-419f2c893c",
