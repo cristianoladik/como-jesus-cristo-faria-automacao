@@ -1524,7 +1524,7 @@
       "id": "story-20261003-419f2c893c",
       "data": "2026-10-03",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "130 - Eles pedem coisas terrenas, posições de prestígio à minha direita, à minha esquerda, na glória - DabScksBE52-9b12300aae.mp4",
         "sha256": "419f2c893c44beb7ed7403be78ee5fdf373019d8460af7c333831ffa676d2b01"
@@ -1537,13 +1537,18 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/130.-.Eles.pedem.coisas.terrenas.posicoes.de.prestigio.a.minha.direita.a.minha.esquerda.na.gloria.-.DabScksBE52-9b12300aae-parte-01.mp4",
             "sha256": "9749ab515be988ed07bd7b5fa39a19b3dc40ae16b9384a4d970d0026f0f117ca",
             "tamanho_bytes": 5196156,
-            "duracao_segundos": 30.76
+            "duracao_segundos": 30.76,
+            "removido_da_release_em": "2026-10-03T09:03:50.957042-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18071292485743840",
+            "publicado_em": "2026-10-03T09:01:12.123058-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1890707899003012",
+            "publicado_em": "2026-10-03T09:01:25.400019-03:00"
           }
         },
         {
@@ -1553,16 +1558,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/130.-.Eles.pedem.coisas.terrenas.posicoes.de.prestigio.a.minha.direita.a.minha.esquerda.na.gloria.-.DabScksBE52-9b12300aae-parte-02.mp4",
             "sha256": "79ef35db9139d99eac0b3f8afcea28537f6bff34e054f9aab2ee11bc556df6fb",
             "tamanho_bytes": 5644793,
-            "duracao_segundos": 30.76
+            "duracao_segundos": 30.76,
+            "removido_da_release_em": "2026-10-03T09:03:51.350478-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18117309086051807",
+            "publicado_em": "2026-10-03T09:02:09.120067-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1564340838329544",
+            "publicado_em": "2026-10-03T09:02:20.543209-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-03T09:02:20.543244-03:00"
     },
     {
       "id": "story-20261004-37e2b96399",
