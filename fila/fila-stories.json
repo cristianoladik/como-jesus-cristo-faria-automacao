@@ -1812,7 +1812,7 @@
       "id": "story-20261009-45a6625b6f",
       "data": "2026-10-09",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "139 - Uma mensagem para o seu coração - DaPy3AhRTFu-49ab28e970.mp4",
         "sha256": "45a6625b6f71b62217a943bf379309d6f58c63bd78b7ccfe874b9c0b99fd9c66"
@@ -1825,13 +1825,18 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/139.-.Uma.mensagem.para.o.seu.coracao.-.DaPy3AhRTFu-49ab28e970-parte-01.mp4",
             "sha256": "a2ea949b8c2b7b918df3a4858a7c326b08d9f16216561db33d471b7da70be8e5",
             "tamanho_bytes": 5036774,
-            "duracao_segundos": 29.56
+            "duracao_segundos": 29.56,
+            "removido_da_release_em": "2026-10-09T09:03:21.343664-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "17983280757087125",
+            "publicado_em": "2026-10-09T09:01:11.201717-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1762706774954614",
+            "publicado_em": "2026-10-09T09:01:26.161596-03:00"
           }
         },
         {
@@ -1841,16 +1846,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/139.-.Uma.mensagem.para.o.seu.coracao.-.DaPy3AhRTFu-49ab28e970-parte-02.mp4",
             "sha256": "7bbf04c0cb7d2ad1bdead479c3d535dd6ccabb075642c7f673f481c24fa472e7",
             "tamanho_bytes": 4750937,
-            "duracao_segundos": 29.56
+            "duracao_segundos": 29.56,
+            "removido_da_release_em": "2026-10-09T09:03:21.739348-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18073937519494653",
+            "publicado_em": "2026-10-09T09:02:08.758713-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1402852255356932",
+            "publicado_em": "2026-10-09T09:02:21.896654-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-09T09:02:21.896678-03:00"
     },
     {
       "id": "story-20261010-e8a9f34e28",
