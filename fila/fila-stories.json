@@ -1867,7 +1867,7 @@
       "id": "story-20261010-e8a9f34e28",
       "data": "2026-10-10",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "14 - Jesus convida você a deixar o medo e segui-lo.mp4",
         "sha256": "e8a9f34e289be47d99c4986e42e7173251fa2833b1bfe831ffc2dc5578b9ad92"
@@ -1880,13 +1880,18 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/14.-.Jesus.convida.voce.a.deixar.o.medo.e.segui-lo-parte-01.mp4",
             "sha256": "aaf08cc9ff1ccc9b8e3cba6db6bc5bc696693cc5fae301034ad5992c5ecc39e5",
             "tamanho_bytes": 7844035,
-            "duracao_segundos": 40.96
+            "duracao_segundos": 40.96,
+            "removido_da_release_em": "2026-10-10T09:03:18.331985-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18117750004953488",
+            "publicado_em": "2026-10-10T09:01:07.719230-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "2185631659501327",
+            "publicado_em": "2026-10-10T09:01:19.663984-03:00"
           }
         },
         {
@@ -1896,16 +1901,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/14.-.Jesus.convida.voce.a.deixar.o.medo.e.segui-lo-parte-02.mp4",
             "sha256": "92e0de7636db36e8ad7a37e4c47232510c76d0e602ec2d0936617f7ef3814c01",
             "tamanho_bytes": 6667121,
-            "duracao_segundos": 40.96
+            "duracao_segundos": 40.96,
+            "removido_da_release_em": "2026-10-10T09:03:18.747874-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "17993826627045187",
+            "publicado_em": "2026-10-10T09:02:00.504073-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "2111112682851838",
+            "publicado_em": "2026-10-10T09:02:12.411431-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-10T09:02:12.411456-03:00"
     },
     {
       "id": "story-20261011-6acb66c8ce",
