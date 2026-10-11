@@ -2378,7 +2378,7 @@
       "id": "reel-20261011-0900-d3d5e41e5d",
       "data": "2026-10-11",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "19 - Jesus chama você pelo nome.mp4",
         "sha256": "d3d5e41e5dc1e3319eb7d399dc2869bab3a0095e044ac5dc15f7e65d05955502"
@@ -2387,16 +2387,22 @@
         "asset": "19.-.Jesus.chama.voce.pelo.nome.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/19.-.Jesus.chama.voce.pelo.nome.mp4",
         "sha256": "d3d5e41e5dc1e3319eb7d399dc2869bab3a0095e044ac5dc15f7e65d05955502",
-        "tamanho_bytes": 35326561
+        "tamanho_bytes": 35326561,
+        "removido_da_release_em": "2026-10-11T09:05:02.047386-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "17972083917184998",
+        "publicado_em": "2026-10-11T09:04:41.711601-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "2005860890075635",
+        "publicado_em": "2026-10-11T09:04:59.183760-03:00"
+      },
+      "concluido_em": "2026-10-11T09:04:59.183787-03:00"
     },
     {
       "id": "reel-20261011-2100-1a44e2351f",
