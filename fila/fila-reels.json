@@ -2408,7 +2408,7 @@
       "id": "reel-20261011-2100-1a44e2351f",
       "data": "2026-10-11",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "193 - Uma mensagem para o seu coração 193.mp4",
         "sha256": "1a44e2351f0f281d59052404b4a259347d576d40c45af6f62e7f03a1aad3e2fc"
@@ -2417,16 +2417,22 @@
         "asset": "193.-.Uma.mensagem.para.o.seu.coracao.193.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/193.-.Uma.mensagem.para.o.seu.coracao.193.mp4",
         "sha256": "1a44e2351f0f281d59052404b4a259347d576d40c45af6f62e7f03a1aad3e2fc",
-        "tamanho_bytes": 27197373
+        "tamanho_bytes": 27197373,
+        "removido_da_release_em": "2026-10-11T21:01:41.590030-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "17951521866269633",
+        "publicado_em": "2026-10-11T21:01:25.857876-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "938330608998672",
+        "publicado_em": "2026-10-11T21:01:40.577570-03:00"
+      },
+      "concluido_em": "2026-10-11T21:01:40.577590-03:00"
     },
     {
       "id": "reel-20261012-0900-72d52f270f",
