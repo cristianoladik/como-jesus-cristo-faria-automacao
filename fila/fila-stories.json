@@ -2032,7 +2032,7 @@
       "id": "story-20261013-f5c82db6ce",
       "data": "2026-10-13",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "142 - Eu não disse nada sobre uma coroa terrena - DaLykGeTy02-84ca03e7fa.mp4",
         "sha256": "f5c82db6ce3744ac587a1c83619b7e3dd33ac1031d3cd36a66ba694ca983fb3f"
@@ -2045,13 +2045,18 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/142.-.Eu.nao.disse.nada.sobre.uma.coroa.terrena.-.DaLykGeTy02-84ca03e7fa-parte-01.mp4",
             "sha256": "aa9f1a835ee1ecbab26d9744af1674b4f079708f8aae1299f0239f459fd90dec",
             "tamanho_bytes": 5921283,
-            "duracao_segundos": 30.68
+            "duracao_segundos": 30.68,
+            "removido_da_release_em": "2026-10-13T09:04:25.654903-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18098877080542869",
+            "publicado_em": "2026-10-13T09:02:03.379924-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1081126371382076",
+            "publicado_em": "2026-10-13T09:02:19.447467-03:00"
           }
         },
         {
@@ -2061,16 +2066,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/142.-.Eu.nao.disse.nada.sobre.uma.coroa.terrena.-.DaLykGeTy02-84ca03e7fa-parte-02.mp4",
             "sha256": "6498af7c4b88403f66e5be48cd25835a40ad4bd1e7fd69d38e6c059cefbf53a5",
             "tamanho_bytes": 7879786,
-            "duracao_segundos": 30.68
+            "duracao_segundos": 30.68,
+            "removido_da_release_em": "2026-10-13T09:04:26.391360-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18130550875817731",
+            "publicado_em": "2026-10-13T09:03:00.839767-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1744664426830332",
+            "publicado_em": "2026-10-13T09:03:16.082526-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-13T09:03:16.082554-03:00"
     },
     {
       "id": "story-20261014-53d9ce2695",
