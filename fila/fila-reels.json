@@ -2618,7 +2618,7 @@
       "id": "reel-20261015-0900-da261a95ba",
       "data": "2026-10-15",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "20 - Você quer ser curado.mp4",
         "sha256": "da261a95ba10d3ec4cb0ccf845be1176ef5ec35182309c25270d36b72979626a"
@@ -2627,16 +2627,22 @@
         "asset": "20.-.Voce.quer.ser.curado.mp4",
         "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/20.-.Voce.quer.ser.curado.mp4",
         "sha256": "da261a95ba10d3ec4cb0ccf845be1176ef5ec35182309c25270d36b72979626a",
-        "tamanho_bytes": 15737219
+        "tamanho_bytes": 15737219,
+        "removido_da_release_em": "2026-10-15T09:04:05.521250-03:00"
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18104114906198875",
+        "publicado_em": "2026-10-15T09:03:41.666546-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "publicado",
+        "id": "1039889705774206",
+        "publicado_em": "2026-10-15T09:04:02.742163-03:00"
+      },
+      "concluido_em": "2026-10-15T09:04:02.742183-03:00"
     },
     {
       "id": "reel-20261015-2100-503e951441",
