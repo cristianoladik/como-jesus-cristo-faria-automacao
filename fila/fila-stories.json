@@ -2286,7 +2286,7 @@
       "id": "story-20261018-8ba87e804e",
       "data": "2026-10-18",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "15 - Jesus acredita em quem perdeu a esperança.mp4",
         "sha256": "8ba87e804e8b361ad411d15a0188276e91baa3ed1173cc9533d932a1be7fbccb"
@@ -2299,13 +2299,18 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/15.-.Jesus.acredita.em.quem.perdeu.a.esperanca-parte-01.mp4",
             "sha256": "2142c5641ab5310a6f79f6c6afc6aa89333b0564b2cabda0b17531c95a5f9ef8",
             "tamanho_bytes": 9528530,
-            "duracao_segundos": 43.0
+            "duracao_segundos": 43.0,
+            "removido_da_release_em": "2026-10-18T09:03:14.773814-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18130504060688399",
+            "publicado_em": "2026-10-18T09:01:07.946265-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1114719411490887",
+            "publicado_em": "2026-10-18T09:01:21.814211-03:00"
           }
         },
         {
@@ -2315,16 +2320,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/15.-.Jesus.acredita.em.quem.perdeu.a.esperanca-parte-02.mp4",
             "sha256": "e6bf4b978f857c60946b59f9f28e6dcb1e7e2af05c3d2925b1c5d68f54759304",
             "tamanho_bytes": 8479311,
-            "duracao_segundos": 43.0
+            "duracao_segundos": 43.0,
+            "removido_da_release_em": "2026-10-18T09:03:15.162152-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18178327147440198",
+            "publicado_em": "2026-10-18T09:02:02.460711-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1423667642549401",
+            "publicado_em": "2026-10-18T09:02:17.114263-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-18T09:02:17.114286-03:00"
     },
     {
       "id": "story-20261019-4f79285f74",
