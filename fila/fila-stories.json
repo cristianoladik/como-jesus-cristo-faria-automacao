@@ -2396,7 +2396,7 @@
       "id": "story-20261020-1f2a135e9f",
       "data": "2026-10-20",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "151 - Vocês trouxeram comida - DZ-6ti1Ro-H-a89874c988.mp4",
         "sha256": "1f2a135e9fad08478cb654e0ca0468ea6ece4bc9d5929a72a64c63a4684dafbe"
@@ -2409,13 +2409,18 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/151.-.Voces.trouxeram.comida.-.DZ-6ti1Ro-H-a89874c988-parte-01.mp4",
             "sha256": "1fe666919ecd9a2b7a9a8d99147dc8ca98ee84dbf89c08242c6d825a324afb62",
             "tamanho_bytes": 6534635,
-            "duracao_segundos": 30.04
+            "duracao_segundos": 30.04,
+            "removido_da_release_em": "2026-10-20T09:03:25.065030-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18109050676915181",
+            "publicado_em": "2026-10-20T09:01:10.403578-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1635127911450544",
+            "publicado_em": "2026-10-20T09:01:22.477412-03:00"
           }
         },
         {
@@ -2425,16 +2430,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/151.-.Voces.trouxeram.comida.-.DZ-6ti1Ro-H-a89874c988-parte-02.mp4",
             "sha256": "ff8319622be60e2d061f6c3e1b0715e8a4270751f1f8b2e964ffab887cd3948b",
             "tamanho_bytes": 5302081,
-            "duracao_segundos": 30.035
+            "duracao_segundos": 30.035,
+            "removido_da_release_em": "2026-10-20T09:03:25.363327-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "18105071510572772",
+            "publicado_em": "2026-10-20T09:02:03.724286-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1116890657960674",
+            "publicado_em": "2026-10-20T09:02:15.813672-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-20T09:02:15.813694-03:00"
     },
     {
       "id": "story-20261021-3047d49c5c",
