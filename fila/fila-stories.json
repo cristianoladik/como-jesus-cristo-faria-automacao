@@ -2836,7 +2836,7 @@
       "id": "story-20261028-d6100af525",
       "data": "2026-10-28",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "16 - Jesus acolhe até as suas dúvidas.mp4",
         "sha256": "d6100af5251d6aa8aff83792ae7f10d070e5a3016b0d16f66b1867a5084247b0"
@@ -2849,16 +2849,22 @@
             "url_publica": "https://github.com/cristianoladik/como-jesus-cristo-faria-automacao/releases/download/fila-instagram-facebook/16.-.Jesus.acolhe.ate.as.suas.duvidas-parte-01.mp4",
             "sha256": "1bc6282ae7e3fdefa53164855abafec6f830ec886a05cf497c40d3dbb6fed8ef",
             "tamanho_bytes": 6727949,
-            "duracao_segundos": 52.362
+            "duracao_segundos": 52.362,
+            "removido_da_release_em": "2026-10-28T09:02:52.398006-03:00"
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "17917571514540381",
+            "publicado_em": "2026-10-28T09:01:23.016108-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "1660631168840497",
+            "publicado_em": "2026-10-28T09:01:39.146527-03:00"
           }
         }
-      ]
+      ],
+      "concluido_em": "2026-10-28T09:01:39.146548-03:00"
     },
     {
       "id": "story-20261029-f20d11b5d0",
