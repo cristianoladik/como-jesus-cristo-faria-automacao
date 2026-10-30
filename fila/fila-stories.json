@@ -2920,10 +2920,14 @@
             "duracao_segundos": 32.08
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicado",
+            "id": "17966283534223268",
+            "publicado_em": "2026-10-30T09:01:13.023108-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "erro",
+            "erro": "Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Friday, 30-Oct-26 05:01:13 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AqdVMOW_oHwTTKq_L7_1x_K\"}}",
+            "ultima_tentativa_em": "2026-10-30T09:01:13.141420-03:00"
           }
         },
         {
@@ -2942,7 +2946,8 @@
             "status": "pendente"
           }
         }
-      ]
+      ],
+      "tentativas": 1
     },
     {
       "id": "story-20261031-560b0a9a20",
