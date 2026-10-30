@@ -3501,12 +3501,17 @@
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18113960513154218",
+        "publicado_em": "2026-10-29T21:01:24.114059-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "erro",
+        "erro": "Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Thursday, 29-Oct-26 17:01:24 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AvW6VcvLOp16tCNtQavyd_U\"}}",
+        "ultima_tentativa_em": "2026-10-29T21:01:24.208777-03:00"
+      },
+      "tentativas": 1
     },
     {
       "id": "reel-20261030-0900-421d7f08fa",
