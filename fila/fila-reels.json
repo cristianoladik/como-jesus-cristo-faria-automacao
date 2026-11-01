@@ -3601,10 +3601,10 @@
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
         "status": "erro",
-        "erro": "Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Saturday, 31-Oct-26 17:01:28 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A5RKNamvX1W7si0t6tJnKlt\"}}",
-        "ultima_tentativa_em": "2026-10-31T21:01:28.915808-03:00"
+        "erro": "Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Saturday, 31-Oct-26 19:49:30 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AL56AhBwmOdiNQIxoXJZzWR\"}}",
+        "ultima_tentativa_em": "2026-10-31T23:49:30.234166-03:00"
       },
-      "tentativas": 1
+      "tentativas": 2
     },
     {
       "id": "reel-20261031-2100-cd7c0fa167",
@@ -3630,10 +3630,10 @@
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
         "status": "erro",
-        "erro": "Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Saturday, 31-Oct-26 17:02:38 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AheaIx0qQL1PwVa3KWbUt4Z\"}}",
-        "ultima_tentativa_em": "2026-10-31T21:02:38.781089-03:00"
+        "erro": "Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Saturday, 31-Oct-26 19:49:30 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AsvsmUZp4CKMleO5gIer4ta\"}}",
+        "ultima_tentativa_em": "2026-10-31T23:49:30.344280-03:00"
       },
-      "tentativas": 1
+      "tentativas": 2
     },
     {
       "id": "reel-20261101-0900-42b62cbd32",
