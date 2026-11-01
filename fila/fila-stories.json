@@ -3006,7 +3006,7 @@
       "id": "story-20261101-de16f92b80",
       "data": "2026-11-01",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "pulado",
       "origem": {
         "arquivo": "@sutonn_ the chosen 01111022 9：16.mp4",
         "sha256": "de16f92b809b1be73cb03ca45f7b9c2a0a27a5e9bd3ca5985b62c31af95b4d5c"
@@ -3028,8 +3028,8 @@
           },
           "facebook": {
             "status": "erro",
-            "erro": "Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Sunday, 01-Nov-26 09:40:57 PST.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"APYEWqHtBRLtTPiQkVU2veR\"}}",
-            "ultima_tentativa_em": "2026-11-01T14:40:57.545756-03:00"
+            "erro": "Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Sunday, 01-Nov-26 09:54:32 PST.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A_VGbKJBF4qqHBqJS4XQoYV\"}}",
+            "ultima_tentativa_em": "2026-11-01T14:54:32.225144-03:00"
           }
         },
         {
@@ -3049,7 +3049,9 @@
           }
         }
       ],
-      "tentativas": 2
+      "tentativas": 3,
+      "pulado_em": "2026-11-01T14:54:32.225867-03:00",
+      "motivo_pulado": "Falhou 3 vezes seguidas: Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Sunday, 01-Nov-26 09:54:32 PST.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A_VGbKJBF4qqHBqJS4XQoYV\"}}"
     },
     {
       "id": "story-20261102-d5885951ce",
