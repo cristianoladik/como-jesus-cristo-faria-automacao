@@ -3767,7 +3767,7 @@
       "id": "reel-20261103-0900-9b7d7aa43b",
       "data": "2026-11-03",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "pulado",
       "origem": {
         "arquivo": "0008 - Uma mensagem para o seu coração 244.mp4",
         "sha256": "9b7d7aa43bb5510d88b08761f65c9e15ad89cebf49638276f189f6f2b814e308"
@@ -3787,16 +3787,18 @@
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
         "status": "erro",
-        "erro": "Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Tuesday, 03-Nov-26 19:33:51 PST.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"ABUmHPv73-p02QWn7SSu6aQ\"}}",
-        "ultima_tentativa_em": "2026-11-04T00:33:51.440109-03:00"
+        "erro": "Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Wednesday, 04-Nov-26 16:00:26 PST.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"ARjK2LduwxqxQNbuW9fRood\"}}",
+        "ultima_tentativa_em": "2026-11-04T21:00:26.374557-03:00"
       },
-      "tentativas": 2
+      "tentativas": 3,
+      "pulado_em": "2026-11-04T21:00:26.375390-03:00",
+      "motivo_pulado": "Falhou 3 vezes seguidas: Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Wednesday, 04-Nov-26 16:00:26 PST.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"ARjK2LduwxqxQNbuW9fRood\"}}"
     },
     {
       "id": "reel-20261103-2100-b20ddbc6d4",
       "data": "2026-11-03",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "pulado",
       "origem": {
         "arquivo": "0009 - Você é o Cristo, o Filho do Deus Vivo - DclGqxhRjeM-122654ba9c.mp4",
         "sha256": "b20ddbc6d4f0706a8ec68e6ab5dc025cf1b31f3dde654ad85a6fdd0055c7eb9d"
@@ -3816,10 +3818,12 @@
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
         "status": "erro",
-        "erro": "Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Tuesday, 03-Nov-26 19:33:51 PST.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A230VbajfkQTICuA7eSCbQj\"}}",
-        "ultima_tentativa_em": "2026-11-04T00:33:51.496512-03:00"
+        "erro": "Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Wednesday, 04-Nov-26 16:00:26 PST.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AzhZ4Zqw8UH6RI2NGtzdTOo\"}}",
+        "ultima_tentativa_em": "2026-11-04T21:00:26.488517-03:00"
       },
-      "tentativas": 2
+      "tentativas": 3,
+      "pulado_em": "2026-11-04T21:00:26.489279-03:00",
+      "motivo_pulado": "Falhou 3 vezes seguidas: Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Wednesday, 04-Nov-26 16:00:26 PST.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AzhZ4Zqw8UH6RI2NGtzdTOo\"}}"
     },
     {
       "id": "reel-20261104-0900-0ba5de3fc7",
@@ -3838,12 +3842,17 @@
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18131300080866000",
+        "publicado_em": "2026-11-04T21:01:23.976870-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "erro",
+        "erro": "Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Wednesday, 04-Nov-26 16:01:24 PST.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AdGQPdoHAT0OLtdbUoWtsDL\"}}",
+        "ultima_tentativa_em": "2026-11-04T21:01:24.089810-03:00"
+      },
+      "tentativas": 1
     },
     {
       "id": "reel-20261104-2100-adc58a949a",
@@ -3862,12 +3871,17 @@
       },
       "instagram": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
+        "status": "publicado",
+        "id": "18138088507637945",
+        "publicado_em": "2026-11-04T21:02:06.631357-03:00"
       },
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
-        "status": "pendente"
-      }
+        "status": "erro",
+        "erro": "Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Wednesday, 04-Nov-26 16:02:06 PST.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"Au857ULgv4_0fcUPQaMTeSx\"}}",
+        "ultima_tentativa_em": "2026-11-04T21:02:06.828900-03:00"
+      },
+      "tentativas": 1
     },
     {
       "id": "reel-20261105-0900-43d93ef698",
