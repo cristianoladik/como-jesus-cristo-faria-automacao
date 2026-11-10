@@ -3472,8 +3472,8 @@
           },
           "facebook": {
             "status": "erro",
-            "erro": "Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Tuesday, 10-Nov-26 04:01:10 PST.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AgyPmnleY0Z2zkbE3IkbNdP\"}}",
-            "ultima_tentativa_em": "2026-11-10T09:01:10.687254-03:00"
+            "erro": "Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Tuesday, 10-Nov-26 11:22:56 PST.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"Aw6uwFHh_e6dgAYcABcAbVM\"}}",
+            "ultima_tentativa_em": "2026-11-10T16:22:56.280789-03:00"
           }
         },
         {
@@ -3493,7 +3493,7 @@
           }
         }
       ],
-      "tentativas": 1
+      "tentativas": 2
     },
     {
       "id": "story-20261111-64843d379b",
