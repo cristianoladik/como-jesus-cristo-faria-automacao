@@ -4511,7 +4511,7 @@
       "id": "reel-20261115-0900-2554d70edc",
       "data": "2026-11-15",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "pulado",
       "origem": {
         "arquivo": "0058 - Coaaan xxx aaas yr.sa.mp4",
         "sha256": "2554d70edc90f4c4262d9ca36b2974bd6dfede98e63791d688032da4accfed32"
@@ -4531,16 +4531,18 @@
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
         "status": "erro",
-        "erro": "Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Sunday, 15-Nov-26 19:26:09 PST.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AJam8lvhq62D9gN_n3fXzUQ\"}}",
-        "ultima_tentativa_em": "2026-11-16T00:26:09.872004-03:00"
+        "erro": "Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Monday, 16-Nov-26 16:00:26 PST.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AT0iFV3Ex20gtdKDwI50W_8\"}}",
+        "ultima_tentativa_em": "2026-11-16T21:00:26.955578-03:00"
       },
-      "tentativas": 2
+      "tentativas": 3,
+      "pulado_em": "2026-11-16T21:00:26.956317-03:00",
+      "motivo_pulado": "Falhou 3 vezes seguidas: Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Monday, 16-Nov-26 16:00:26 PST.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AT0iFV3Ex20gtdKDwI50W_8\"}}"
     },
     {
       "id": "reel-20261115-2100-1c287fff9f",
       "data": "2026-11-15",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "pulado",
       "origem": {
         "arquivo": "0059 - ENTENDER COMO JESUS CRISTO PENSA É O SEGREDO.mp4",
         "sha256": "1c287fff9f71598e6b7764b699d98225caca5330e89f6f262124511627167d16"
@@ -4560,10 +4562,12 @@
       "facebook": {
         "legenda": "Siga @como_jesuscristo_faria.",
         "status": "erro",
-        "erro": "Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Sunday, 15-Nov-26 19:26:09 PST.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AXPOzb4Uki2I3EIF-UOzJjk\"}}",
-        "ultima_tentativa_em": "2026-11-16T00:26:09.909341-03:00"
+        "erro": "Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Monday, 16-Nov-26 16:00:27 PST.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AbrrSGCHDeUJeEDwYq7RWZW\"}}",
+        "ultima_tentativa_em": "2026-11-16T21:00:27.048586-03:00"
       },
-      "tentativas": 2
+      "tentativas": 3,
+      "pulado_em": "2026-11-16T21:00:27.049334-03:00",
+      "motivo_pulado": "Falhou 3 vezes seguidas: Meta HTTP 400: {\"error\":{\"message\":\"The token has expired on Thursday, 29-Oct-26 08:42:07 PDT. The current time is Monday, 16-Nov-26 16:00:27 PST.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AbrrSGCHDeUJeEDwYq7RWZW\"}}"
     }
   ],
   "estoque_alvo_dias": 60
